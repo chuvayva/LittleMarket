@@ -1,0 +1,106 @@
+{
+    "availableProducts":
+            [
+                {
+                    "productType":
+                    {
+                        "name" : "Plantronics Discovery 975",
+                        "category" : "Bluetooth-гарнитуры",
+                        "price" : 1999.90
+                    },
+
+                    "quantity" : 2
+                },
+                {
+                    "productType":
+                    {
+                        "name" : "Jabra STONE2",
+                        "category" : "Bluetooth-гарнитуры",
+                        "price" : 3099
+                    },
+
+                    "quantity" : 23
+                },
+                {
+                    "productType":
+                    {
+                        "name" : "Jawbone ICON",
+                        "category" : "Bluetooth-гарнитуры",
+                        "price" : 5190
+                    },
+
+                    "quantity" : 3
+                },
+                {
+                    "productType":
+                    {
+                        "name" : "Адаптер для Apple iPhone 3G HAMA",
+                        "category" : "Аксессуары",
+                        "price" : 650
+                    },
+
+                    "quantity" : 2
+                },
+                {
+                    "productType":
+                    {
+                        "name" : "Переходник для наушников 2.5 на 3.5",
+                        "category" : "Аксессуары",
+                        "price" : 420
+                    },
+
+                    "quantity" : 6
+                },
+                {
+                    "productType":
+                    {
+                        "name" : "Аккумулятор для Apple iPad внешний Mipow Power Tube 4400",
+                        "category" : "Аксессуары",
+                        "price" : 2090
+                    },
+
+                    "quantity" : 7
+                },
+                {
+                    "productType":
+                    {
+                        "name" : "Чехол для сотового телефона APPLE GB01694",
+                        "category" : "Аксессуары",
+                        "price" : 1361
+                    },
+
+                    "quantity" : 8
+                },
+                {
+                    "productType":
+                    {
+                        "name" : "Apple iPhone 4S 16Gb",
+                        "category" : "Сотовые телефоны",
+                        "price" : 24990
+                    },
+
+                    "quantity" : 54
+                },
+                {
+                    "productType":
+                    {
+                        "name" : "Samsung Galaxy Note N7000",
+                        "category" : "Сотовые телефоны",
+                        "price" : 1361
+                    },
+
+                    "quantity" : 13
+                },
+                {
+                    "productType":
+                    {
+                        "name" : "Samsung Galaxy S III 16Gb",
+                        "category" : "Сотовые телефоны",
+                        "price" : 25390
+                    },
+
+                    "quantity" : 31
+                }
+            ],
+    "cartProducts" : []
+}
