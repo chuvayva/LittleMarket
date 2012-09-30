@@ -35,8 +35,10 @@
 		4DF2E3AF161394B100066481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53815C94C0E0022812D /* Foundation.framework */; };
 		4DF2E3BD1613958800066481 /* FileManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0235EAF646E4AA55247A6 /* FileManagerTest.m */; };
 		4DF2E3BE1613958800066481 /* JsonPersisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F027463A0C9117F1E695EF /* JsonPersisterTests.m */; };
-		4DF2E3BF1613958800066481 /* JSONTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0217ACB7803AB475A5368 /* JSONTest.m */; };
+		4DF2E3BF1613958800066481 /* JSONToMarketModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */; };
 		4DF2E3C1161396DD00066481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF2E3C0161396DD00066481 /* InfoPlist.strings */; };
+		77F0206EE28895FB89F40FFA /* InjectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02728B3AC18A384B3944F /* InjectionTest.m */; };
+		77F022689F00C5D1A17634BB /* ReadWriteTextFromDocumentFolderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */; };
 		77F0244F1EADBF5078C891C8 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F020D1EF410245E1D2572F /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		77F025364C89BFD411680429 /* MarketFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0243CF17AB231B0FB4048 /* MarketFileManager.m */; };
 		77F025AD81045A29B0BDDCE3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F020AEA98E8D98F5250004 /* Constants.m */; };
@@ -105,12 +107,14 @@
 		77F020BA8D886A5C2C416747 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		77F020D1EF410245E1D2572F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		77F0211BC572BA4F5A1EBAA2 /* MarketPersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketPersistenceManager.h; sourceTree = "<group>"; };
-		77F0217ACB7803AB475A5368 /* JSONTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONTest.m; sourceTree = "<group>"; };
+		77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONToMarketModelTest.m; sourceTree = "<group>"; };
 		77F021BEA58E44F07DD96CE0 /* MarketDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketDataModel.m; path = DataModel/MarketDataModel.m; sourceTree = "<group>"; };
+		77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadWriteTextFromDocumentFolderTest.m; sourceTree = "<group>"; };
 		77F0235EAF646E4AA55247A6 /* FileManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerTest.m; sourceTree = "<group>"; };
 		77F0243CF17AB231B0FB4048 /* MarketFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketFileManager.m; sourceTree = "<group>"; };
 		77F024F74B558AD7D967DA8E /* MarketDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketDataModel.h; path = DataModel/MarketDataModel.h; sourceTree = "<group>"; };
 		77F0269094A8D1E91F4131F4 /* MarketJsonPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketJsonPersister.h; sourceTree = "<group>"; };
+		77F02728B3AC18A384B3944F /* InjectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectionTest.m; sourceTree = "<group>"; };
 		77F027463A0C9117F1E695EF /* JsonPersisterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonPersisterTests.m; sourceTree = "<group>"; };
 		77F0289EDCB47857A752CEC8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Core/Constants.h; sourceTree = "<group>"; };
 		77F029A9D7748FEAE7BFA643 /* MarketDataModel+JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MarketDataModel+JSONKit.h"; sourceTree = "<group>"; };
@@ -306,10 +310,12 @@
 		4DF2E3B0161394B100066481 /* LittleMarketTest */ = {
 			isa = PBXGroup;
 			children = (
+				77F02728B3AC18A384B3944F /* InjectionTest.m */,
+				77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */,
 				77F0235EAF646E4AA55247A6 /* FileManagerTest.m */,
 				4D0FBCCE160AEA1E0049D022 /* Resources */,
 				77F027463A0C9117F1E695EF /* JsonPersisterTests.m */,
-				77F0217ACB7803AB475A5368 /* JSONTest.m */,
+				77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */,
 				4DF2E3B1161394B200066481 /* Supporting Files */,
 			);
 			path = LittleMarketTest;
@@ -522,7 +528,9 @@
 			files = (
 				4DF2E3BD1613958800066481 /* FileManagerTest.m in Sources */,
 				4DF2E3BE1613958800066481 /* JsonPersisterTests.m in Sources */,
-				4DF2E3BF1613958800066481 /* JSONTest.m in Sources */,
+				4DF2E3BF1613958800066481 /* JSONToMarketModelTest.m in Sources */,
+				77F022689F00C5D1A17634BB /* ReadWriteTextFromDocumentFolderTest.m in Sources */,
+				77F0206EE28895FB89F40FFA /* InjectionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
