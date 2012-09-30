@@ -55,4 +55,9 @@
 //    STAssertTrue(model.availableProducts.count > 0, @"Empty array");
 //}
 
+-(void) testSaveLoadMarketModel
+{
+    STFail(@"Not implemented test");
+}
+
 @end
