@@ -19,8 +19,6 @@
 //
 //@end
 
-
-
 @implementation MarketDataModel (JSONKit)
 
 + (MarketDataModel *)fromJSONString:(NSString *)jsonString
@@ -35,8 +33,10 @@
 
 - (NSString *)JSONString
 {
-    return nil;
+    NSArray *availableProductsJsonObjects = [self jsonObjectFromProducts:self.availableProducts];
 }
+
+
 
 #pragma mark Private methods
 
@@ -88,6 +88,20 @@
     return nil;
 }
 
-//-(NSArray *)jsonObjectFromProducts: (NSArray *)
+-(NSArray *)jsonObjectFromProducts: (NSArray *) products
+{
+    NSMutableArray *jsonObjects = [NSMutableArray array];
+    
+    for (Product product in products) {
+        [jsonObjects addObject:[self jsonObjectFromProduct:product]];
+    }
+    
+    return jsonObjects;
+}
+
+-(NSDictionary*)jsonObjectFromProduct: (Product*)product
+{
+    
+}
 
 @end
