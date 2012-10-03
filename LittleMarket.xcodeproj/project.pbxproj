@@ -17,7 +17,9 @@
 		4D0AC02A16009FDC001C067F /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02816009FDC001C067F /* ProductCell.m */; };
 		4D0AC02D1600A104001C067F /* BackEndProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02C1600A104001C067F /* BackEndProductCell.m */; };
 		4D0AC0301600C2A2001C067F /* MarketProductEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02F1600C2A2001C067F /* MarketProductEditViewController.m */; };
-		4D0B84B7160CED35003072CC /* LittleMarketData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B84B6160CED35003072CC /* LittleMarketData.json */; };
+		4D686526161B72CE00CE66A2 /* MarketDefaultJsonFileCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */; };
+		4D686527161B779200CE66A2 /* LittleMarketTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */; };
+		4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686530161B8BB500CE66A2 /* MarketTestClass.m */; };
 		4DA4989915EEA57B000A9426 /* MarketCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4989815EEA57B000A9426 /* MarketCartViewController.m */; };
 		4DD7B53715C94C0E0022812D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53615C94C0E0022812D /* UIKit.framework */; };
 		4DD7B53915C94C0E0022812D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53815C94C0E0022812D /* Foundation.framework */; };
@@ -28,12 +30,10 @@
 		4DD7B54A15C94C0E0022812D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7B54815C94C0E0022812D /* MainStoryboard.storyboard */; };
 		4DD7B54D15C94C0E0022812D /* MarketMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B54C15C94C0E0022812D /* MarketMasterViewController.m */; };
 		4DD7B55015C94C0E0022812D /* MarketDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B54F15C94C0E0022812D /* MarketDetailTableViewController.m */; };
-		4DDA08E215DFE85D00B547A9 /* NSMutableArray+Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDA08E115DFE85D00B547A9 /* NSMutableArray+Query.m */; };
 		4DEC65FD15EC0C550000F173 /* MarketDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC65FC15EC0C550000F173 /* MarketDetailView.m */; };
 		4DF2E3AD161394B100066481 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */; };
 		4DF2E3AE161394B100066481 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53615C94C0E0022812D /* UIKit.framework */; };
 		4DF2E3AF161394B100066481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53815C94C0E0022812D /* Foundation.framework */; };
-		4DF2E3BD1613958800066481 /* FileManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0235EAF646E4AA55247A6 /* FileManagerTest.m */; };
 		4DF2E3BE1613958800066481 /* JsonPersisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F027463A0C9117F1E695EF /* JsonPersisterTests.m */; };
 		4DF2E3BF1613958800066481 /* JSONToMarketModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */; };
 		4DF2E3C1161396DD00066481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF2E3C0161396DD00066481 /* InfoPlist.strings */; };
@@ -49,7 +49,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D0624FF160660C0001CDF6B /* json_test_data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json_test_data.txt; path = LittleMarketTest/json_test_data.txt; sourceTree = "<group>"; };
 		4D0AC00C15FFD1C4001C067F /* MarketBackEndTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MarketBackEndTableViewController.h; path = Controllers/BackEnd/MarketBackEndTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		4D0AC00D15FFD1C4001C067F /* MarketBackEndTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MarketBackEndTableViewController.m; path = Controllers/BackEnd/MarketBackEndTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D0AC01016007DF7001C067F /* MarketCartTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketCartTableModel.h; path = Protocols/MarketCartTableModel.h; sourceTree = "<group>"; };
@@ -75,8 +74,10 @@
 		4D0AC02E1600C2A2001C067F /* MarketProductEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MarketProductEditViewController.h; path = Controllers/BackEnd/MarketProductEditViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		4D0AC02F1600C2A2001C067F /* MarketProductEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MarketProductEditViewController.m; path = Controllers/BackEnd/MarketProductEditViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D0AC0321600CE94001C067F /* BuyProductDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BuyProductDelegate.h; path = Protocols/BuyProductDelegate.h; sourceTree = "<group>"; };
-		4D0B84B6160CED35003072CC /* LittleMarketData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LittleMarketData.json; path = Resources/LittleMarketData.json; sourceTree = "<group>"; };
-		4D0FBCD0160AEABE0049D022 /* LittleMarketData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LittleMarketData.json; path = LittleMarketTest/Resources/LittleMarketData.json; sourceTree = SOURCE_ROOT; };
+		4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LittleMarketTestData.json; path = LittleMarketTest/Resources/LittleMarketTestData.json; sourceTree = SOURCE_ROOT; };
+		4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketDefaultJsonFileCreator.m; sourceTree = "<group>"; };
+		4D68652F161B8BB500CE66A2 /* MarketTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketTestClass.h; sourceTree = "<group>"; };
+		4D686530161B8BB500CE66A2 /* MarketTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketTestClass.m; sourceTree = "<group>"; };
 		4DA4989715EEA57B000A9426 /* MarketCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketCartViewController.h; path = Controllers/MarketCartViewController.h; sourceTree = "<group>"; };
 		4DA4989815EEA57B000A9426 /* MarketCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketCartViewController.m; path = Controllers/MarketCartViewController.m; sourceTree = "<group>"; };
 		4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -110,7 +111,6 @@
 		77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONToMarketModelTest.m; sourceTree = "<group>"; };
 		77F021BEA58E44F07DD96CE0 /* MarketDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketDataModel.m; path = DataModel/MarketDataModel.m; sourceTree = "<group>"; };
 		77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadWriteTextFromDocumentFolderTest.m; sourceTree = "<group>"; };
-		77F0235EAF646E4AA55247A6 /* FileManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerTest.m; sourceTree = "<group>"; };
 		77F0243CF17AB231B0FB4048 /* MarketFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketFileManager.m; sourceTree = "<group>"; };
 		77F024F74B558AD7D967DA8E /* MarketDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketDataModel.h; path = DataModel/MarketDataModel.h; sourceTree = "<group>"; };
 		77F0269094A8D1E91F4131F4 /* MarketJsonPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketJsonPersister.h; sourceTree = "<group>"; };
@@ -173,7 +173,6 @@
 		4D0B84B4160CED21003072CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4D0B84B6160CED35003072CC /* LittleMarketData.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -181,8 +180,7 @@
 		4D0FBCCE160AEA1E0049D022 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4D0FBCD0160AEABE0049D022 /* LittleMarketData.json */,
-				4D0624FF160660C0001CDF6B /* json_test_data.txt */,
+				4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */,
 			);
 			name = Resources;
 			path = ..;
@@ -212,9 +210,9 @@
 		4DD7B52715C94C0D0022812D = {
 			isa = PBXGroup;
 			children = (
+				4DD7B53C15C94C0E0022812D /* LittleMarket */,
 				4DF2E3B0161394B100066481 /* LittleMarketTest */,
 				4DD7B53515C94C0E0022812D /* Frameworks */,
-				4DD7B53C15C94C0E0022812D /* LittleMarket */,
 				4DD7B53315C94C0E0022812D /* Products */,
 				77F025857AF171121160FDAC /* JSONKit */,
 			);
@@ -312,11 +310,13 @@
 			children = (
 				77F02728B3AC18A384B3944F /* InjectionTest.m */,
 				77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */,
-				77F0235EAF646E4AA55247A6 /* FileManagerTest.m */,
 				4D0FBCCE160AEA1E0049D022 /* Resources */,
 				77F027463A0C9117F1E695EF /* JsonPersisterTests.m */,
 				77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */,
 				4DF2E3B1161394B200066481 /* Supporting Files */,
+				4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */,
+				4D68652F161B8BB500CE66A2 /* MarketTestClass.h */,
+				4D686530161B8BB500CE66A2 /* MarketTestClass.m */,
 			);
 			path = LittleMarketTest;
 			sourceTree = "<group>";
@@ -460,7 +460,6 @@
 			files = (
 				4DD7B54115C94C0E0022812D /* InfoPlist.strings in Resources */,
 				4DD7B54A15C94C0E0022812D /* MainStoryboard.storyboard in Resources */,
-				4D0B84B7160CED35003072CC /* LittleMarketData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +467,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D686527161B779200CE66A2 /* LittleMarketTestData.json in Resources */,
 				4DF2E3C1161396DD00066481 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,7 +499,6 @@
 				4DD7B54715C94C0E0022812D /* MarketAppDelegate.m in Sources */,
 				4DD7B54D15C94C0E0022812D /* MarketMasterViewController.m in Sources */,
 				4DD7B55015C94C0E0022812D /* MarketDetailTableViewController.m in Sources */,
-				4DDA08E215DFE85D00B547A9 /* NSMutableArray+Query.m in Sources */,
 				4DEC65FD15EC0C550000F173 /* MarketDetailView.m in Sources */,
 				4DA4989915EEA57B000A9426 /* MarketCartViewController.m in Sources */,
 				4D0AC00E15FFD1C4001C067F /* MarketBackEndTableViewController.m in Sources */,
@@ -526,11 +525,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DF2E3BD1613958800066481 /* FileManagerTest.m in Sources */,
+				4D686526161B72CE00CE66A2 /* MarketDefaultJsonFileCreator.m in Sources */,
 				4DF2E3BE1613958800066481 /* JsonPersisterTests.m in Sources */,
 				4DF2E3BF1613958800066481 /* JSONToMarketModelTest.m in Sources */,
 				77F022689F00C5D1A17634BB /* ReadWriteTextFromDocumentFolderTest.m in Sources */,
 				77F0206EE28895FB89F40FFA /* InjectionTest.m in Sources */,
+				4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

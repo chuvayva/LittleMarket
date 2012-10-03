@@ -7,6 +7,8 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 #import "JSONKit.h"
+#import "MarketDataModel.h"
+#import "MarketDataModel+JSONKit.h"
 
 @interface JSONToMarketModelTest : SenTestCase
 @end
@@ -14,22 +16,34 @@
 
 @implementation JSONToMarketModelTest
 
+static NSString *_jsonBundleFileName = @"LittleMarketTestData";
+static NSString *_jsonBundleFileExtenstion = @"json";
+static NSString *_jsonString;
+
++(void)setUp
+{
+    NSString *jsonFilepath = [[NSBundle bundleForClass:[self class]] pathForResource:_jsonBundleFileName ofType:_jsonBundleFileExtenstion];
+    _jsonString = [NSString stringWithContentsOfFile:jsonFilepath encoding:NSUTF8StringEncoding error:nil];
+    NSLog(@"%@", _jsonString);
+}
+
 -(void) testJsonStringToMarketModel
 {
-    STFail(@"Not implemented test");
-
-    NSString *filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"json_test_data" ofType:@"txt"];
-//    NSString *strings = [[NSString alloc] initWithContentsOfFile:jsonfileURL encoding:NSUTF8StringEncoding error:nil];
-    NSData *jsonData = [NSData dataWithContentsOfFile:filePath];
-    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:jsonData options:kNilOptions error:nil];
-    NSLog(@"%@", [dict objectForKey:@"data"]);
+    MarketDataModel *model = [MarketDataModel fromJSONString:_jsonString];
+    
+    STAssertNotNil(model, @"model is nil");
+    NSLog(@"%@", model);
 }
 
 -(void) testMarketModelToJsonString
 {
-    STFail(@"Not implemented test");
+    MarketDataModel *model = [MarketDataModel fromJSONString:_jsonString];
     
+    NSString *jsonString = [model JSONString];
     
+    STAssertNotNil(jsonString, @"json string is nil");
+    
+    NSLog(@"%@", jsonString);
 }
 
 

@@ -5,9 +5,11 @@
 //
 
 #import "MarketJsonPersister.h"
-#import "MarketDataModel.h"
 #import <SenTestingKit/SenTestCase.h>
-
+#import "MarketDataModel.h"
+#import "MarketDataModel+JSONKit.h"
+#import "MarketJsonPersister.h"
+#import "MarketFileManager.h"
 
 @interface JsonPersisterTests : SenTestCase
 @end
@@ -16,48 +18,42 @@
 
 @implementation JsonPersisterTests
 
--(void) testFileNotFoundRaiseException
+static NSString *_jsonBundleSourceFileName = @"LittleMarketTestData";
+static NSString *_jsonBundleSourceFileExtenstion = @"json";
+static NSString *_jsonTestFilename = @"TestFile.json";
+static NSString *_jsonTestFilePath;
+static MarketDataModel *_model;
+static MarketJsonPersister *_persister;
+
++(void)setUp
 {
-//    NSString *filePath = @"asdvsadv";
-//    STAssertThrows([[MarketJsonPersister alloc] initWithFilepath:filePath], @"should throw an exception");
-
-//    filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"LittleMarketData" ofType:@"json"];
-//    STAssertNoThrow([[MarketJsonPersister alloc] initWithFilepath:filePath], @"file not found");
+    NSString *jsonSourceFilepath = [[NSBundle bundleForClass:[self class]] pathForResource:_jsonBundleSourceFileName ofType:_jsonBundleSourceFileExtenstion];
+    NSString *jsonSourceString = [NSString stringWithContentsOfFile:jsonSourceFilepath encoding:NSUTF8StringEncoding error:nil];
+    _model = [MarketDataModel fromJSONString:jsonSourceString];
+    
+    _jsonTestFilePath = [[[MarketFileManager documentUrl] URLByAppendingPathComponent: _jsonTestFilename] path];
+    _persister = [[MarketJsonPersister alloc] initWithFilepath:_jsonTestFilePath];
 }
-
-//-(void) testGetJSONProductListNotNill
-//{
-//    NSString *filepath = [[NSBundle bundleForClass:[self class]] pathForResource:@"LittleMarketData" ofType:@"json"];
-//    id<MarketPersisterProtocol> persister = [[MarketJsonPersister alloc] initWithFilepath:filepath];
-//
-//    MarketDataModel *model = [persister loadModel] ;
-//
-//    STAssertNotNil(model, @"Product list doesn't created");
-//}
-//
-//-(void) testJsonProductListHasValidLength
-//{
-//    NSString *filepath = [[NSBundle bundleForClass:[self class]] pathForResource:@"LittleMarketData" ofType:@"json"];
-//    id<MarketPersisterProtocol> persister = [[MarketJsonPersister alloc] initWithFilepath:filepath];
-//    MarketDataModel *model = [persister loadModel] ;
-//
-//    STAssertTrue(model.availableProducts.count == 10, @"Product count is wrong");
-//}
-//
-//-(void) testWriteJson
-//{
-//    NSString *filepath = [[NSBundle bundleForClass:[self class]] pathForResource:@"LittleMarketData" ofType:@"json"];
-//    //NSString *filename = @"Test.json";
-//    id<MarketPersisterProtocol> persister = [[MarketJsonPersister alloc] initWithFilepath:filepath];
-//    MarketDataModel *model = [persister loadModel] ;
-//
-//    STAssertNotNil(model, @"model is nil");
-//    STAssertTrue(model.availableProducts.count > 0, @"Empty array");
-//}
 
 -(void) testSaveLoadMarketModel
 {
-    STFail(@"Not implemented test");
+    STAssertNotNil(_model, @"Model is nil");
+    
+    [_persister saveModel:_model];
+    NSLog(@"Model saved");
+    
+    MarketDataModel *readedModel = [_persister loadModel];
+    STAssertNotNil(readedModel, @"Model not loaded");
+    STAssertTrue(_model.availableProducts.count == readedModel.availableProducts.count, @"Writen and red model are not equal");
+    STAssertTrue(_model.cartProducts.count == readedModel.cartProducts.count, @"Writen and red model are not equal");
+}
+
++ (void)tearDown
+{
+    if ([[NSFileManager defaultManager] fileExistsAtPath:_jsonTestFilePath])
+    {
+        [[NSFileManager defaultManager] removeItemAtPath:_jsonTestFilePath error:nil];
+    }
 }
 
 @end

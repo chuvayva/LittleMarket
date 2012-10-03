@@ -27,13 +27,18 @@
 
 @synthesize window = _window;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+-(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptionson
 {
     [self initPersisterObject];
-
+    
     [self initDataModel];
-
+    
     return YES;
+}
+
+-(void)applicationDidEnterBackground:(UIApplication *)application
+{
+    [MarketPersistenceManager.single.persister saveModel: MarketDataModelManager.single.dataModel];    
 }
 
 -(void)applicationWillTerminate:(UIApplication *)application
@@ -50,7 +55,7 @@
 
 -(void)initDataModel
 {
-    //MarketDataModelManager.single.dataModel = [MarketPersistenceManager.single.persister loadModel];
+    MarketDataModelManager.single.dataModel = [MarketPersistenceManager.single.persister loadModel];
 }
 
 

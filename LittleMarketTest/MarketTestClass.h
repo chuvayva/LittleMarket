@@ -10,4 +10,8 @@
 
 @interface MarketTestClass : NSObject
 
++(NSInteger)instanceNumber;
+
++(void)setInstanceNumber:(NSInteger)value;
+
 @end
