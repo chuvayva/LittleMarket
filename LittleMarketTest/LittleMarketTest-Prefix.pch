@@ -8,4 +8,4 @@
 #endif
 
 // IoC context
-#import "IJContext.h"
+#import "MVIOC.h"

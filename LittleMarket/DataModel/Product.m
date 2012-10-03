@@ -14,9 +14,6 @@
 
 #pragma mark Instance
 
-@synthesize productType = _productType;
-@synthesize number = _number;
-
 -(id) initWithName: (NSString*) name category: (NSString*) category price: (double) price number:(NSUInteger)number
 {
     self = [super init];

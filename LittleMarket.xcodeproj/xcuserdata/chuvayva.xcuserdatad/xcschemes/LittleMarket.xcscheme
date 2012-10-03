@@ -37,6 +37,11 @@
                BlueprintName = "LittleMarketTest"
                ReferencedContainer = "container:LittleMarket.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "MarketDefaultJsonFileCreator">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

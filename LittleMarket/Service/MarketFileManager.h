@@ -12,5 +12,8 @@
 
 + (BOOL)writeFile:(NSString *)filename ToDocumentFolderWithContent:(NSString *)content error:(NSError **)error;
 
++(NSURL*)documentUrl;
+
+@property (nonatomic) NSString *filename;
 
 @end

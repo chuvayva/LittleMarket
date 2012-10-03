@@ -15,18 +15,23 @@
 
 @implementation InjectionTest
 
+static MVIOCContainer *container;
+
 +(void)setUp
 {
-    [IJContext setDefaultContext:[IJContext new]];
-    
-    [IJContext defaultContext] registerProt
+//    [MarketTestClass new];
+    container = [MVIOCContainer new];
+    [[container withCache] addComponent: [MarketTestClass class]];
+    NSLog(@"Test class added to container. Instance Number = %d", [MarketTestClass instanceNumber]);
 }
-
 
 
 -(void) testSingletonInjection
 {
-    STFail(@"Not Implemented");
+    [container getComponent:[MarketTestClass class]];
+    [container getComponent:[MarketTestClass class]];
+    NSLog(@"Test class added to container. Instance Number = %d", [MarketTestClass instanceNumber]);
+    STAssertTrue( [MarketTestClass instanceNumber] == 1, @"");
 }
 
 +(void)tearDown

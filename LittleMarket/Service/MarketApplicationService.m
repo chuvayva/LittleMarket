@@ -10,4 +10,11 @@
 
 @implementation MarketApplicationService
 
+static MVIOCContainer *_container;
+
++(MVIOCContainer *)container
+{
+    return _container;
+}
+
 @end

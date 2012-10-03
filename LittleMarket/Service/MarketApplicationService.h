@@ -10,4 +10,6 @@
 
 @interface MarketApplicationService : NSObject
 
++(MVIOCContainer*)container;
+
 @end

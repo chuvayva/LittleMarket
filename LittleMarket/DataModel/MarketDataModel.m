@@ -18,8 +18,8 @@
 {
     if (self = [super init])
     {
-        _availableProducts = [availableProducts mutableCopy];
-        _cartProducts = [cartProducts mutableCopy];
+        _availableProducts = [NSMutableArray arrayWithArray:availableProducts];
+        _cartProducts = [NSMutableArray arrayWithArray:cartProducts];
     }
 
     return self;

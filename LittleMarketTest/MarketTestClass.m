@@ -17,7 +17,7 @@ static NSInteger _instanceNumber;
     _instanceNumber = 0;
 }
 
-+(NSInteger)instanseNumber
++(NSInteger)instanceNumber
 {
     return _instanceNumber;
 }

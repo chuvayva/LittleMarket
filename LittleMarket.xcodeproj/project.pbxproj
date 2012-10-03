@@ -17,6 +17,13 @@
 		4D0AC02A16009FDC001C067F /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02816009FDC001C067F /* ProductCell.m */; };
 		4D0AC02D1600A104001C067F /* BackEndProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02C1600A104001C067F /* BackEndProductCell.m */; };
 		4D0AC0301600C2A2001C067F /* MarketProductEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02F1600C2A2001C067F /* MarketProductEditViewController.m */; };
+		4D3071F8161CBA1400A7921C /* MVIOCControllerActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071ED161CBA1400A7921C /* MVIOCControllerActor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D3071F9161CBA1400A7921C /* MVIOCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F3161CBA1400A7921C /* MVIOCContainer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D3071FA161CBA1400A7921C /* MVIOCFactoryInjectionType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F4161CBA1400A7921C /* MVIOCFactoryInjectionType.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D3071FB161CBA1400A7921C /* MVIOCProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F5161CBA1400A7921C /* MVIOCProperty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D3071FC161CBA1400A7921C /* MVIOCPropertyInjectionType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F6161CBA1400A7921C /* MVIOCPropertyInjectionType.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D3071FD161CBA1400A7921C /* MVIOCSingletonCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F7161CBA1400A7921C /* MVIOCSingletonCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D307201161CC6CC00A7921C /* MarketApplicationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D307200161CC6CC00A7921C /* MarketApplicationService.m */; };
 		4D686526161B72CE00CE66A2 /* MarketDefaultJsonFileCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */; };
 		4D686527161B779200CE66A2 /* LittleMarketTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */; };
 		4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686530161B8BB500CE66A2 /* MarketTestClass.m */; };
@@ -75,6 +82,24 @@
 		4D0AC02F1600C2A2001C067F /* MarketProductEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MarketProductEditViewController.m; path = Controllers/BackEnd/MarketProductEditViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D0AC0321600CE94001C067F /* BuyProductDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BuyProductDelegate.h; path = Protocols/BuyProductDelegate.h; sourceTree = "<group>"; };
 		4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LittleMarketTestData.json; path = LittleMarketTest/Resources/LittleMarketTestData.json; sourceTree = SOURCE_ROOT; };
+		4D3071E8161CBA1400A7921C /* MVIOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOC.h; sourceTree = "<group>"; };
+		4D3071E9161CBA1400A7921C /* MVIOCActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCActor.h; sourceTree = "<group>"; };
+		4D3071EA161CBA1400A7921C /* MVIOCCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCCache.h; sourceTree = "<group>"; };
+		4D3071EB161CBA1400A7921C /* MVIOCContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCContainer.h; sourceTree = "<group>"; };
+		4D3071EC161CBA1400A7921C /* MVIOCControllerActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCControllerActor.h; sourceTree = "<group>"; };
+		4D3071ED161CBA1400A7921C /* MVIOCControllerActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCControllerActor.m; sourceTree = "<group>"; };
+		4D3071EE161CBA1400A7921C /* MVIOCFactoryInjectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCFactoryInjectionType.h; sourceTree = "<group>"; };
+		4D3071EF161CBA1400A7921C /* MVIOCInjectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCInjectionType.h; sourceTree = "<group>"; };
+		4D3071F0161CBA1400A7921C /* MVIOCProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCProperty.h; sourceTree = "<group>"; };
+		4D3071F1161CBA1400A7921C /* MVIOCPropertyInjectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCPropertyInjectionType.h; sourceTree = "<group>"; };
+		4D3071F2161CBA1400A7921C /* MVIOCSingletonCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCSingletonCache.h; sourceTree = "<group>"; };
+		4D3071F3161CBA1400A7921C /* MVIOCContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCContainer.m; sourceTree = "<group>"; };
+		4D3071F4161CBA1400A7921C /* MVIOCFactoryInjectionType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCFactoryInjectionType.m; sourceTree = "<group>"; };
+		4D3071F5161CBA1400A7921C /* MVIOCProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCProperty.m; sourceTree = "<group>"; };
+		4D3071F6161CBA1400A7921C /* MVIOCPropertyInjectionType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCPropertyInjectionType.m; sourceTree = "<group>"; };
+		4D3071F7161CBA1400A7921C /* MVIOCSingletonCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCSingletonCache.m; sourceTree = "<group>"; };
+		4D3071FF161CC6CC00A7921C /* MarketApplicationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketApplicationService.h; sourceTree = "<group>"; };
+		4D307200161CC6CC00A7921C /* MarketApplicationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketApplicationService.m; sourceTree = "<group>"; };
 		4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketDefaultJsonFileCreator.m; sourceTree = "<group>"; };
 		4D68652F161B8BB500CE66A2 /* MarketTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketTestClass.h; sourceTree = "<group>"; };
 		4D686530161B8BB500CE66A2 /* MarketTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketTestClass.m; sourceTree = "<group>"; };
@@ -186,6 +211,38 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		4D3071E6161CBA1400A7921C /* IOC */ = {
+			isa = PBXGroup;
+			children = (
+				4D3071E7161CBA1400A7921C /* MVIOC */,
+				4D3071F3161CBA1400A7921C /* MVIOCContainer.m */,
+				4D3071F4161CBA1400A7921C /* MVIOCFactoryInjectionType.m */,
+				4D3071F5161CBA1400A7921C /* MVIOCProperty.m */,
+				4D3071F6161CBA1400A7921C /* MVIOCPropertyInjectionType.m */,
+				4D3071F7161CBA1400A7921C /* MVIOCSingletonCache.m */,
+			);
+			name = IOC;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4D3071E7161CBA1400A7921C /* MVIOC */ = {
+			isa = PBXGroup;
+			children = (
+				4D3071E8161CBA1400A7921C /* MVIOC.h */,
+				4D3071E9161CBA1400A7921C /* MVIOCActor.h */,
+				4D3071EA161CBA1400A7921C /* MVIOCCache.h */,
+				4D3071EB161CBA1400A7921C /* MVIOCContainer.h */,
+				4D3071EC161CBA1400A7921C /* MVIOCControllerActor.h */,
+				4D3071ED161CBA1400A7921C /* MVIOCControllerActor.m */,
+				4D3071EE161CBA1400A7921C /* MVIOCFactoryInjectionType.h */,
+				4D3071EF161CBA1400A7921C /* MVIOCInjectionType.h */,
+				4D3071F0161CBA1400A7921C /* MVIOCProperty.h */,
+				4D3071F1161CBA1400A7921C /* MVIOCPropertyInjectionType.h */,
+				4D3071F2161CBA1400A7921C /* MVIOCSingletonCache.h */,
+			);
+			path = MVIOC;
+			sourceTree = "<group>";
+		};
 		4D4A511F1605B198007D58A6 /* Cart */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +267,7 @@
 		4DD7B52715C94C0D0022812D = {
 			isa = PBXGroup;
 			children = (
+				4D3071E6161CBA1400A7921C /* IOC */,
 				4DD7B53C15C94C0E0022812D /* LittleMarket */,
 				4DF2E3B0161394B100066481 /* LittleMarketTest */,
 				4DD7B53515C94C0E0022812D /* Frameworks */,
@@ -360,6 +418,8 @@
 			children = (
 				77F02CB067D6402CF8A3B326 /* MarketFileManager.h */,
 				77F0243CF17AB231B0FB4048 /* MarketFileManager.m */,
+				4D3071FF161CC6CC00A7921C /* MarketApplicationService.h */,
+				4D307200161CC6CC00A7921C /* MarketApplicationService.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -518,6 +578,13 @@
 				77F0244F1EADBF5078C891C8 /* JSONKit.m in Sources */,
 				77F02B2FAC17C193F01E0480 /* MarketDataModel+JSONKit.m in Sources */,
 				77F025364C89BFD411680429 /* MarketFileManager.m in Sources */,
+				4D3071F8161CBA1400A7921C /* MVIOCControllerActor.m in Sources */,
+				4D3071F9161CBA1400A7921C /* MVIOCContainer.m in Sources */,
+				4D3071FA161CBA1400A7921C /* MVIOCFactoryInjectionType.m in Sources */,
+				4D3071FB161CBA1400A7921C /* MVIOCProperty.m in Sources */,
+				4D3071FC161CBA1400A7921C /* MVIOCPropertyInjectionType.m in Sources */,
+				4D3071FD161CBA1400A7921C /* MVIOCSingletonCache.m in Sources */,
+				4D307201161CC6CC00A7921C /* MarketApplicationService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

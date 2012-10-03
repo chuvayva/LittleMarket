@@ -47,7 +47,8 @@
 
 - (void)saveModel:(MarketDataModel *)dataModel
 {
-     // TODO: next time
+    NSString *jsonString = [dataModel JSONString];
+    [jsonString writeToFile:self.jsonFilepath atomically:YES encoding:NSUTF8StringEncoding error:nil];
 }
 
 - (MarketDataModel *)loadModel
