@@ -22,7 +22,7 @@
 
 -(void)awakeFromNib
 {
-    _model = [MarketDataModelManager cartTableModel];
+    _model = [MarketApplicationService.mainContainer getComponent:@protocol(MarketCartTableModel)];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(cartProductsChanged:) name:CartProductsChanged object:nil];
 }
@@ -30,7 +30,8 @@
 -(void)viewDidLoad
 {
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
-    [self.tableView reloadData];
+    
+    [self cartProductsChanged:nil];
 }
 
 

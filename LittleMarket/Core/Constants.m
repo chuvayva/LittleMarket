@@ -20,8 +20,6 @@ NSString *const CartProductsChanged = @"CartProductsChanged";
 
 NSString *const JsonFileName = @"LittleMarketData.json";
 
-//NSString *const JsonResourceFileExtension = @"json";
-
 NSString *const JsonCartProductsKey = @"cartProducts";
 
 NSString *const JsonAvailableProductsKey = @"availableProducts";

@@ -20,3 +20,5 @@
 
 // IoC context
 #import "MVIOC.h"
+
+#import "MarketApplicationService.h"

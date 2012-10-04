@@ -34,10 +34,4 @@ static MVIOCContainer *container;
     STAssertTrue( [MarketTestClass instanceNumber] == 1, @"");
 }
 
-+(void)tearDown
-{
-
-}
-
-
 @end

@@ -31,11 +31,9 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
-    _model = [MarketDataModelManager storeFrontDataModel];
     
-    
+    _model = [MarketApplicationService.mainContainer getComponent:@protocol(MarketStoreFrontModel)];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(AvailableProductsChanged:) name:AvailableProductsChanged object:nil];
-
 }
 
 - (void)viewDidLoad

@@ -25,53 +25,45 @@
 
 @implementation MarketDataModelManager
 
-@synthesize dataModel = _dataModel;
+//static MarketDataModelManager *_singleInstance;
+//
+//+(MarketDataModelManager *)single
+//{
+//    static dispatch_once_t predicate;
+//
+//    dispatch_once(&predicate, ^{
+//        _singleInstance = [self new];
+//    });
+//
+//    return _singleInstance;
+//}
 
-#pragma mark Static
-
-static MarketDataModelManager *_singleInstance;
-
-+(MarketDataModelManager *)single
-{
-    static dispatch_once_t predicate;
-
-    dispatch_once(&predicate, ^{
-        _singleInstance = [self new];
-    });
-
-    return _singleInstance;
-}
-
-+(id<MarketBackEndModel>)backEndDataModel
-{
-    return [self single];
-}
-
-+(id<MarketStoreFrontModel>)storeFrontDataModel
-{
-    return [self single];
-}
-
-+(id<MarketCartTableModel>) cartTableModel
-{
-    return [self single];
-}
-
-#pragma mark Instance
+//+(id<MarketBackEndModel>)backEndDataModel
+//{
+//    return [self single];
+//}
+//
+//+(id<MarketStoreFrontModel>)storeFrontDataModel
+//{
+//    return [self single];
+//}
+//
+//+(id<MarketCartTableModel>) cartTableModel
+//{
+//    return [self single];
+//}
 
 -(id) init
 {
     self = [super init];
-
+    
     if(self)
     {
         _dataModel = [MarketDataModel new];
     }
-
+    
     return self;
 }
-
-
 
 #pragma mark MarketStoreFrontDataModel
 

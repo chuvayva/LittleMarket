@@ -12,19 +12,29 @@
 
 @implementation MarketPersistenceManager
 
-static MarketPersistenceManager *_single;
+//static MarketPersistenceManager *_single;
+//
+//+(MarketPersistenceManager*) single
+//{
+//    static dispatch_once_t predicate;
+//
+//    dispatch_once(&predicate, ^{
+//        _single = [self new];
+//    });
+//
+//    return  _single;
+//}
 
-+(MarketPersistenceManager*) single
+@synthesize persister = injPersister; // auto injecting from IOC contaner
+
+-(void)saveModel: (MarketDataModel*)dataModel
 {
-    static dispatch_once_t predicate;
-
-    dispatch_once(&predicate, ^{
-        _single = [self new];
-    });
-
-    return  _single;
+    [self.persister saveModel:dataModel];
 }
 
-@synthesize persister = _persister;
+-(MarketDataModel*) loadModel
+{
+    return [self.persister loadModel];
+}
 
 @end

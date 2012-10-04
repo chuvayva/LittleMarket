@@ -6,15 +6,18 @@
 
 
 #import <Foundation/Foundation.h>
+#import "MarketPersistenceManagerProtocol.h"
 
 @protocol MarketPersisterProtocol;
+
+
 @class MarketDataModel;
 
 
-@interface MarketPersistenceManager : NSObject
+@interface MarketPersistenceManager : NSObject <MarketPersistenceManagerProtocol>
 
 @property (nonatomic, strong) id<MarketPersisterProtocol> persister;
 
-+(MarketPersistenceManager*) single;
+//+(MarketPersistenceManager*) single;
 
 @end

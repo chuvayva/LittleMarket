@@ -10,20 +10,21 @@
 #import "MarketStoreFrontModel.h"
 #import "MarketBackEndModel.h"
 #import "MarketCartTableModel.h"
+#import "MarketDataModelManagerProtocol.h"
 #import "BuyProductDelegate.h"
 
 @class MarketDataModel;
 
 
-@interface MarketDataModelManager : NSObject <MarketStoreFrontModel, MarketBackEndModel, MarketCartTableModel>
+@interface MarketDataModelManager : NSObject <MarketStoreFrontModel, MarketBackEndModel, MarketCartTableModel, MarketDataModelManagerProtocol>
 
-+(MarketDataModelManager *)single;
-
-+(id<MarketStoreFrontModel>) storeFrontDataModel;
-
-+(id<MarketBackEndModel>) backEndDataModel;
-
-+(id<MarketCartTableModel>) cartTableModel;
+//+(MarketDataModelManager *)single;
+//
+//+(id<MarketStoreFrontModel>) storeFrontDataModel;
+//
+//+(id<MarketBackEndModel>) backEndDataModel;
+//
+//+(id<MarketCartTableModel>) cartTableModel;
 
 
 @property (nonatomic) MarketDataModel *dataModel;

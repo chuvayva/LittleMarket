@@ -18,7 +18,7 @@
 
 -(void) awakeFromNib
 {
-    _model = [MarketDataModelManager backEndDataModel];
+    _model = [MarketApplicationService.mainContainer getComponent:@protocol(MarketBackEndModel)];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(availableProductsChanged:) name:AvailableProductsChanged object:nil];
 }

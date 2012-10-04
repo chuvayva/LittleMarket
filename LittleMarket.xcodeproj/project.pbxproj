@@ -24,9 +24,11 @@
 		4D3071FC161CBA1400A7921C /* MVIOCPropertyInjectionType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F6161CBA1400A7921C /* MVIOCPropertyInjectionType.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4D3071FD161CBA1400A7921C /* MVIOCSingletonCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F7161CBA1400A7921C /* MVIOCSingletonCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4D307201161CC6CC00A7921C /* MarketApplicationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D307200161CC6CC00A7921C /* MarketApplicationService.m */; };
+		4D307204161CCD9000A7921C /* MarketConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D307203161CCD9000A7921C /* MarketConfigurator.m */; };
 		4D686526161B72CE00CE66A2 /* MarketDefaultJsonFileCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */; };
 		4D686527161B779200CE66A2 /* LittleMarketTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */; };
 		4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686530161B8BB500CE66A2 /* MarketTestClass.m */; };
+		4D70B2DB161E03DF00102AB9 /* MarketInjectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */; };
 		4DA4989915EEA57B000A9426 /* MarketCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4989815EEA57B000A9426 /* MarketCartViewController.m */; };
 		4DD7B53715C94C0E0022812D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53615C94C0E0022812D /* UIKit.framework */; };
 		4DD7B53915C94C0E0022812D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53815C94C0E0022812D /* Foundation.framework */; };
@@ -100,9 +102,14 @@
 		4D3071F7161CBA1400A7921C /* MVIOCSingletonCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCSingletonCache.m; sourceTree = "<group>"; };
 		4D3071FF161CC6CC00A7921C /* MarketApplicationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketApplicationService.h; sourceTree = "<group>"; };
 		4D307200161CC6CC00A7921C /* MarketApplicationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketApplicationService.m; sourceTree = "<group>"; };
+		4D307202161CCD9000A7921C /* MarketConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketConfigurator.h; sourceTree = "<group>"; };
+		4D307203161CCD9000A7921C /* MarketConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketConfigurator.m; sourceTree = "<group>"; };
+		4D43107C161D4C4300741968 /* MarketPersistenceManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketPersistenceManagerProtocol.h; path = Protocols/MarketPersistenceManagerProtocol.h; sourceTree = "<group>"; };
 		4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketDefaultJsonFileCreator.m; sourceTree = "<group>"; };
 		4D68652F161B8BB500CE66A2 /* MarketTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketTestClass.h; sourceTree = "<group>"; };
 		4D686530161B8BB500CE66A2 /* MarketTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketTestClass.m; sourceTree = "<group>"; };
+		4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketInjectionTest.m; sourceTree = "<group>"; };
+		4D70B2DD161E0B8600102AB9 /* MarketDataModelManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDataModelManagerProtocol.h; sourceTree = "<group>"; };
 		4DA4989715EEA57B000A9426 /* MarketCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketCartViewController.h; path = Controllers/MarketCartViewController.h; sourceTree = "<group>"; };
 		4DA4989815EEA57B000A9426 /* MarketCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketCartViewController.m; path = Controllers/MarketCartViewController.m; sourceTree = "<group>"; };
 		4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -260,6 +267,8 @@
 				4D0AC0321600CE94001C067F /* BuyProductDelegate.h */,
 				4D0AC02016008438001C067F /* MarketStoreFrontModel.h */,
 				4D0AC01016007DF7001C067F /* MarketCartTableModel.h */,
+				4D43107C161D4C4300741968 /* MarketPersistenceManagerProtocol.h */,
+				4D70B2DD161E0B8600102AB9 /* MarketDataModelManagerProtocol.h */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -375,6 +384,7 @@
 				4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */,
 				4D68652F161B8BB500CE66A2 /* MarketTestClass.h */,
 				4D686530161B8BB500CE66A2 /* MarketTestClass.m */,
+				4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */,
 			);
 			path = LittleMarketTest;
 			sourceTree = "<group>";
@@ -420,6 +430,8 @@
 				77F0243CF17AB231B0FB4048 /* MarketFileManager.m */,
 				4D3071FF161CC6CC00A7921C /* MarketApplicationService.h */,
 				4D307200161CC6CC00A7921C /* MarketApplicationService.m */,
+				4D307202161CCD9000A7921C /* MarketConfigurator.h */,
+				4D307203161CCD9000A7921C /* MarketConfigurator.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -585,6 +597,7 @@
 				4D3071FC161CBA1400A7921C /* MVIOCPropertyInjectionType.m in Sources */,
 				4D3071FD161CBA1400A7921C /* MVIOCSingletonCache.m in Sources */,
 				4D307201161CC6CC00A7921C /* MarketApplicationService.m in Sources */,
+				4D307204161CCD9000A7921C /* MarketConfigurator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +611,7 @@
 				77F022689F00C5D1A17634BB /* ReadWriteTextFromDocumentFolderTest.m in Sources */,
 				77F0206EE28895FB89F40FFA /* InjectionTest.m in Sources */,
 				4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */,
+				4D70B2DB161E03DF00102AB9 /* MarketInjectionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

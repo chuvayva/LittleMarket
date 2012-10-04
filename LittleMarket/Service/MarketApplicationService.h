@@ -7,9 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MarketConfigurator.h"
 
 @interface MarketApplicationService : NSObject
 
-+(MVIOCContainer*)container;
++(MVIOCContainer*)mainContainer;
+
++(void)configurate:(MarketConfigurator*)configurator;
+
++(void)saveApplicationData;
+
++(void)loadApplicationData;
 
 @end

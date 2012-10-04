@@ -12,50 +12,26 @@
 #import "MarketDataModelManager.h"
 #import "MarketJsonPersister.h"
 #import "MarketPersistenceManager.h"
-
-@interface MarketAppDelegate ()
-
-- (void)initPersisterObject;
-
-- (void)initDataModel;
-
-
-@end
-
+#import "MarketApplicationService.h"
+#import "MarketConfigurator.h"
 
 @implementation MarketAppDelegate
 
-@synthesize window = _window;
-
--(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptionson
+-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [self initPersisterObject];
-    
-    [self initDataModel];
+    [MarketApplicationService loadApplicationData];
     
     return YES;
 }
 
 -(void)applicationDidEnterBackground:(UIApplication *)application
 {
-    [MarketPersistenceManager.single.persister saveModel: MarketDataModelManager.single.dataModel];    
+    [MarketApplicationService saveApplicationData];
 }
 
 -(void)applicationWillTerminate:(UIApplication *)application
 {
-    [MarketPersistenceManager.single.persister saveModel: MarketDataModelManager.single.dataModel];
-}
-
-#pragma mark Private Methods
-
--(void)initPersisterObject
-{
-    MarketPersistenceManager.single.persister = [MarketJsonPersister new];
-}
-
--(void)initDataModel
-{
-    MarketDataModelManager.single.dataModel = [MarketPersistenceManager.single.persister loadModel];
+    [MarketApplicationService saveApplicationData];
 }
 
 
