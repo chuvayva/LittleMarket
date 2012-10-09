@@ -17,7 +17,6 @@
     return [NSString stringWithContentsOfURL:fileUrl encoding:NSUTF8StringEncoding error:error];
 }
 
-
 + (BOOL)writeFile:(NSString *)filename ToDocumentFolderWithContent:(NSString *)content error: (NSError **)error
 {
     NSURL* fileUrl = [self.documentUrl URLByAppendingPathComponent:filename];
@@ -30,6 +29,13 @@
     NSArray *urls = [NSFileManager.defaultManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
     
     return [urls objectAtIndex:0];
+}
+
++(NSString *)filepathInDocumentFolderWithFilename:(NSString *)filename
+{
+    NSArray *documentsUrls = [NSFileManager.defaultManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
+    
+    return [[[documentsUrls objectAtIndex:0] URLByAppendingPathComponent:filename] path];
 }
 
 @end

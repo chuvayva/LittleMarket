@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ProductType : NSObject <NSCopying>
+@interface ProductType : NSObject <NSCopying, NSCoding>
 
 +(NSString*)stringWithPrice:(double)price;
 
-@property (nonatomic, copy) NSString *name, *category;
+@property (nonatomic, copy) NSString *name;
+
+@property (nonatomic, copy) NSString *category;
 
 @property double price;
 

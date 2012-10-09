@@ -66,11 +66,31 @@
 
 
 #pragma mark NSCopying
+
 -(id) copyWithZone:(NSZone *)zone
 {
     Product *copy = [[Product allocWithZone:zone] initWithProductType:[self.productType copy] andQuantity:self.number];
     
     return copy;
+}
+
+#pragma mark NSCoding
+
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeObject:self.productType forKey:ProductTypeKey];
+    [aCoder encodeInteger:self.number forKey: ProductQuantityKey];
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super init])
+    {
+        self.productType = [aDecoder decodeObjectForKey:ProductTypeKey];
+        self.number = [aDecoder decodeIntegerForKey:ProductQuantityKey];
+    }
+
+    return self;
 }
 
 

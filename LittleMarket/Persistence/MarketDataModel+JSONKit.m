@@ -12,13 +12,13 @@
 
 + (MarketDataModel *)fromJSONString:(NSString *)jsonString
 {
-    NSDictionary *dictionary = [jsonString objectFromJSONString];  // JSONKit parsing
     NSArray *availableProducts, *cartProducts;
     
+    NSDictionary *dictionary = [jsonString objectFromJSONString];  // JSONKit parsing
     if (dictionary)
     {
-        availableProducts = [self createProducts:[dictionary objectForKey:JsonAvailableProductsKey]];
-        cartProducts = [self createProducts:[dictionary objectForKey:JsonCartProductsKey]];
+        availableProducts = [self createProducts:[dictionary objectForKey:AvailableProductsKey]];
+        cartProducts = [self createProducts:[dictionary objectForKey:CartProductsKey]];
     }
     
     return [[MarketDataModel alloc] initWithAvailableProducts: availableProducts andCartProducts:cartProducts];
@@ -29,7 +29,7 @@
     NSArray *availableProductsJsonObjects = [self jsonObjectFromProducts:self.availableProducts];
     NSArray *cartProductsJsonObjects = [self jsonObjectFromProducts:self.cartProducts];
     
-    NSDictionary *jsonDataModelDictionary = @{JsonAvailableProductsKey : availableProductsJsonObjects, JsonCartProductsKey:cartProductsJsonObjects};
+    NSDictionary *jsonDataModelDictionary = @{AvailableProductsKey : availableProductsJsonObjects, CartProductsKey:cartProductsJsonObjects};
     
     return [jsonDataModelDictionary JSONString];
 }
@@ -59,10 +59,10 @@
     {
         NSDictionary *dictionary = (NSDictionary *)object;
 
-        id productTypeData = [dictionary objectForKey:JsonProductTypeKey];
+        id productTypeData = [dictionary objectForKey:ProductTypeKey];
         ProductType *productType = [self createProductType:productTypeData];
 
-        NSUInteger quantity = (NSUInteger)[[dictionary objectForKey:JsonProductQuantityKey] integerValue];
+        NSUInteger quantity = (NSUInteger)[[dictionary objectForKey:ProductQuantityKey] integerValue];
 
         return [[Product alloc] initWithProductType:productType andQuantity:quantity];
     }
@@ -76,9 +76,9 @@
     {
         NSDictionary *dictionary = (NSDictionary *)object;
 
-        NSString *name = [dictionary objectForKey:JsonProductTypeNameKey];
-        NSString *category = [dictionary objectForKey:JsonProductTypeCategoryKey];
-        double price = [[dictionary objectForKey:JsonProductTypePriceKey] doubleValue];
+        NSString *name = [dictionary objectForKey:ProductTypeNameKey];
+        NSString *category = [dictionary objectForKey:ProductTypeCategoryKey];
+        double price = [[dictionary objectForKey:ProductTypePriceKey] doubleValue];
 
         return [[ProductType alloc] initWithName:name category:category price:price];
     }
@@ -105,8 +105,8 @@
     
     if (product)
     {
-        [jsonObject setValue: [self jsonObjectFromProductType:product.productType] forKey:JsonProductTypeKey];
-        [jsonObject setValue: [NSNumber numberWithInteger: product.number] forKey:JsonProductQuantityKey];
+        [jsonObject setValue:[self jsonObjectFromProductType:product.productType] forKey:ProductTypeKey];
+        [jsonObject setValue:[NSNumber numberWithInteger:product.number] forKey:ProductQuantityKey];
     }
     
     return jsonObject;
@@ -118,9 +118,9 @@
     
     if (productType)
     {
-        [jsonObject setValue:productType.name forKey:JsonProductTypeNameKey];
-        [jsonObject setValue:productType.category forKey:JsonProductTypeCategoryKey];
-        [jsonObject setValue:[NSNumber numberWithDouble:productType.price]forKey:JsonProductTypePriceKey];
+        [jsonObject setValue:productType.name forKey:ProductTypeNameKey];
+        [jsonObject setValue:productType.category forKey:ProductTypeCategoryKey];
+        [jsonObject setValue:[NSNumber numberWithDouble:productType.price] forKey:ProductTypePriceKey];
     }
     
     return jsonObject;

@@ -12,14 +12,12 @@
 
 @interface MarketJsonPersister ()
 
-- (NSString *)filepathInDocumentFolderByFilename:(NSString *)filename;
+- (NSString *)filepathInDocumentFolderWithFilename:(NSString *)filename;
 
 
 @end
 
 @implementation MarketJsonPersister
-
-@synthesize jsonFilepath = _jsonFilepath;
 
 #pragma mark Inits
 
@@ -39,7 +37,7 @@
 
 -(id) init
 {
-    NSString *jsonfilePath = [self filepathInDocumentFolderByFilename:JsonFileName] ;
+    NSString *jsonfilePath = [self filepathInDocumentFolderWithFilename:JsonFileName] ;
     return [self initWithFilepath:jsonfilePath];
 }
 
@@ -58,8 +56,9 @@
     return [MarketDataModel fromJSONString:jsonString];
 }
 
+#pragma mark Private
 
--(NSString *)filepathInDocumentFolderByFilename:(NSString *)filename
+-(NSString *)filepathInDocumentFolderWithFilename:(NSString *)filename
 {
     NSArray *documentsUrls = [NSFileManager.defaultManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
 

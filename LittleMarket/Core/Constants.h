@@ -16,25 +16,29 @@ FOUNDATION_EXPORT NSString *const AvailableProductsChanged;
 
 FOUNDATION_EXPORT NSString *const CartProductsChanged;
 
+// Common persister keys //
+
+FOUNDATION_EXPORT NSString *const CartProductsKey;
+
+FOUNDATION_EXPORT NSString *const AvailableProductsKey;
+
+FOUNDATION_EXPORT NSString *const ProductTypeKey;
+
+FOUNDATION_EXPORT NSString *const ProductTypeNameKey;
+
+FOUNDATION_EXPORT NSString *const ProductTypeCategoryKey;
+
+FOUNDATION_EXPORT NSString *const ProductTypePriceKey;
+
+FOUNDATION_EXPORT NSString *const ProductQuantityKey;
+
 // Json keys //
 
 FOUNDATION_EXPORT NSString *const JsonFileName;
 
-//FOUNDATION_EXPORT NSString *const JsonResourceFileExtension;
+// Archive //
 
-FOUNDATION_EXPORT NSString *const JsonCartProductsKey;
-
-FOUNDATION_EXPORT NSString *const JsonAvailableProductsKey;
-
-FOUNDATION_EXPORT NSString *const JsonProductTypeKey;
-
-FOUNDATION_EXPORT NSString *const JsonProductTypeNameKey;
-
-FOUNDATION_EXPORT NSString *const JsonProductTypeCategoryKey;
-
-FOUNDATION_EXPORT NSString *const JsonProductTypePriceKey;
-
-FOUNDATION_EXPORT NSString *const JsonProductQuantityKey;
+FOUNDATION_EXPORT NSString *const ArchiveFileName;
 
 
 @end

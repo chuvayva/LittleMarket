@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "ProductType.h"
 
-@interface Product : NSObject <NSCopying>
+@interface Product : NSObject <NSCopying, NSCoding>
 
 @property ProductType *productType;
 

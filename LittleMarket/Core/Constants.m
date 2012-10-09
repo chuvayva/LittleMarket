@@ -16,22 +16,28 @@ NSString *const AvailableProductsChanged = @"AvailableProductsChanged";
 
 NSString *const CartProductsChanged = @"CartProductsChanged";
 
+// Common Persister Keys
+
+NSString *const CartProductsKey = @"cartProducts";
+
+NSString *const AvailableProductsKey = @"availableProducts";
+
+NSString *const ProductTypeKey = @"productType";
+
+NSString *const ProductTypeNameKey = @"name";
+
+NSString *const ProductTypeCategoryKey = @"category";
+
+NSString *const ProductTypePriceKey = @"price";
+
+NSString *const ProductQuantityKey = @"quantity";
+
 // Json keys //
 
 NSString *const JsonFileName = @"LittleMarketData.json";
 
-NSString *const JsonCartProductsKey = @"cartProducts";
+// Archive //
 
-NSString *const JsonAvailableProductsKey = @"availableProducts";
-
-NSString *const JsonProductTypeKey = @"productType";
-
-NSString *const JsonProductTypeNameKey = @"name";
-
-NSString *const JsonProductTypeCategoryKey = @"category";
-
-NSString *const JsonProductTypePriceKey = @"price";
-
-NSString *const JsonProductQuantityKey = @"quantity";
+NSString *const ArchiveFileName = @"LittleMarketData.dat";
 
 @end

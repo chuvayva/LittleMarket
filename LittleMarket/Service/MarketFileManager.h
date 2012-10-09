@@ -14,6 +14,6 @@
 
 +(NSURL*)documentUrl;
 
-@property (nonatomic) NSString *filename;
++(NSString *)filepathInDocumentFolderWithFilename:(NSString *)filename;
 
 @end

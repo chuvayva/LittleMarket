@@ -30,6 +30,8 @@
 		4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686530161B8BB500CE66A2 /* MarketTestClass.m */; };
 		4D70B2DB161E03DF00102AB9 /* MarketInjectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */; };
 		4DA4989915EEA57B000A9426 /* MarketCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4989815EEA57B000A9426 /* MarketCartViewController.m */; };
+		4DD2615916249DCB00E34D55 /* MarketArchivePersisterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */; };
+		4DD2615C16249F3800E34D55 /* MarketArchivePersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */; };
 		4DD7B53715C94C0E0022812D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53615C94C0E0022812D /* UIKit.framework */; };
 		4DD7B53915C94C0E0022812D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53815C94C0E0022812D /* Foundation.framework */; };
 		4DD7B53B15C94C0E0022812D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53A15C94C0E0022812D /* CoreGraphics.framework */; };
@@ -113,6 +115,9 @@
 		4DA4989715EEA57B000A9426 /* MarketCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketCartViewController.h; path = Controllers/MarketCartViewController.h; sourceTree = "<group>"; };
 		4DA4989815EEA57B000A9426 /* MarketCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketCartViewController.m; path = Controllers/MarketCartViewController.m; sourceTree = "<group>"; };
 		4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersisterTest.m; sourceTree = "<group>"; };
+		4DD2615A16249F3800E34D55 /* MarketArchivePersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketArchivePersister.h; sourceTree = "<group>"; };
+		4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersister.m; sourceTree = "<group>"; };
 		4DD7B53215C94C0E0022812D /* LittleMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD7B53615C94C0E0022812D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4DD7B53815C94C0E0022812D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -205,6 +210,7 @@
 		4D0B84B4160CED21003072CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4DD7B54815C94C0E0022812D /* MainStoryboard.storyboard */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -313,7 +319,6 @@
 				77F02AA05867764472572148 /* Core */,
 				4DD7B56015C954F50022812D /* DataModel */,
 				4DDA08DB15DFE6C700B547A9 /* Extensions */,
-				4DD7B54815C94C0E0022812D /* MainStoryboard.storyboard */,
 				4DD7B54515C94C0E0022812D /* MarketAppDelegate.h */,
 				4DD7B54615C94C0E0022812D /* MarketAppDelegate.m */,
 				4D5697B215D84F2500878122 /* Protocols */,
@@ -376,15 +381,16 @@
 			isa = PBXGroup;
 			children = (
 				77F02728B3AC18A384B3944F /* InjectionTest.m */,
+				77F027463A0C9117F1E695EF /* JsonPersisterTests.m */,
 				77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */,
 				4D0FBCCE160AEA1E0049D022 /* Resources */,
-				77F027463A0C9117F1E695EF /* JsonPersisterTests.m */,
 				77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */,
 				4DF2E3B1161394B200066481 /* Supporting Files */,
 				4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */,
 				4D68652F161B8BB500CE66A2 /* MarketTestClass.h */,
 				4D686530161B8BB500CE66A2 /* MarketTestClass.m */,
 				4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */,
+				4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */,
 			);
 			path = LittleMarketTest;
 			sourceTree = "<group>";
@@ -456,6 +462,8 @@
 				77F0269094A8D1E91F4131F4 /* MarketJsonPersister.h */,
 				4D0AC016160083CB001C067F /* MarketDefaultPersister.m */,
 				4D0AC015160083CB001C067F /* MarketDefaultPersister.h */,
+				4DD2615A16249F3800E34D55 /* MarketArchivePersister.h */,
+				4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -598,6 +606,7 @@
 				4D3071FD161CBA1400A7921C /* MVIOCSingletonCache.m in Sources */,
 				4D307201161CC6CC00A7921C /* MarketApplicationService.m in Sources */,
 				4D307204161CCD9000A7921C /* MarketConfigurator.m in Sources */,
+				4DD2615C16249F3800E34D55 /* MarketArchivePersister.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +621,7 @@
 				77F0206EE28895FB89F40FFA /* InjectionTest.m in Sources */,
 				4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */,
 				4D70B2DB161E03DF00102AB9 /* MarketInjectionTest.m in Sources */,
+				4DD2615916249DCB00E34D55 /* MarketArchivePersisterTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

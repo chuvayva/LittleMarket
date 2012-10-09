@@ -17,10 +17,6 @@
     return [NSString stringWithFormat:@"%.2f р.", price];
 }
 
-@synthesize name = _name;
-@synthesize category = _category;
-@synthesize price = _price;
-
 -(id) initWithName: (NSString*) name category: (NSString*) category price: (double) price
 {
     self = [super init];
@@ -66,6 +62,27 @@
 -(NSString*) description
 {
     return [NSString stringWithFormat:@"%@, %@, %@", self.name, self.category, self.priceString];
+}
+
+#pragma mark NSCoding
+
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeObject:self.name forKey:ProductTypeNameKey];
+    [aCoder encodeObject:self.category forKey: ProductTypeCategoryKey];
+    [aCoder encodeDouble:self.price forKey: ProductTypePriceKey];
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super init])
+    {
+        self.name = [aDecoder decodeObjectForKey:ProductTypeNameKey];
+        self.category = [aDecoder decodeObjectForKey:ProductTypeCategoryKey];
+        self.price = [aDecoder decodeDoubleForKey:ProductTypePriceKey];
+    }
+
+    return self;
 }
 
 @end

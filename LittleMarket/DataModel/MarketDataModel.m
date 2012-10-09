@@ -7,12 +7,7 @@
 
 #import "MarketDataModel.h"
 
-
 @implementation MarketDataModel
-
-@synthesize availableProducts = _availableProducts;
-
-@synthesize cartProducts = _cartProducts;
 
 -(id) initWithAvailableProducts:(NSArray *)availableProducts andCartProducts:(NSArray *)cartProducts
 {
@@ -35,6 +30,24 @@
     return [self initWithAvailableProducts:[NSArray array] andCartProducts:[NSArray array]];
 }
 
+#pragma mark NSCoding
 
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeObject:self.availableProducts forKey:AvailableProductsKey];
+    [aCoder encodeObject:self.cartProducts forKey:CartProductsKey];
+}
+
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super init])
+    {
+        self.availableProducts = [aDecoder decodeObjectForKey:AvailableProductsKey];
+        self.cartProducts = [aDecoder decodeObjectForKey:CartProductsKey];
+    }
+    
+    return self;
+}
 
 @end
