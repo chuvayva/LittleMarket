@@ -30,6 +30,7 @@
 		4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686530161B8BB500CE66A2 /* MarketTestClass.m */; };
 		4D70B2DB161E03DF00102AB9 /* MarketInjectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */; };
 		4DA4989915EEA57B000A9426 /* MarketCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4989815EEA57B000A9426 /* MarketCartViewController.m */; };
+		4DB2A360162618790021A0E6 /* MarketFAil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2A35F162618790021A0E6 /* MarketFAil.m */; };
 		4DD2615916249DCB00E34D55 /* MarketArchivePersisterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */; };
 		4DD2615C16249F3800E34D55 /* MarketArchivePersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */; };
 		4DD7B53715C94C0E0022812D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53615C94C0E0022812D /* UIKit.framework */; };
@@ -114,6 +115,8 @@
 		4D70B2DD161E0B8600102AB9 /* MarketDataModelManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDataModelManagerProtocol.h; sourceTree = "<group>"; };
 		4DA4989715EEA57B000A9426 /* MarketCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketCartViewController.h; path = Controllers/MarketCartViewController.h; sourceTree = "<group>"; };
 		4DA4989815EEA57B000A9426 /* MarketCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketCartViewController.m; path = Controllers/MarketCartViewController.m; sourceTree = "<group>"; };
+		4DB2A35E162618790021A0E6 /* MarketFAil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketFAil.h; sourceTree = "<group>"; };
+		4DB2A35F162618790021A0E6 /* MarketFAil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketFAil.m; sourceTree = "<group>"; };
 		4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersisterTest.m; sourceTree = "<group>"; };
 		4DD2615A16249F3800E34D55 /* MarketArchivePersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketArchivePersister.h; sourceTree = "<group>"; };
@@ -391,6 +394,8 @@
 				4D686530161B8BB500CE66A2 /* MarketTestClass.m */,
 				4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */,
 				4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */,
+				4DB2A35E162618790021A0E6 /* MarketFAil.h */,
+				4DB2A35F162618790021A0E6 /* MarketFAil.m */,
 			);
 			path = LittleMarketTest;
 			sourceTree = "<group>";
@@ -622,6 +627,7 @@
 				4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */,
 				4D70B2DB161E03DF00102AB9 /* MarketInjectionTest.m in Sources */,
 				4DD2615916249DCB00E34D55 /* MarketArchivePersisterTest.m in Sources */,
+				4DB2A360162618790021A0E6 /* MarketFAil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
