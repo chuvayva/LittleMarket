@@ -8,9 +8,13 @@
 
 #import "MarketConfigurator.h"
 #import "MarketPersistenceManager.h"
-#import "MarketJsonPersister.h"
 #import "MarketDataModelManager.h"
+
+// Persisters
+#import "MarketDefaultPersister.h"
+#import "MarketJsonPersister.h"
 #import "MarketArchivePersister.h"
+//
 
 @protocol MarketPersistenceManagerProtocol;
 @protocol MarketPersisterProtocol;
@@ -24,7 +28,7 @@
 -(void)configureContainer:(MVIOCContainer *)container
 {
     // Persister
-    [[container withCache] addComponent:[MarketArchivePersister class]
+    [[container withCache] addComponent:[MarketJsonPersister class]
                            representing:@protocol(MarketPersisterProtocol)];
     
     // Persister Manager

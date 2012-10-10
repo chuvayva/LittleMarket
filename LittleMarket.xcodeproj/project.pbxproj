@@ -706,6 +706,10 @@
 				GCC_PREFIX_HEADER = "LittleMarket/LittleMarket-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "LittleMarket/LittleMarket-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Volumes/OCMock 2.0.1/iOS\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_AFTER_BUILD = NO;
 				TEST_HOST = "";
@@ -721,6 +725,10 @@
 				GCC_PREFIX_HEADER = "LittleMarket/LittleMarket-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "LittleMarket/LittleMarket-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Volumes/OCMock 2.0.1/iOS\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_AFTER_BUILD = NO;
 				TEST_HOST = "";

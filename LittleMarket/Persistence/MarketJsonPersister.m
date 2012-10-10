@@ -27,7 +27,7 @@
     if (self)
     {
         if (![[NSFileManager defaultManager] fileExistsAtPath:filepath])
-            NSLog(@"filepath not found");
+            NSLog(@"file not found");
 
         _jsonFilepath = filepath;
     }
