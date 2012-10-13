@@ -109,10 +109,11 @@
 
 -(void) addProduct: (Product*) newProduct
 {
-    [_model addAvailableProduct:newProduct];
+    [NSThread detachNewThreadSelector:@selector(addAvailableProduct:) toTarget:_model withObject:newProduct];
     
-    [self dismissModalViewControllerAnimated:YES];    
-//    [self.tableView reloadData];
+//    [_model addAvailableProduct:newProduct];
+    
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 -(void) replaceOldProduct: (Product*) oldProduct withNewProduct: (Product*) newProduct

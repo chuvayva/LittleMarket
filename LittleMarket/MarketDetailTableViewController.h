@@ -13,7 +13,7 @@
 @interface MarketDetailTableViewController : UITableViewController <UITextFieldDelegate>
 {
     // for keyboard hiding 
-    UITapGestureRecognizer *_tabRecognazer;
+    UITapGestureRecognizer *_tapRecognazer;
 }
 
 @property (nonatomic) id<BuyProductDelegate> delegate;

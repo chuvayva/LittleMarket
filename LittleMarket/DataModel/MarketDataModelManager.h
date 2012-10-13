@@ -18,15 +18,6 @@
 
 @interface MarketDataModelManager : NSObject <MarketStoreFrontModel, MarketBackEndModel, MarketCartTableModel, MarketDataModelManagerProtocol>
 
-//+(MarketDataModelManager *)single;
-//
-//+(id<MarketStoreFrontModel>) storeFrontDataModel;
-//
-//+(id<MarketBackEndModel>) backEndDataModel;
-//
-//+(id<MarketCartTableModel>) cartTableModel;
-
-
 @property (nonatomic) MarketDataModel *dataModel;
 
 @end

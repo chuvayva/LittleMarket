@@ -130,8 +130,6 @@
 
 - (void)cartProductsChanged:(NSNotification *)notification
 {
-    [self.tableView reloadData];
-    
     if ([_model cartProductsCount])
     {
         self.navigationController.tabBarItem.badgeValue = [NSString stringWithFormat:@"%d", [_model cartProductsCount]];
@@ -141,6 +139,8 @@
     {
         [self leaveSelfTab];
     }
+    
+    [self.tableView reloadData];
 }
 
 -(void) leaveSelfTab

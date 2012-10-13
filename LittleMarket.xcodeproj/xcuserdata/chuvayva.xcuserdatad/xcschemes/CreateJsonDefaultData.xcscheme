@@ -7,8 +7,11 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
+            buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForTesting = "YES">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4DF2E3AB161394B100066481"
@@ -46,6 +49,15 @@
                </Test>
                <Test
                   Identifier = "ReadWriteTextFromDocumentFolderTest">
+               </Test>
+               <Test
+                  Identifier = "MarketInjectionTest">
+               </Test>
+               <Test
+                  Identifier = "MarketArchivePersisterTest">
+               </Test>
+               <Test
+                  Identifier = "MarketFAil">
                </Test>
             </SkippedTests>
             <LocationScenarioReference

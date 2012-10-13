@@ -13,8 +13,6 @@
 
 @interface MarketDataModelManager ()
 
--(void) setProductsToInstance: (NSArray*) productList;
-
 -(Product*)getFirstProductInArray: (NSArray*)products byProductType: (ProductType*) type;
 
 -(void)moveProduct: (Product*)product from:(NSMutableArray*)fromList to:(NSMutableArray*)toList;
@@ -24,34 +22,6 @@
 
 
 @implementation MarketDataModelManager
-
-//static MarketDataModelManager *_singleInstance;
-//
-//+(MarketDataModelManager *)single
-//{
-//    static dispatch_once_t predicate;
-//
-//    dispatch_once(&predicate, ^{
-//        _singleInstance = [self new];
-//    });
-//
-//    return _singleInstance;
-//}
-
-//+(id<MarketBackEndModel>)backEndDataModel
-//{
-//    return [self single];
-//}
-//
-//+(id<MarketStoreFrontModel>)storeFrontDataModel
-//{
-//    return [self single];
-//}
-//
-//+(id<MarketCartTableModel>) cartTableModel
-//{
-//    return [self single];
-//}
 
 -(id) init
 {
@@ -63,6 +33,15 @@
     }
     
     return self;
+}
+
+-(void)setDataModel:(MarketDataModel *)dataModel
+{
+    _dataModel = dataModel;
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:AvailableProductsChanged object:self userInfo:nil];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:CartProductsChanged object:self userInfo:nil];
 }
 
 #pragma mark MarketStoreFrontDataModel
@@ -81,6 +60,8 @@
 -(void)sentToCartProduct: (Product*) product
 {
     [self moveProduct:product from:_dataModel.availableProducts to:_dataModel.cartProducts];
+    
+    [NSThread sleepForTimeInterval: 3]; // for multithreading testing
 }
 #pragma mark MarketBackEndDataModel
 
@@ -93,6 +74,8 @@
 
 -(void) addAvailableProduct: (Product*) product
 {
+    [NSThread sleepForTimeInterval:5]; // for multithreading testing
+    
     NSUInteger newIndex = [_dataModel.availableProducts indexOfObject:product
                                   inSortedRange:(NSRange){0, [_dataModel.availableProducts count]}
                                         options:NSBinarySearchingInsertionIndex
@@ -127,6 +110,8 @@
 
 -(void)buyAllProducts
 {
+    //[NSThread sleepForTimeInterval:3]; // for multithreading testing
+    
     [_dataModel.cartProducts removeAllObjects];
 
     [[NSNotificationCenter defaultCenter] postNotificationName:CartProductsChanged object:self userInfo:nil];
@@ -136,6 +121,8 @@
 
 -(void)buyProductAtIndex: (NSUInteger) index
 {
+    //[NSThread sleepForTimeInterval:3]; // for multithreading testing
+    
     Product *buyingProduct = [_dataModel.cartProducts objectAtIndex:index];
 
     [_dataModel.cartProducts removeObject:buyingProduct];
@@ -174,8 +161,8 @@
     Product *findedProductInFromList = [self getFirstProductInArray:fromList
                                                  byProductType: [product productType]];
 
-    if (!findedProductInFromList)
-        @throw [NSException exceptionWithName:@"ArgumentException" reason:@"Product not found" userInfo:NULL];
+    if (!findedProductInFromList) return;
+//        @throw [NSException exceptionWithName:@"ArgumentException" reason:@"Product not found" userInfo:NULL];
 
     if (findedProductInFromList.number < product.number)
         @throw [NSException exceptionWithName:@"ArgumentException" reason:@"Products is not enough" userInfo:NULL];
@@ -211,16 +198,4 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:CartProductsChanged object:self userInfo:nil];
 }
 
-
--(void) setProductsToInstance: (NSArray*) productList
-{
-
-    _dataModel.availableProducts = [[productList sortedArrayUsingSelector:@selector(compare:)] mutableCopy];
-    _dataModel.cartProducts = [NSMutableArray array];
-
-
-    [[NSNotificationCenter defaultCenter] postNotificationName:AvailableProductsChanged object:self userInfo:nil];
-
-    [[NSNotificationCenter defaultCenter] postNotificationName:CartProductsChanged object:self userInfo:nil];
-}
 @end

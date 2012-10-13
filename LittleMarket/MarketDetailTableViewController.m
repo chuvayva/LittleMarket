@@ -95,15 +95,17 @@
 }
 
 - (IBAction)iWandBuyIt
-{  
-    [self.delegate sentToCartProduct:
-            [[Product alloc] initWithProductType:self.product.productType andQuantity:self.buyNumber]];
+{
+    Product *boughtProduct = [[Product alloc] initWithProductType:self.product.productType andQuantity:self.buyNumber];
+    [NSThread detachNewThreadSelector:@selector(sentToCartProduct:) toTarget:self.delegate withObject:boughtProduct];
     
     self.product.number -= self.buyNumber;
     
     if (self.product.number == 0)
         [self.navigationController popViewControllerAnimated:YES];
-    else [self configureView];
+    else [self configureView];    
+
+//    [self.delegate sentToCartProduct:boughtProduct];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
@@ -139,11 +141,11 @@
 
 -(void)textFieldDidBeginEditing:(UITextField *)textField
 {
-    _tabRecognazer = [[UITapGestureRecognizer alloc]
+    _tapRecognazer = [[UITapGestureRecognizer alloc]
                       initWithTarget:self
                       action:@selector(dismissKeyboard)];
     
-    [self.view addGestureRecognizer:_tabRecognazer];
+    [self.view addGestureRecognizer:_tapRecognazer];
 }
 
 -(void)textFieldDidEndEditing:(UITextField *)textField
@@ -157,8 +159,8 @@
     
     //self.buyNumber = [[textField text] integerValue];
     
-    [self.view removeGestureRecognizer:_tabRecognazer];
-    _tabRecognazer = nil;
+    [self.view removeGestureRecognizer:_tapRecognazer];
+    _tapRecognazer = nil;
 }
 
 -(BOOL) textFieldShouldReturn:(UITextField *)textField
