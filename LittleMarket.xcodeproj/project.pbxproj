@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E9A2682CD3C4AE9BF498756 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E80A775C6A03442BBAA2EA34 /* libPods.a */; };
 		4D0AC00E15FFD1C4001C067F /* MarketBackEndTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC00D15FFD1C4001C067F /* MarketBackEndTableViewController.m */; };
 		4D0AC019160083CB001C067F /* MarketDataModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC012160083CB001C067F /* MarketDataModelManager.m */; };
 		4D0AC01A160083CB001C067F /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC014160083CB001C067F /* Product.m */; };
@@ -121,10 +122,10 @@
 		4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersisterTest.m; sourceTree = "<group>"; };
 		4DD2615A16249F3800E34D55 /* MarketArchivePersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketArchivePersister.h; sourceTree = "<group>"; };
 		4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersister.m; sourceTree = "<group>"; };
-		4DD7B53215C94C0E0022812D /* LittleMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DD7B53615C94C0E0022812D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4DD7B53815C94C0E0022812D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4DD7B53A15C94C0E0022812D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DD7B53215C94C0E0022812D /* LittleMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LittleMarket.app; path = LittleMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD7B53615C94C0E0022812D /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4DD7B53815C94C0E0022812D /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DD7B53A15C94C0E0022812D /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4DD7B53E15C94C0E0022812D /* LittleMarket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleMarket-Info.plist"; sourceTree = "<group>"; };
 		4DD7B54015C94C0E0022812D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DD7B54215C94C0E0022812D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -140,7 +141,7 @@
 		4DDA08E115DFE85D00B547A9 /* NSMutableArray+Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Query.m"; path = "Extensions/NSMutableArray+Query.m"; sourceTree = "<group>"; };
 		4DEC65FB15EC0C550000F173 /* MarketDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketDetailView.h; path = Views/MarketDetailView.h; sourceTree = "<group>"; };
 		4DEC65FC15EC0C550000F173 /* MarketDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketDetailView.m; path = Views/MarketDetailView.m; sourceTree = "<group>"; };
-		4DF2E3AC161394B100066481 /* LittleMarketTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleMarketTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF2E3AC161394B100066481 /* LittleMarketTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LittleMarketTest.octest; path = LittleMarketTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF2E3B2161394B200066481 /* LittleMarketTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleMarketTest-Info.plist"; sourceTree = "<group>"; };
 		4DF2E3B9161394B200066481 /* LittleMarketTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittleMarketTest-Prefix.pch"; sourceTree = "<group>"; };
 		4DF2E3C0161396DD00066481 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
@@ -162,6 +163,8 @@
 		77F02CB067D6402CF8A3B326 /* MarketFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketFileManager.h; sourceTree = "<group>"; };
 		77F02DA32DF85E2A9D093BF6 /* MarketPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketPersistenceManager.m; sourceTree = "<group>"; };
 		77F02F8EAB86F60911111561 /* MarketDataModel+JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MarketDataModel+JSONKit.m"; sourceTree = "<group>"; };
+		A760EE56710B4032B864EA26 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		E80A775C6A03442BBAA2EA34 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,7 @@
 				4DD7B53715C94C0E0022812D /* UIKit.framework in Frameworks */,
 				4DD7B53915C94C0E0022812D /* Foundation.framework in Frameworks */,
 				4DD7B53B15C94C0E0022812D /* CoreGraphics.framework in Frameworks */,
+				0E9A2682CD3C4AE9BF498756 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +295,7 @@
 				4DD7B53515C94C0E0022812D /* Frameworks */,
 				4DD7B53315C94C0E0022812D /* Products */,
 				77F025857AF171121160FDAC /* JSONKit */,
+				A760EE56710B4032B864EA26 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -310,6 +315,7 @@
 				4DD7B53815C94C0E0022812D /* Foundation.framework */,
 				4DD7B53A15C94C0E0022812D /* CoreGraphics.framework */,
 				4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */,
+				E80A775C6A03442BBAA2EA34 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -483,6 +489,7 @@
 				4DD7B52E15C94C0E0022812D /* Sources */,
 				4DD7B52F15C94C0E0022812D /* Frameworks */,
 				4DD7B53015C94C0E0022812D /* Resources */,
+				26001A39ED8B4DD4BCCCCD3F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -560,6 +567,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		26001A39ED8B4DD4BCCCCD3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		4DF2E3AA161394B100066481 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -706,6 +727,7 @@
 		};
 		4DD7B55415C94C0E0022812D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A760EE56710B4032B864EA26 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -725,6 +747,7 @@
 		};
 		4DD7B55515C94C0E0022812D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A760EE56710B4032B864EA26 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

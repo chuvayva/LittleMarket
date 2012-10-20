@@ -9,11 +9,10 @@
 #import "MarketDataModelManager.h"
 
 #import "MarketDataModel.h"
+#import "BKMacros.h"
 
 
 @interface MarketDataModelManager ()
-
--(Product*)getFirstProductInArray: (NSArray*)products byProductType: (ProductType*) type;
 
 -(void)moveProduct: (Product*)product from:(NSMutableArray*)fromList to:(NSMutableArray*)toList;
 
@@ -142,24 +141,11 @@
 
 #pragma mark Private Methods
 
--(Product*) getFirstProductInArray: (NSMutableArray*)products byProductType: (ProductType*) type
-{
-    // TODO: Find another way for filtering
-    for(Product* item in products)
-    {
-        if ([[item productType] isEqual: type])
-        {
-            return item;
-        }
-    }
-
-    return nil;
-}
-
 -(void)moveProduct:(Product *)product from:(NSMutableArray *)fromList to:(NSMutableArray *)toList
 {
-    Product *findedProductInFromList = [self getFirstProductInArray:fromList
-                                                 byProductType: [product productType]];
+    Product *findedProductInFromList = [fromList match:^BOOL(id item){
+                                            return [item isEqual:product];
+                                        }];
 
     if (!findedProductInFromList) return;
 //        @throw [NSException exceptionWithName:@"ArgumentException" reason:@"Product not found" userInfo:NULL];
@@ -173,8 +159,9 @@
     if(findedProductInFromList.number == 0)
         [fromList removeObject:findedProductInFromList];
 
-    Product *findedProductInToList = [self getFirstProductInArray:toList
-                                                byProductType: [product productType]];
+    Product *findedProductInToList = [toList match:^BOOL(id item){
+                                            return [item isEqual:product];
+                                        }];
 
     if (findedProductInToList)
     {
