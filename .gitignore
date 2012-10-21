@@ -1,1 +1,17 @@
-/.idea/*
+#AppCode data
+.idea
+
+# Pods file
+/Pods/*
+
+# OS X temporary files
+.DS_Store
+*.swp
+*.lock
+profile
+
+# Generated with Pod
+LittleMarket.xcworkspace
+
+# temp user data
+xcuserdata
