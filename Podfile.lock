@@ -5,11 +5,11 @@ SPEC CHECKSUMS:
   JSONKit: a01a22c75f27eae76b4badd55a91c20fe6e86477
   A2DynamicDelegate: 013b345f1aca891ded67a95c1512fad677c260a9
 
-COCOAPODS: 0.15.1
-
 DEPENDENCIES: 
 - BlocksKit
 - JSONKit
+
+COCOAPODS: 0.15.1
 
 PODS: 
 - A2DynamicDelegate (2.0.2): 
