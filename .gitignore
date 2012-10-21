@@ -1,7 +1,7 @@
 #AppCode data
 .idea
 
-# Pods file
+# Pods files
 /Pods/*
 
 # OS X temporary files
