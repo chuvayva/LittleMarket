@@ -52,7 +52,6 @@
 		4DF2E3C1161396DD00066481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF2E3C0161396DD00066481 /* InfoPlist.strings */; };
 		77F0206EE28895FB89F40FFA /* InjectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02728B3AC18A384B3944F /* InjectionTest.m */; };
 		77F022689F00C5D1A17634BB /* ReadWriteTextFromDocumentFolderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */; };
-		77F0244F1EADBF5078C891C8 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F020D1EF410245E1D2572F /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		77F025364C89BFD411680429 /* MarketFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0243CF17AB231B0FB4048 /* MarketFileManager.m */; };
 		77F025AD81045A29B0BDDCE3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F020AEA98E8D98F5250004 /* Constants.m */; };
 		77F02B2FAC17C193F01E0480 /* MarketDataModel+JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02F8EAB86F60911111561 /* MarketDataModel+JSONKit.m */; };
@@ -122,7 +121,7 @@
 		4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersisterTest.m; sourceTree = "<group>"; };
 		4DD2615A16249F3800E34D55 /* MarketArchivePersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketArchivePersister.h; sourceTree = "<group>"; };
 		4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersister.m; sourceTree = "<group>"; };
-		4DD7B53215C94C0E0022812D /* LittleMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LittleMarket.app; path = LittleMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD7B53215C94C0E0022812D /* LittleMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD7B53615C94C0E0022812D /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4DD7B53815C94C0E0022812D /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DD7B53A15C94C0E0022812D /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -141,13 +140,11 @@
 		4DDA08E115DFE85D00B547A9 /* NSMutableArray+Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Query.m"; path = "Extensions/NSMutableArray+Query.m"; sourceTree = "<group>"; };
 		4DEC65FB15EC0C550000F173 /* MarketDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketDetailView.h; path = Views/MarketDetailView.h; sourceTree = "<group>"; };
 		4DEC65FC15EC0C550000F173 /* MarketDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketDetailView.m; path = Views/MarketDetailView.m; sourceTree = "<group>"; };
-		4DF2E3AC161394B100066481 /* LittleMarketTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LittleMarketTest.octest; path = LittleMarketTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF2E3AC161394B100066481 /* LittleMarketTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleMarketTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF2E3B2161394B200066481 /* LittleMarketTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleMarketTest-Info.plist"; sourceTree = "<group>"; };
 		4DF2E3B9161394B200066481 /* LittleMarketTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittleMarketTest-Prefix.pch"; sourceTree = "<group>"; };
 		4DF2E3C0161396DD00066481 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		77F020AEA98E8D98F5250004 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Core/Constants.m; sourceTree = "<group>"; };
-		77F020BA8D886A5C2C416747 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		77F020D1EF410245E1D2572F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		77F0211BC572BA4F5A1EBAA2 /* MarketPersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketPersistenceManager.h; sourceTree = "<group>"; };
 		77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONToMarketModelTest.m; sourceTree = "<group>"; };
 		77F021BEA58E44F07DD96CE0 /* MarketDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketDataModel.m; path = DataModel/MarketDataModel.m; sourceTree = "<group>"; };
@@ -164,7 +161,7 @@
 		77F02DA32DF85E2A9D093BF6 /* MarketPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketPersistenceManager.m; sourceTree = "<group>"; };
 		77F02F8EAB86F60911111561 /* MarketDataModel+JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MarketDataModel+JSONKit.m"; sourceTree = "<group>"; };
 		A760EE56710B4032B864EA26 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
-		E80A775C6A03442BBAA2EA34 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80A775C6A03442BBAA2EA34 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,7 +291,6 @@
 				4DF2E3B0161394B100066481 /* LittleMarketTest */,
 				4DD7B53515C94C0E0022812D /* Frameworks */,
 				4DD7B53315C94C0E0022812D /* Products */,
-				77F025857AF171121160FDAC /* JSONKit */,
 				A760EE56710B4032B864EA26 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
@@ -429,15 +425,6 @@
 				4DEC65FC15EC0C550000F173 /* MarketDetailView.m */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		77F025857AF171121160FDAC /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				77F020D1EF410245E1D2572F /* JSONKit.m */,
-				77F020BA8D886A5C2C416747 /* JSONKit.h */,
-			);
-			path = JSONKit;
 			sourceTree = "<group>";
 		};
 		77F026B2F2ED6E12D190ED57 /* Service */ = {
@@ -621,7 +608,6 @@
 				77F025AD81045A29B0BDDCE3 /* Constants.m in Sources */,
 				77F02D3E19F9F14699210C54 /* MarketJsonPersister.m in Sources */,
 				77F02EAB39E039554F729B9A /* MarketDataModel.m in Sources */,
-				77F0244F1EADBF5078C891C8 /* JSONKit.m in Sources */,
 				77F02B2FAC17C193F01E0480 /* MarketDataModel+JSONKit.m in Sources */,
 				77F025364C89BFD411680429 /* MarketFileManager.m in Sources */,
 				4D3071F8161CBA1400A7921C /* MVIOCControllerActor.m in Sources */,
@@ -737,6 +723,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"/Volumes/OCMock 2.0.1/iOS\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/LittleMarket-evetrwriywxnrhfdxckwalwjjxeq/Build/Products/Debug-iphonesimulator\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_AFTER_BUILD = NO;
@@ -757,6 +744,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"/Volumes/OCMock 2.0.1/iOS\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/LittleMarket-evetrwriywxnrhfdxckwalwjjxeq/Build/Products/Debug-iphonesimulator\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_AFTER_BUILD = NO;

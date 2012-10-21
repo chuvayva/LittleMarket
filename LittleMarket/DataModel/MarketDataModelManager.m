@@ -24,12 +24,9 @@
 
 -(id) init
 {
-    self = [super init];
+    if(!(self = [super init])) return nil;
     
-    if(self)
-    {
-        _dataModel = [MarketDataModel new];
-    }
+    _dataModel = [MarketDataModel new];    
     
     return self;
 }

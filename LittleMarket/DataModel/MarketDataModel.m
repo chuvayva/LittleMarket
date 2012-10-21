@@ -11,11 +11,10 @@
 
 -(id) initWithAvailableProducts:(NSArray *)availableProducts andCartProducts:(NSArray *)cartProducts
 {
-    if (self = [super init])
-    {
-        _availableProducts = [NSMutableArray arrayWithArray:availableProducts];
-        _cartProducts = [NSMutableArray arrayWithArray:cartProducts];
-    }
+    if (!(self = [super init])) return nil;
+    
+    _availableProducts = [NSMutableArray arrayWithArray:availableProducts];
+    _cartProducts = [NSMutableArray arrayWithArray:cartProducts];
 
     return self;
 }
@@ -41,11 +40,11 @@
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
-    if (self = [super init])
-    {
-        self.availableProducts = [aDecoder decodeObjectForKey:AvailableProductsKey];
-        self.cartProducts = [aDecoder decodeObjectForKey:CartProductsKey];
-    }
+    if (!(self = [super init])) return nil;
+    
+    self.availableProducts = [aDecoder decodeObjectForKey:AvailableProductsKey];
+    self.cartProducts = [aDecoder decodeObjectForKey:CartProductsKey];
+    
     
     return self;
 }
