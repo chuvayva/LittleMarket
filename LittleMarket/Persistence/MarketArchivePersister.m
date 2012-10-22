@@ -16,11 +16,11 @@
 
 - (id)initWithFilepath:(NSString *)filepath
 {
-    self = [super init];
-    if (self)
-    {
-        _filepath = filepath;
-    }
+    if (!(self = [super init])) return nil;
+    
+    
+    _filepath = filepath;
+    
     
     return self;
 }

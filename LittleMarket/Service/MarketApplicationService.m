@@ -12,19 +12,20 @@
 
 @implementation MarketApplicationService
 
-static MVIOCContainer *_container;
+
 
 +(MVIOCContainer *)mainContainer
 {
+    static MVIOCContainer *container;
     static dispatch_once_t predicate;
     
     dispatch_once(&predicate, ^{
-        _container = [MVIOCContainer new];
+        container = [MVIOCContainer new];
         
-        [[MarketConfigurator new] configureContainer:_container];
+        [[MarketConfigurator new] configureContainer:container];
     });
     
-    return _container;
+    return container;
 }
 
 +(void)configurate:(MarketConfigurator *)configurator

@@ -20,18 +20,19 @@
 
 #pragma mark Static
 
-static MarketDefaultPersister *_single;
-
-+(id<MarketPersisterProtocol>) single
-{
-    static dispatch_once_t predicate;
-
-    dispatch_once(&predicate, ^{
-    _single = [self new];
-});
-
-    return  _single;
-}
+//
+//
+//+(id<MarketPersisterProtocol>) single
+//{
+//    static MarketDefaultPersister *single;
+//    static dispatch_once_t predicate;
+//
+//    dispatch_once(&predicate, ^{
+//    single = [self new];
+//});
+//
+//    return  single;
+//}
 
 -(NSArray*)createProducts
 {

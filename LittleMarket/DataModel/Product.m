@@ -16,14 +16,12 @@
 
 -(id) initWithName: (NSString*) name category: (NSString*) category price: (double) price number:(NSUInteger)number
 {
-    self = [super init];
+    if (!(self = [super init])) return nil;
     
-    if(self)
-    {
-        _productType = [[ProductType alloc]initWithName:name category:category price:price];
+    _productType = [[ProductType alloc]initWithName:name category:category price:price];
         
-        _number = number;
-    }
+    _number = number;
+    
     
     return  self;
 }
@@ -84,11 +82,11 @@
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
-    if (self = [super init])
-    {
-        self.productType = [aDecoder decodeObjectForKey:ProductTypeKey];
-        self.number = [aDecoder decodeIntegerForKey:ProductQuantityKey];
-    }
+    if (!(self = [super init])) return nil;
+    
+    self.productType = [aDecoder decodeObjectForKey:ProductTypeKey];
+    self.number = [aDecoder decodeIntegerForKey:ProductQuantityKey];
+    
 
     return self;
 }

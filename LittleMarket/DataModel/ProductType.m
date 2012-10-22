@@ -19,15 +19,12 @@
 
 -(id) initWithName: (NSString*) name category: (NSString*) category price: (double) price
 {
-    self = [super init];
-    
-    if(self)
-    {
+    if (!(self = [super init])) return nil;
 
-        _name = [name copy];
-        _category = [category copy];
-        _price = price;
-    }
+    _name = [name copy];
+    _category = [category copy];
+    _price = price;
+    
     
     return  self;
 }
@@ -75,13 +72,13 @@
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
-    if (self = [super init])
-    {
-        self.name = [aDecoder decodeObjectForKey:ProductTypeNameKey];
-        self.category = [aDecoder decodeObjectForKey:ProductTypeCategoryKey];
-        self.price = [aDecoder decodeDoubleForKey:ProductTypePriceKey];
-    }
-
+    if (!(self = [super init])) return nil;
+    
+    
+    self.name = [aDecoder decodeObjectForKey:ProductTypeNameKey];
+    self.category = [aDecoder decodeObjectForKey:ProductTypeCategoryKey];
+    self.price = [aDecoder decodeDoubleForKey:ProductTypePriceKey];
+    
     return self;
 }
 

@@ -23,14 +23,13 @@
 
 - (id)initWithFilepath:(NSString *)filepath
 {
-    self = [super init];
-    if (self)
-    {
-        if (![[NSFileManager defaultManager] fileExistsAtPath:filepath])
-            NSLog(@"file not found");
-
-        _jsonFilepath = filepath;
-    }
+    if (!(self = [super init])) return nil;
+    
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:filepath])
+        NSLog(@"file not found");
+    
+    _jsonFilepath = filepath;   
 
     return self;
 }
