@@ -19,6 +19,6 @@
 
 -(void) addAvailableProduct: (Product*) product;
 
--(void) replaceOldAvailableProduct: (Product*) oldProduct withNewProduct: (Product*) newProduct;
+-(void)replaceAvailableProduct:(NSArray *)products;
 
 @end

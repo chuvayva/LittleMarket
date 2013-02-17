@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="nY0-G6-o4K">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="nY0-G6-o4K">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller - Store Front-->
@@ -618,74 +618,6 @@
             <point key="canvasLocation" x="1485" y="-353"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="BackEndProductCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BackEndProductCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="productCategory" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="productCost" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="productName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="productNumber" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="CartProductCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CartProductCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="productCategory" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="productCost" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="productName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="productNumber" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="MarketBackEndTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MarketBackEndTableViewController.h"/>
-        </class>
-        <class className="MarketCartViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MarketCartViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="iWantBuyTheeseProducts:"/>
-            </relationships>
-        </class>
-        <class className="MarketDetailTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MarketDetailTableViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="ProductbuyNumberChanged:" candidateClass="UIStepper"/>
-                <relationship kind="action" name="iWandBuyIt"/>
-                <relationship kind="outlet" name="buttonBuy" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="labelProductCategory" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="labelProductName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="labelProductNumber" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="labelProductPrice" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="stepperMinMaxProduct" candidateClass="UIStepper"/>
-                <relationship kind="outlet" name="textFieldBuyNumber" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="MarketMasterViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MarketMasterViewController.h"/>
-        </class>
-        <class className="MarketProductEditViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MarketProductEditViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="anyTextFieldChanged:" candidateClass="UITextField"/>
-                <relationship kind="action" name="cancelClicked:"/>
-                <relationship kind="action" name="doneClicked:"/>
-                <relationship kind="outlet" name="doneButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="productCategory" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="productName" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="productPrice" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="productQuality" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="ProductCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProductCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="productCategory" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="productCost" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="productName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="productNumber" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

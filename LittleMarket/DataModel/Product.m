@@ -12,7 +12,7 @@
 
 @implementation Product
 
-#pragma mark Instance
+#pragma mark - Instance
 
 -(id) initWithName: (NSString*) name category: (NSString*) category price: (double) price number:(NSUInteger)number
 {
@@ -45,7 +45,7 @@
     return [self.productType.name compare:otherObject.productType.name];
 }
 
-#pragma mark Ovverides
+#pragma mark - Ovverides
 // Product isEqual using for comparing only productType
 -(BOOL) isEqual:(id)object
 {
@@ -63,7 +63,7 @@
 }
 
 
-#pragma mark NSCopying
+#pragma mark - NSCopying
 
 -(id) copyWithZone:(NSZone *)zone
 {
@@ -72,7 +72,7 @@
     return copy;
 }
 
-#pragma mark NSCoding
+#pragma mark - NSCoding
 
 - (void)encodeWithCoder:(NSCoder *)aCoder
 {

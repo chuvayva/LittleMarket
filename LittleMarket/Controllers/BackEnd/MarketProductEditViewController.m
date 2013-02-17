@@ -33,7 +33,7 @@
     [self configureView];
 }
 
-#pragma mark Overrides
+#pragma mark - Overrides
 
 -(void)viewDidLoad
 {
@@ -57,7 +57,7 @@
     return toInterfaceOrientation != UIInterfaceOrientationPortraitUpsideDown;
 }
 
-#pragma mark IBActions
+#pragma mark - IBActions
 
 - (IBAction)doneClicked:(id)sender
 {
@@ -75,7 +75,7 @@
     self.doneButton.enabled = [self isInputDataCorrect];
 }
 
-#pragma mark Private Methods
+#pragma mark - Private Methods
 
 -(BOOL)isInputDataCorrect
 {
@@ -112,12 +112,10 @@
         self.productQuality.text = [NSString stringWithFormat:@"%d", (int)self.editedProduct.number];
     }
 }
-#pragma mark UITableViewDelegate
+#pragma mark - UITableViewDelegate
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-
-    
     if(textField == self.productQuality)
     {
         if ([self isInputDataCorrect])
@@ -137,16 +135,9 @@
 
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
 {
-    [UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:0.5];
-	[UIView setAnimationBeginsFromCurrentState:YES];
-    // Move current table section to the top of the view
-	CGRect bounds = self.view.bounds;
-    bounds.origin.y = (textField.superview.superview.frame.origin.y - 46);
-    self.view.bounds = bounds;
-    
-	[UIView commitAnimations];
-    
+    CGPoint newPoint = CGPointMake(0, textField.superview.superview.frame.origin.y - 46);
+    [self.tableView setContentOffset:newPoint animated:YES];
+   
     return YES;
 }
 

@@ -12,7 +12,7 @@
 
 @implementation MarketArchivePersister
 
-#pragma mark Inits
+#pragma mark - Inits
 
 - (id)initWithFilepath:(NSString *)filepath
 {
@@ -32,7 +32,7 @@
 }
 
 
-#pragma mark MarketPersistentProtocol
+#pragma mark - MarketPersistentProtocol
 
 - (void)saveModel:(MarketDataModel *)dataModel
 {

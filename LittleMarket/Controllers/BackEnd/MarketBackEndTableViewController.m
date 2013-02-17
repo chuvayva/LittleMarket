@@ -45,7 +45,7 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-#pragma mark - Table view data source
+#pragma mark - - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -105,7 +105,7 @@
     }
 }
 
-#pragma mark MarketProductEditViewControllerDelegate
+#pragma mark - MarketProductEditViewControllerDelegate
 
 -(void) addProduct: (Product*) newProduct
 {
@@ -118,9 +118,15 @@
 
 -(void) replaceOldProduct: (Product*) oldProduct withNewProduct: (Product*) newProduct
 {
-    [_model replaceOldAvailableProduct:oldProduct withNewProduct:newProduct];
-    
+    [NSThread detachNewThreadSelector:@selector(replaceAvailableProduct:) toTarget:_model withObject:@[oldProduct,newProduct]];
+//    dispatch_queue_t replaceQueue = dispatch_queue_create("replaceQueue", NULL);
+//    
+//    dispatch_async(replaceQueue, ^{
+//        [_model replaceAvailableProduct:@[oldProduct,newProduct]];
+//    });
+
     [self dismissModalViewControllerAnimated:YES];
+    
 }
 
 -(void) addProductDidClose

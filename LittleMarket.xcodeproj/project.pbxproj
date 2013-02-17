@@ -1,2826 +1,852 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0E9A2682CD3C4AE9BF498756</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E80A775C6A03442BBAA2EA34</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>26001A39ED8B4DD4BCCCCD3F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-		</dict>
-		<key>36D381DD520443F6AB7837E5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-LittleMarketTest.a</string>
-			<key>path</key>
-			<string>libPods-LittleMarketTest.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4D0AC00615FFD0BA001C067F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4DD7B54B15C94C0E0022812D</string>
-				<string>4DD7B54C15C94C0E0022812D</string>
-				<string>4DD7B54E15C94C0E0022812D</string>
-				<string>4DD7B54F15C94C0E0022812D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>StoreFront</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC00815FFD0D5001C067F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D0AC00C15FFD1C4001C067F</string>
-				<string>4D0AC00D15FFD1C4001C067F</string>
-				<string>4D0AC02E1600C2A2001C067F</string>
-				<string>4D0AC02F1600C2A2001C067F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>BackEnd</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC00C15FFD1C4001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>lineEnding</key>
-			<string>0</string>
-			<key>name</key>
-			<string>MarketBackEndTableViewController.h</string>
-			<key>path</key>
-			<string>Controllers/BackEnd/MarketBackEndTableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.objcpp</string>
-		</dict>
-		<key>4D0AC00D15FFD1C4001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>lineEnding</key>
-			<string>0</string>
-			<key>name</key>
-			<string>MarketBackEndTableViewController.m</string>
-			<key>path</key>
-			<string>Controllers/BackEnd/MarketBackEndTableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.objc</string>
-		</dict>
-		<key>4D0AC00E15FFD1C4001C067F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0AC00D15FFD1C4001C067F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D0AC01016007DF7001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MarketCartTableModel.h</string>
-			<key>path</key>
-			<string>Protocols/MarketCartTableModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC011160083CB001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MarketDataModelManager.h</string>
-			<key>path</key>
-			<string>DataModel/MarketDataModelManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC012160083CB001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MarketDataModelManager.m</string>
-			<key>path</key>
-			<string>DataModel/MarketDataModelManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC013160083CB001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Product.h</string>
-			<key>path</key>
-			<string>DataModel/Product.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC014160083CB001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Product.m</string>
-			<key>path</key>
-			<string>DataModel/Product.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC015160083CB001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketDefaultPersister.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC016160083CB001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketDefaultPersister.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC017160083CB001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ProductType.h</string>
-			<key>path</key>
-			<string>DataModel/ProductType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC018160083CB001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ProductType.m</string>
-			<key>path</key>
-			<string>DataModel/ProductType.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC019160083CB001C067F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0AC012160083CB001C067F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D0AC01A160083CB001C067F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0AC014160083CB001C067F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D0AC01B160083CB001C067F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0AC016160083CB001C067F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D0AC01C160083CB001C067F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0AC018160083CB001C067F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D0AC01E16008438001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MarketPersisterProtocol.h</string>
-			<key>path</key>
-			<string>Protocols/MarketPersisterProtocol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC01F16008438001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MarketBackEndModel.h</string>
-			<key>path</key>
-			<string>Protocols/MarketBackEndModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC02016008438001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MarketStoreFrontModel.h</string>
-			<key>path</key>
-			<string>Protocols/MarketStoreFrontModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC02216009585001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ProductComparator.m</string>
-			<key>path</key>
-			<string>DataModel/ProductComparator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC02316009585001C067F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0AC02216009585001C067F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D0AC0241600968F001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ProductComparator.h</string>
-			<key>path</key>
-			<string>DataModel/ProductComparator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC02516009FDC001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CartProductCell.h</string>
-			<key>path</key>
-			<string>Views/CartProductCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC02616009FDC001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>lineEnding</key>
-			<string>0</string>
-			<key>name</key>
-			<string>CartProductCell.m</string>
-			<key>path</key>
-			<string>Views/CartProductCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.objc</string>
-		</dict>
-		<key>4D0AC02716009FDC001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ProductCell.h</string>
-			<key>path</key>
-			<string>Views/ProductCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC02816009FDC001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ProductCell.m</string>
-			<key>path</key>
-			<string>Views/ProductCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC02916009FDC001C067F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0AC02616009FDC001C067F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D0AC02A16009FDC001C067F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0AC02816009FDC001C067F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D0AC02B1600A104001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BackEndProductCell.h</string>
-			<key>path</key>
-			<string>Views/BackEndProductCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0AC02C1600A104001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>lineEnding</key>
-			<string>0</string>
-			<key>name</key>
-			<string>BackEndProductCell.m</string>
-			<key>path</key>
-			<string>Views/BackEndProductCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.objc</string>
-		</dict>
-		<key>4D0AC02D1600A104001C067F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0AC02C1600A104001C067F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D0AC02E1600C2A2001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>lineEnding</key>
-			<string>0</string>
-			<key>name</key>
-			<string>MarketProductEditViewController.h</string>
-			<key>path</key>
-			<string>Controllers/BackEnd/MarketProductEditViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.objcpp</string>
-		</dict>
-		<key>4D0AC02F1600C2A2001C067F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>lineEnding</key>
-			<string>0</string>
-			<key>name</key>
-			<string>MarketProductEditViewController.m</string>
-			<key>path</key>
-			<string>Controllers/BackEnd/MarketProductEditViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.objc</string>
-		</dict>
-		<key>4D0AC0301600C2A2001C067F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0AC02F1600C2A2001C067F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D0AC0321600CE94001C067F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BuyProductDelegate.h</string>
-			<key>path</key>
-			<string>Protocols/BuyProductDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0B84B4160CED21003072CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4DD7B54815C94C0E0022812D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0FBCCE160AEA1E0049D022</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D0FBCD0160AEABE0049D022</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>path</key>
-			<string>..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D0FBCD0160AEABE0049D022</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.json</string>
-			<key>name</key>
-			<string>LittleMarketTestData.json</string>
-			<key>path</key>
-			<string>LittleMarketTest/Resources/LittleMarketTestData.json</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4D3071E6161CBA1400A7921C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D3071E7161CBA1400A7921C</string>
-				<string>4D3071F3161CBA1400A7921C</string>
-				<string>4D3071F4161CBA1400A7921C</string>
-				<string>4D3071F5161CBA1400A7921C</string>
-				<string>4D3071F6161CBA1400A7921C</string>
-				<string>4D3071F7161CBA1400A7921C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>IOC</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071E7161CBA1400A7921C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D3071E8161CBA1400A7921C</string>
-				<string>4D3071E9161CBA1400A7921C</string>
-				<string>4D3071EA161CBA1400A7921C</string>
-				<string>4D3071EB161CBA1400A7921C</string>
-				<string>4D3071EC161CBA1400A7921C</string>
-				<string>4D3071ED161CBA1400A7921C</string>
-				<string>4D3071EE161CBA1400A7921C</string>
-				<string>4D3071EF161CBA1400A7921C</string>
-				<string>4D3071F0161CBA1400A7921C</string>
-				<string>4D3071F1161CBA1400A7921C</string>
-				<string>4D3071F2161CBA1400A7921C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>MVIOC</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071E8161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVIOC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071E9161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVIOCActor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071EA161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVIOCCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071EB161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVIOCContainer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071EC161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVIOCControllerActor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071ED161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MVIOCControllerActor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071EE161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVIOCFactoryInjectionType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071EF161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVIOCInjectionType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071F0161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVIOCProperty.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071F1161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVIOCPropertyInjectionType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071F2161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVIOCSingletonCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071F3161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MVIOCContainer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071F4161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MVIOCFactoryInjectionType.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071F5161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MVIOCProperty.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071F6161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MVIOCPropertyInjectionType.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071F7161CBA1400A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MVIOCSingletonCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D3071F8161CBA1400A7921C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D3071ED161CBA1400A7921C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>4D3071F9161CBA1400A7921C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D3071F3161CBA1400A7921C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>4D3071FA161CBA1400A7921C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D3071F4161CBA1400A7921C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>4D3071FB161CBA1400A7921C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D3071F5161CBA1400A7921C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>4D3071FC161CBA1400A7921C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D3071F6161CBA1400A7921C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>4D3071FD161CBA1400A7921C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D3071F7161CBA1400A7921C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>4D3071FF161CC6CC00A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketApplicationService.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D307200161CC6CC00A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketApplicationService.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D307201161CC6CC00A7921C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D307200161CC6CC00A7921C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D307202161CCD9000A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketConfigurator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D307203161CCD9000A7921C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketConfigurator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D307204161CCD9000A7921C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D307203161CCD9000A7921C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D43107C161D4C4300741968</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MarketPersistenceManagerProtocol.h</string>
-			<key>path</key>
-			<string>Protocols/MarketPersistenceManagerProtocol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D4A511F1605B198007D58A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4DA4989715EEA57B000A9426</string>
-				<string>4DA4989815EEA57B000A9426</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Cart</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D5697B215D84F2500878122</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D0AC01E16008438001C067F</string>
-				<string>4D0AC01F16008438001C067F</string>
-				<string>4D0AC0321600CE94001C067F</string>
-				<string>4D0AC02016008438001C067F</string>
-				<string>4D0AC01016007DF7001C067F</string>
-				<string>4D43107C161D4C4300741968</string>
-				<string>4D70B2DD161E0B8600102AB9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Protocols</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D686525161B724400CE66A2</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketDefaultJsonFileCreator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D686526161B72CE00CE66A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D686525161B724400CE66A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D686527161B779200CE66A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D0FBCD0160AEABE0049D022</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D68652F161B8BB500CE66A2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketTestClass.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D686530161B8BB500CE66A2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketTestClass.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D686531161B8BB500CE66A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D686530161B8BB500CE66A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D70B2DA161E03DF00102AB9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketInjectionTest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D70B2DB161E03DF00102AB9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D70B2DA161E03DF00102AB9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D70B2DD161E0B8600102AB9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketDataModelManagerProtocol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DA4989715EEA57B000A9426</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MarketCartViewController.h</string>
-			<key>path</key>
-			<string>Controllers/MarketCartViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DA4989815EEA57B000A9426</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MarketCartViewController.m</string>
-			<key>path</key>
-			<string>Controllers/MarketCartViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DA4989915EEA57B000A9426</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DA4989815EEA57B000A9426</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DB2A35E162618790021A0E6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketFAil.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DB2A35F162618790021A0E6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketFAil.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DB2A360162618790021A0E6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DB2A35F162618790021A0E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DBA646F15E2C50F00F0007B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SenTestingKit.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/SenTestingKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>4DD2615816249DCB00E34D55</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketArchivePersisterTest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD2615916249DCB00E34D55</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD2615816249DCB00E34D55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD2615A16249F3800E34D55</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketArchivePersister.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD2615B16249F3800E34D55</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketArchivePersister.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD2615C16249F3800E34D55</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD2615B16249F3800E34D55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7B52715C94C0D0022812D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D3071E6161CBA1400A7921C</string>
-				<string>4DD7B53C15C94C0E0022812D</string>
-				<string>4DF2E3B0161394B100066481</string>
-				<string>4DD7B53515C94C0E0022812D</string>
-				<string>4DD7B53315C94C0E0022812D</string>
-				<string>A760EE56710B4032B864EA26</string>
-				<string>A0188A6630DB4CA5B3C5388C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B52915C94C0D0022812D</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>Market</string>
-				<key>LastUpgradeCheck</key>
-				<string>0430</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>4DD7B52C15C94C0D0022812D</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>4DD7B52715C94C0D0022812D</string>
-			<key>productRefGroup</key>
-			<string>4DD7B53315C94C0E0022812D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>4DD7B53115C94C0E0022812D</string>
-				<string>4DF2E3AB161394B100066481</string>
-			</array>
-		</dict>
-		<key>4DD7B52C15C94C0D0022812D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4DD7B55115C94C0E0022812D</string>
-				<string>4DD7B55215C94C0E0022812D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4DD7B52E15C94C0E0022812D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4DD7B54315C94C0E0022812D</string>
-				<string>4DD7B54715C94C0E0022812D</string>
-				<string>4DD7B54D15C94C0E0022812D</string>
-				<string>4DD7B55015C94C0E0022812D</string>
-				<string>4DEC65FD15EC0C550000F173</string>
-				<string>4DA4989915EEA57B000A9426</string>
-				<string>4D0AC00E15FFD1C4001C067F</string>
-				<string>4D0AC019160083CB001C067F</string>
-				<string>4D0AC01A160083CB001C067F</string>
-				<string>4D0AC01B160083CB001C067F</string>
-				<string>4D0AC01C160083CB001C067F</string>
-				<string>4D0AC02316009585001C067F</string>
-				<string>4D0AC02916009FDC001C067F</string>
-				<string>4D0AC02A16009FDC001C067F</string>
-				<string>4D0AC02D1600A104001C067F</string>
-				<string>4D0AC0301600C2A2001C067F</string>
-				<string>77F02EC162E3E06F902A2799</string>
-				<string>77F025AD81045A29B0BDDCE3</string>
-				<string>77F02D3E19F9F14699210C54</string>
-				<string>77F02EAB39E039554F729B9A</string>
-				<string>77F02B2FAC17C193F01E0480</string>
-				<string>77F025364C89BFD411680429</string>
-				<string>4D3071F8161CBA1400A7921C</string>
-				<string>4D3071F9161CBA1400A7921C</string>
-				<string>4D3071FA161CBA1400A7921C</string>
-				<string>4D3071FB161CBA1400A7921C</string>
-				<string>4D3071FC161CBA1400A7921C</string>
-				<string>4D3071FD161CBA1400A7921C</string>
-				<string>4D307201161CC6CC00A7921C</string>
-				<string>4D307204161CCD9000A7921C</string>
-				<string>4DD2615C16249F3800E34D55</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4DD7B52F15C94C0E0022812D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4DD7B53715C94C0E0022812D</string>
-				<string>4DD7B53915C94C0E0022812D</string>
-				<string>4DD7B53B15C94C0E0022812D</string>
-				<string>0E9A2682CD3C4AE9BF498756</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4DD7B53015C94C0E0022812D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4DD7B54115C94C0E0022812D</string>
-				<string>4DD7B54A15C94C0E0022812D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4DD7B53115C94C0E0022812D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4DD7B55315C94C0E0022812D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4DD7B52E15C94C0E0022812D</string>
-				<string>4DD7B52F15C94C0E0022812D</string>
-				<string>4DD7B53015C94C0E0022812D</string>
-				<string>26001A39ED8B4DD4BCCCCD3F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LittleMarket</string>
-			<key>productName</key>
-			<string>LittleMarket</string>
-			<key>productReference</key>
-			<string>4DD7B53215C94C0E0022812D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>4DD7B53215C94C0E0022812D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>LittleMarket.app</string>
-			<key>path</key>
-			<string>LittleMarket.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4DD7B53315C94C0E0022812D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4DD7B53215C94C0E0022812D</string>
-				<string>4DF2E3AC161394B100066481</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B53515C94C0E0022812D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4DD7B53615C94C0E0022812D</string>
-				<string>4DD7B53815C94C0E0022812D</string>
-				<string>4DD7B53A15C94C0E0022812D</string>
-				<string>4DBA646F15E2C50F00F0007B</string>
-				<string>E80A775C6A03442BBAA2EA34</string>
-				<string>36D381DD520443F6AB7837E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B53615C94C0E0022812D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>4DD7B53715C94C0E0022812D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B53615C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7B53815C94C0E0022812D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>4DD7B53915C94C0E0022812D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B53815C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7B53A15C94C0E0022812D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>4DD7B53B15C94C0E0022812D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B53A15C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7B53C15C94C0E0022812D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D0B84B4160CED21003072CC</string>
-				<string>4DEC65F415EC01300000F173</string>
-				<string>77F02AA05867764472572148</string>
-				<string>4DD7B56015C954F50022812D</string>
-				<string>4DDA08DB15DFE6C700B547A9</string>
-				<string>4DD7B54515C94C0E0022812D</string>
-				<string>4DD7B54615C94C0E0022812D</string>
-				<string>4D5697B215D84F2500878122</string>
-				<string>4DD7B53D15C94C0E0022812D</string>
-				<string>4DFAD9C215D4393500897688</string>
-				<string>77F02AFA4FA757DD9BFB98D0</string>
-				<string>77F026B2F2ED6E12D190ED57</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>LittleMarket</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B53D15C94C0E0022812D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4DD7B53E15C94C0E0022812D</string>
-				<string>4DD7B53F15C94C0E0022812D</string>
-				<string>4DD7B54215C94C0E0022812D</string>
-				<string>4DD7B54415C94C0E0022812D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B53E15C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>LittleMarket-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B53F15C94C0E0022812D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4DD7B54015C94C0E0022812D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B54015C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B54115C94C0E0022812D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B53F15C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7B54215C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B54315C94C0E0022812D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B54215C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7B54415C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LittleMarket-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B54515C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B54615C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B54715C94C0E0022812D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B54615C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7B54815C94C0E0022812D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4DD7B54915C94C0E0022812D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>MainStoryboard.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B54915C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/MainStoryboard.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B54A15C94C0E0022812D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B54815C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7B54B15C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketMasterViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DD7B54C15C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>lineEnding</key>
-			<string>0</string>
-			<key>path</key>
-			<string>MarketMasterViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.objc</string>
-		</dict>
-		<key>4DD7B54D15C94C0E0022812D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B54C15C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7B54E15C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>lineEnding</key>
-			<string>0</string>
-			<key>path</key>
-			<string>MarketDetailTableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.objcpp</string>
-		</dict>
-		<key>4DD7B54F15C94C0E0022812D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>lineEnding</key>
-			<string>0</string>
-			<key>path</key>
-			<string>MarketDetailTableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.objc</string>
-		</dict>
-		<key>4DD7B55015C94C0E0022812D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B54F15C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DD7B55115C94C0E0022812D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<string>$(PROJECT_DIR)/Injective/Injective/Headers</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>PRODUCT_NAME</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TEST_AFTER_BUILD</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4DD7B55215C94C0E0022812D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<string>$(PROJECT_DIR)/Injective/Injective/Headers</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-				<key>PRODUCT_NAME</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TEST_AFTER_BUILD</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4DD7B55315C94C0E0022812D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4DD7B55415C94C0E0022812D</string>
-				<string>4DD7B55515C94C0E0022812D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4DD7B55415C94C0E0022812D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A760EE56710B4032B864EA26</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string></string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LittleMarket/LittleMarket-Prefix.pch</string>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LittleMarket/LittleMarket-Info.plist</string>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"/Volumes/OCMock 2.0.1/iOS"</string>
-					<string>"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/LittleMarket-evetrwriywxnrhfdxckwalwjjxeq/Build/Products/Debug-iphonesimulator"</string>
-				</array>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_AFTER_BUILD</key>
-				<string>NO</string>
-				<key>TEST_HOST</key>
-				<string></string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4DD7B55515C94C0E0022812D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A760EE56710B4032B864EA26</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string></string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LittleMarket/LittleMarket-Prefix.pch</string>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LittleMarket/LittleMarket-Info.plist</string>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"/Volumes/OCMock 2.0.1/iOS"</string>
-					<string>"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/LittleMarket-evetrwriywxnrhfdxckwalwjjxeq/Build/Products/Debug-iphonesimulator"</string>
-				</array>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_AFTER_BUILD</key>
-				<string>NO</string>
-				<key>TEST_HOST</key>
-				<string></string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4DD7B56015C954F50022812D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>77F024F74B558AD7D967DA8E</string>
-				<string>77F021BEA58E44F07DD96CE0</string>
-				<string>4D0AC011160083CB001C067F</string>
-				<string>4D0AC012160083CB001C067F</string>
-				<string>4D0AC013160083CB001C067F</string>
-				<string>4D0AC014160083CB001C067F</string>
-				<string>4D0AC017160083CB001C067F</string>
-				<string>4D0AC018160083CB001C067F</string>
-				<string>4D0AC0241600968F001C067F</string>
-				<string>4D0AC02216009585001C067F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>DataModel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DDA08DB15DFE6C700B547A9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4DDA08E015DFE85D00B547A9</string>
-				<string>4DDA08E115DFE85D00B547A9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Extensions</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DDA08E015DFE85D00B547A9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSMutableArray+Query.h</string>
-			<key>path</key>
-			<string>Extensions/NSMutableArray+Query.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DDA08E115DFE85D00B547A9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSMutableArray+Query.m</string>
-			<key>path</key>
-			<string>Extensions/NSMutableArray+Query.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DEC65F415EC01300000F173</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D4A511F1605B198007D58A6</string>
-				<string>4D0AC00815FFD0D5001C067F</string>
-				<string>4D0AC00615FFD0BA001C067F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Controllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DEC65FB15EC0C550000F173</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MarketDetailView.h</string>
-			<key>path</key>
-			<string>Views/MarketDetailView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DEC65FC15EC0C550000F173</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MarketDetailView.m</string>
-			<key>path</key>
-			<string>Views/MarketDetailView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DEC65FD15EC0C550000F173</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DEC65FC15EC0C550000F173</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DF2E3A7161394B100066481</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4D686526161B72CE00CE66A2</string>
-				<string>4DF2E3BE1613958800066481</string>
-				<string>4DF2E3BF1613958800066481</string>
-				<string>77F022689F00C5D1A17634BB</string>
-				<string>77F0206EE28895FB89F40FFA</string>
-				<string>4D686531161B8BB500CE66A2</string>
-				<string>4D70B2DB161E03DF00102AB9</string>
-				<string>4DD2615916249DCB00E34D55</string>
-				<string>4DB2A360162618790021A0E6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4DF2E3A8161394B100066481</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4DF2E3AD161394B100066481</string>
-				<string>4DF2E3AE161394B100066481</string>
-				<string>4DF2E3AF161394B100066481</string>
-				<string>EF8D911A2A70480F8E8F6D52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4DF2E3A9161394B100066481</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4D686527161B779200CE66A2</string>
-				<string>4DF2E3C1161396DD00066481</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4DF2E3AA161394B100066481</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string># Run the unit tests in this test bundle.
-"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
-</string>
-		</dict>
-		<key>4DF2E3AB161394B100066481</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4DF2E3BA161394B200066481</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4DF2E3A7161394B100066481</string>
-				<string>4DF2E3A8161394B100066481</string>
-				<string>4DF2E3A9161394B100066481</string>
-				<string>4DF2E3AA161394B100066481</string>
-				<string>A431FC4529084DE6B5EE7A8D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LittleMarketTest</string>
-			<key>productName</key>
-			<string>LittleMarketTest</string>
-			<key>productReference</key>
-			<string>4DF2E3AC161394B100066481</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>4DF2E3AC161394B100066481</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>LittleMarketTest.octest</string>
-			<key>path</key>
-			<string>LittleMarketTest.octest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4DF2E3AD161394B100066481</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DBA646F15E2C50F00F0007B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DF2E3AE161394B100066481</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B53615C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DF2E3AF161394B100066481</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD7B53815C94C0E0022812D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DF2E3B0161394B100066481</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>77F02728B3AC18A384B3944F</string>
-				<string>77F027463A0C9117F1E695EF</string>
-				<string>77F021F6F871F82CE2B9766B</string>
-				<string>4D0FBCCE160AEA1E0049D022</string>
-				<string>77F0217ACB7803AB475A5368</string>
-				<string>4DF2E3B1161394B200066481</string>
-				<string>4D686525161B724400CE66A2</string>
-				<string>4D68652F161B8BB500CE66A2</string>
-				<string>4D686530161B8BB500CE66A2</string>
-				<string>4D70B2DA161E03DF00102AB9</string>
-				<string>4DD2615816249DCB00E34D55</string>
-				<string>4DB2A35E162618790021A0E6</string>
-				<string>4DB2A35F162618790021A0E6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>LittleMarketTest</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DF2E3B1161394B200066481</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4DF2E3B2161394B200066481</string>
-				<string>4DF2E3C0161396DD00066481</string>
-				<string>4DF2E3B9161394B200066481</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DF2E3B2161394B200066481</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>LittleMarketTest-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DF2E3B9161394B200066481</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LittleMarketTest-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DF2E3BA161394B200066481</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4DF2E3BB161394B200066481</string>
-				<string>4DF2E3BC161394B200066481</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4DF2E3BB161394B200066481</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A0188A6630DB4CA5B3C5388C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/LittleMarket.app/LittleMarket</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
-					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LittleMarketTest/LittleMarketTest-Prefix.pch</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<string>${PODS_HEADERS_SEARCH_PATHS}</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LittleMarketTest/LittleMarketTest-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4DF2E3BC161394B200066481</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A0188A6630DB4CA5B3C5388C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/LittleMarket.app/LittleMarket</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>"$(SDKROOT)/Developer/Library/Frameworks"</string>
-					<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LittleMarketTest/LittleMarketTest-Prefix.pch</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<string>${PODS_HEADERS_SEARCH_PATHS}</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LittleMarketTest/LittleMarketTest-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4DF2E3BE1613958800066481</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77F027463A0C9117F1E695EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DF2E3BF1613958800066481</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77F0217ACB7803AB475A5368</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DF2E3C0161396DD00066481</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>path</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DF2E3C1161396DD00066481</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DF2E3C0161396DD00066481</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DFAD9C215D4393500897688</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D0AC02516009FDC001C067F</string>
-				<string>4D0AC02616009FDC001C067F</string>
-				<string>4D0AC02B1600A104001C067F</string>
-				<string>4D0AC02C1600A104001C067F</string>
-				<string>4D0AC02716009FDC001C067F</string>
-				<string>4D0AC02816009FDC001C067F</string>
-				<string>4DEC65FB15EC0C550000F173</string>
-				<string>4DEC65FC15EC0C550000F173</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Views</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F0206EE28895FB89F40FFA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77F02728B3AC18A384B3944F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77F020AEA98E8D98F5250004</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Constants.m</string>
-			<key>path</key>
-			<string>Core/Constants.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F0211BC572BA4F5A1EBAA2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketPersistenceManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F0217ACB7803AB475A5368</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JSONToMarketModelTest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F021BEA58E44F07DD96CE0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MarketDataModel.m</string>
-			<key>path</key>
-			<string>DataModel/MarketDataModel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F021F6F871F82CE2B9766B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ReadWriteTextFromDocumentFolderTest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F022689F00C5D1A17634BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77F021F6F871F82CE2B9766B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77F0243CF17AB231B0FB4048</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketFileManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F024F74B558AD7D967DA8E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MarketDataModel.h</string>
-			<key>path</key>
-			<string>DataModel/MarketDataModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F025364C89BFD411680429</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77F0243CF17AB231B0FB4048</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77F025AD81045A29B0BDDCE3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77F020AEA98E8D98F5250004</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77F0269094A8D1E91F4131F4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketJsonPersister.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F026B2F2ED6E12D190ED57</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>77F02CB067D6402CF8A3B326</string>
-				<string>77F0243CF17AB231B0FB4048</string>
-				<string>4D3071FF161CC6CC00A7921C</string>
-				<string>4D307200161CC6CC00A7921C</string>
-				<string>4D307202161CCD9000A7921C</string>
-				<string>4D307203161CCD9000A7921C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Service</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F02728B3AC18A384B3944F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>InjectionTest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F027463A0C9117F1E695EF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JsonPersisterTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F0289EDCB47857A752CEC8</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Constants.h</string>
-			<key>path</key>
-			<string>Core/Constants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F029A9D7748FEAE7BFA643</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketDataModel+JSONKit.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F02AA05867764472572148</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>77F0289EDCB47857A752CEC8</string>
-				<string>77F020AEA98E8D98F5250004</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F02AFA4FA757DD9BFB98D0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>77F029A9D7748FEAE7BFA643</string>
-				<string>77F02F8EAB86F60911111561</string>
-				<string>77F02DA32DF85E2A9D093BF6</string>
-				<string>77F0211BC572BA4F5A1EBAA2</string>
-				<string>77F02B2069BF3E542B6A1BFA</string>
-				<string>77F0269094A8D1E91F4131F4</string>
-				<string>4D0AC016160083CB001C067F</string>
-				<string>4D0AC015160083CB001C067F</string>
-				<string>4DD2615A16249F3800E34D55</string>
-				<string>4DD2615B16249F3800E34D55</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Persistence</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F02B2069BF3E542B6A1BFA</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketJsonPersister.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F02B2FAC17C193F01E0480</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77F02F8EAB86F60911111561</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77F02CB067D6402CF8A3B326</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarketFileManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F02D3E19F9F14699210C54</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77F02B2069BF3E542B6A1BFA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77F02DA32DF85E2A9D093BF6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketPersistenceManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77F02EAB39E039554F729B9A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77F021BEA58E44F07DD96CE0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77F02EC162E3E06F902A2799</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77F02DA32DF85E2A9D093BF6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77F02F8EAB86F60911111561</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarketDataModel+JSONKit.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A0188A6630DB4CA5B3C5388C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-LittleMarketTest.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-LittleMarketTest.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A431FC4529084DE6B5EE7A8D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-LittleMarketTest-resources.sh"
-</string>
-		</dict>
-		<key>A760EE56710B4032B864EA26</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E80A775C6A03442BBAA2EA34</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EF8D911A2A70480F8E8F6D52</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36D381DD520443F6AB7837E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>4DD7B52915C94C0D0022812D</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9A2682CD3C4AE9BF498756 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E80A775C6A03442BBAA2EA34 /* libPods.a */; };
+		4D0AC00E15FFD1C4001C067F /* MarketBackEndTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC00D15FFD1C4001C067F /* MarketBackEndTableViewController.m */; };
+		4D0AC019160083CB001C067F /* MarketDataModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC012160083CB001C067F /* MarketDataModelManager.m */; };
+		4D0AC01A160083CB001C067F /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC014160083CB001C067F /* Product.m */; };
+		4D0AC01B160083CB001C067F /* MarketDefaultPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC016160083CB001C067F /* MarketDefaultPersister.m */; };
+		4D0AC01C160083CB001C067F /* ProductType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC018160083CB001C067F /* ProductType.m */; };
+		4D0AC02316009585001C067F /* ProductComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02216009585001C067F /* ProductComparator.m */; };
+		4D0AC02916009FDC001C067F /* CartProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02616009FDC001C067F /* CartProductCell.m */; };
+		4D0AC02A16009FDC001C067F /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02816009FDC001C067F /* ProductCell.m */; };
+		4D0AC02D1600A104001C067F /* BackEndProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02C1600A104001C067F /* BackEndProductCell.m */; };
+		4D0AC0301600C2A2001C067F /* MarketProductEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC02F1600C2A2001C067F /* MarketProductEditViewController.m */; };
+		4D3071F8161CBA1400A7921C /* MVIOCControllerActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071ED161CBA1400A7921C /* MVIOCControllerActor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D3071F9161CBA1400A7921C /* MVIOCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F3161CBA1400A7921C /* MVIOCContainer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D3071FA161CBA1400A7921C /* MVIOCFactoryInjectionType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F4161CBA1400A7921C /* MVIOCFactoryInjectionType.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D3071FB161CBA1400A7921C /* MVIOCProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F5161CBA1400A7921C /* MVIOCProperty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D3071FC161CBA1400A7921C /* MVIOCPropertyInjectionType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F6161CBA1400A7921C /* MVIOCPropertyInjectionType.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D3071FD161CBA1400A7921C /* MVIOCSingletonCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3071F7161CBA1400A7921C /* MVIOCSingletonCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D307201161CC6CC00A7921C /* MarketApplicationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D307200161CC6CC00A7921C /* MarketApplicationService.m */; };
+		4D307204161CCD9000A7921C /* MarketConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D307203161CCD9000A7921C /* MarketConfigurator.m */; };
+		4D686526161B72CE00CE66A2 /* MarketDefaultJsonFileCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */; };
+		4D686527161B779200CE66A2 /* LittleMarketTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */; };
+		4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686530161B8BB500CE66A2 /* MarketTestClass.m */; };
+		4D70B2DB161E03DF00102AB9 /* MarketInjectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */; };
+		4DA4989915EEA57B000A9426 /* MarketCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4989815EEA57B000A9426 /* MarketCartViewController.m */; };
+		4DB2A360162618790021A0E6 /* MarketFAil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2A35F162618790021A0E6 /* MarketFAil.m */; };
+		4DD2615916249DCB00E34D55 /* MarketArchivePersisterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */; };
+		4DD2615C16249F3800E34D55 /* MarketArchivePersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */; };
+		4DD7B53715C94C0E0022812D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53615C94C0E0022812D /* UIKit.framework */; };
+		4DD7B53915C94C0E0022812D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53815C94C0E0022812D /* Foundation.framework */; };
+		4DD7B53B15C94C0E0022812D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53A15C94C0E0022812D /* CoreGraphics.framework */; };
+		4DD7B54115C94C0E0022812D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7B53F15C94C0E0022812D /* InfoPlist.strings */; };
+		4DD7B54315C94C0E0022812D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B54215C94C0E0022812D /* main.m */; };
+		4DD7B54715C94C0E0022812D /* MarketAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B54615C94C0E0022812D /* MarketAppDelegate.m */; };
+		4DD7B54A15C94C0E0022812D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD7B54815C94C0E0022812D /* MainStoryboard.storyboard */; };
+		4DD7B54D15C94C0E0022812D /* MarketMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B54C15C94C0E0022812D /* MarketMasterViewController.m */; };
+		4DD7B55015C94C0E0022812D /* MarketDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7B54F15C94C0E0022812D /* MarketDetailTableViewController.m */; };
+		4DEC65FD15EC0C550000F173 /* MarketDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC65FC15EC0C550000F173 /* MarketDetailView.m */; };
+		4DF2E3AD161394B100066481 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */; };
+		4DF2E3AE161394B100066481 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53615C94C0E0022812D /* UIKit.framework */; };
+		4DF2E3AF161394B100066481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53815C94C0E0022812D /* Foundation.framework */; };
+		4DF2E3BE1613958800066481 /* JsonPersisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F027463A0C9117F1E695EF /* JsonPersisterTests.m */; };
+		4DF2E3BF1613958800066481 /* JSONToMarketModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */; };
+		4DF2E3C1161396DD00066481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF2E3C0161396DD00066481 /* InfoPlist.strings */; };
+		77F0206EE28895FB89F40FFA /* InjectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02728B3AC18A384B3944F /* InjectionTest.m */; };
+		77F022689F00C5D1A17634BB /* ReadWriteTextFromDocumentFolderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */; };
+		77F025364C89BFD411680429 /* MarketFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0243CF17AB231B0FB4048 /* MarketFileManager.m */; };
+		77F025AD81045A29B0BDDCE3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F020AEA98E8D98F5250004 /* Constants.m */; };
+		77F02B2FAC17C193F01E0480 /* MarketDataModel+JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02F8EAB86F60911111561 /* MarketDataModel+JSONKit.m */; };
+		77F02D3E19F9F14699210C54 /* MarketJsonPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02B2069BF3E542B6A1BFA /* MarketJsonPersister.m */; };
+		77F02EAB39E039554F729B9A /* MarketDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F021BEA58E44F07DD96CE0 /* MarketDataModel.m */; };
+		77F02EC162E3E06F902A2799 /* MarketPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02DA32DF85E2A9D093BF6 /* MarketPersistenceManager.m */; };
+		EF8D911A2A70480F8E8F6D52 /* libPods-LittleMarketTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D381DD520443F6AB7837E5 /* libPods-LittleMarketTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36D381DD520443F6AB7837E5 /* libPods-LittleMarketTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LittleMarketTest.a"; path = "libPods-LittleMarketTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0AC00C15FFD1C4001C067F /* MarketBackEndTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MarketBackEndTableViewController.h; path = Controllers/BackEnd/MarketBackEndTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4D0AC00D15FFD1C4001C067F /* MarketBackEndTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MarketBackEndTableViewController.m; path = Controllers/BackEnd/MarketBackEndTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4D0AC01016007DF7001C067F /* MarketCartTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketCartTableModel.h; path = Protocols/MarketCartTableModel.h; sourceTree = "<group>"; };
+		4D0AC011160083CB001C067F /* MarketDataModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketDataModelManager.h; path = DataModel/MarketDataModelManager.h; sourceTree = "<group>"; };
+		4D0AC012160083CB001C067F /* MarketDataModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketDataModelManager.m; path = DataModel/MarketDataModelManager.m; sourceTree = "<group>"; };
+		4D0AC013160083CB001C067F /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = DataModel/Product.h; sourceTree = "<group>"; };
+		4D0AC014160083CB001C067F /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = DataModel/Product.m; sourceTree = "<group>"; };
+		4D0AC015160083CB001C067F /* MarketDefaultPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDefaultPersister.h; sourceTree = "<group>"; };
+		4D0AC016160083CB001C067F /* MarketDefaultPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketDefaultPersister.m; sourceTree = "<group>"; };
+		4D0AC017160083CB001C067F /* ProductType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductType.h; path = DataModel/ProductType.h; sourceTree = "<group>"; };
+		4D0AC018160083CB001C067F /* ProductType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductType.m; path = DataModel/ProductType.m; sourceTree = "<group>"; };
+		4D0AC01E16008438001C067F /* MarketPersisterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketPersisterProtocol.h; path = Protocols/MarketPersisterProtocol.h; sourceTree = "<group>"; };
+		4D0AC01F16008438001C067F /* MarketBackEndModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketBackEndModel.h; path = Protocols/MarketBackEndModel.h; sourceTree = "<group>"; };
+		4D0AC02016008438001C067F /* MarketStoreFrontModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketStoreFrontModel.h; path = Protocols/MarketStoreFrontModel.h; sourceTree = "<group>"; };
+		4D0AC02216009585001C067F /* ProductComparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductComparator.m; path = DataModel/ProductComparator.m; sourceTree = "<group>"; };
+		4D0AC0241600968F001C067F /* ProductComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductComparator.h; path = DataModel/ProductComparator.h; sourceTree = "<group>"; };
+		4D0AC02516009FDC001C067F /* CartProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CartProductCell.h; path = Views/CartProductCell.h; sourceTree = "<group>"; };
+		4D0AC02616009FDC001C067F /* CartProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = CartProductCell.m; path = Views/CartProductCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4D0AC02716009FDC001C067F /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductCell.h; path = Views/ProductCell.h; sourceTree = "<group>"; };
+		4D0AC02816009FDC001C067F /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductCell.m; path = Views/ProductCell.m; sourceTree = "<group>"; };
+		4D0AC02B1600A104001C067F /* BackEndProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackEndProductCell.h; path = Views/BackEndProductCell.h; sourceTree = "<group>"; };
+		4D0AC02C1600A104001C067F /* BackEndProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = BackEndProductCell.m; path = Views/BackEndProductCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4D0AC02E1600C2A2001C067F /* MarketProductEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MarketProductEditViewController.h; path = Controllers/BackEnd/MarketProductEditViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4D0AC02F1600C2A2001C067F /* MarketProductEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MarketProductEditViewController.m; path = Controllers/BackEnd/MarketProductEditViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4D0AC0321600CE94001C067F /* BuyProductDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BuyProductDelegate.h; path = Protocols/BuyProductDelegate.h; sourceTree = "<group>"; };
+		4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LittleMarketTestData.json; path = LittleMarketTest/Resources/LittleMarketTestData.json; sourceTree = SOURCE_ROOT; };
+		4D3071E8161CBA1400A7921C /* MVIOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOC.h; sourceTree = "<group>"; };
+		4D3071E9161CBA1400A7921C /* MVIOCActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCActor.h; sourceTree = "<group>"; };
+		4D3071EA161CBA1400A7921C /* MVIOCCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCCache.h; sourceTree = "<group>"; };
+		4D3071EB161CBA1400A7921C /* MVIOCContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCContainer.h; sourceTree = "<group>"; };
+		4D3071EC161CBA1400A7921C /* MVIOCControllerActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCControllerActor.h; sourceTree = "<group>"; };
+		4D3071ED161CBA1400A7921C /* MVIOCControllerActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCControllerActor.m; sourceTree = "<group>"; };
+		4D3071EE161CBA1400A7921C /* MVIOCFactoryInjectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCFactoryInjectionType.h; sourceTree = "<group>"; };
+		4D3071EF161CBA1400A7921C /* MVIOCInjectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCInjectionType.h; sourceTree = "<group>"; };
+		4D3071F0161CBA1400A7921C /* MVIOCProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCProperty.h; sourceTree = "<group>"; };
+		4D3071F1161CBA1400A7921C /* MVIOCPropertyInjectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCPropertyInjectionType.h; sourceTree = "<group>"; };
+		4D3071F2161CBA1400A7921C /* MVIOCSingletonCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCSingletonCache.h; sourceTree = "<group>"; };
+		4D3071F3161CBA1400A7921C /* MVIOCContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCContainer.m; sourceTree = "<group>"; };
+		4D3071F4161CBA1400A7921C /* MVIOCFactoryInjectionType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCFactoryInjectionType.m; sourceTree = "<group>"; };
+		4D3071F5161CBA1400A7921C /* MVIOCProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCProperty.m; sourceTree = "<group>"; };
+		4D3071F6161CBA1400A7921C /* MVIOCPropertyInjectionType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCPropertyInjectionType.m; sourceTree = "<group>"; };
+		4D3071F7161CBA1400A7921C /* MVIOCSingletonCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVIOCSingletonCache.m; sourceTree = "<group>"; };
+		4D3071FF161CC6CC00A7921C /* MarketApplicationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketApplicationService.h; sourceTree = "<group>"; };
+		4D307200161CC6CC00A7921C /* MarketApplicationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketApplicationService.m; sourceTree = "<group>"; };
+		4D307202161CCD9000A7921C /* MarketConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketConfigurator.h; sourceTree = "<group>"; };
+		4D307203161CCD9000A7921C /* MarketConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketConfigurator.m; sourceTree = "<group>"; };
+		4D43107C161D4C4300741968 /* MarketPersistenceManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketPersistenceManagerProtocol.h; path = Protocols/MarketPersistenceManagerProtocol.h; sourceTree = "<group>"; };
+		4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketDefaultJsonFileCreator.m; sourceTree = "<group>"; };
+		4D68652F161B8BB500CE66A2 /* MarketTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketTestClass.h; sourceTree = "<group>"; };
+		4D686530161B8BB500CE66A2 /* MarketTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketTestClass.m; sourceTree = "<group>"; };
+		4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketInjectionTest.m; sourceTree = "<group>"; };
+		4D70B2DD161E0B8600102AB9 /* MarketDataModelManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDataModelManagerProtocol.h; sourceTree = "<group>"; };
+		4DA4989715EEA57B000A9426 /* MarketCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketCartViewController.h; path = Controllers/MarketCartViewController.h; sourceTree = "<group>"; };
+		4DA4989815EEA57B000A9426 /* MarketCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketCartViewController.m; path = Controllers/MarketCartViewController.m; sourceTree = "<group>"; };
+		4DB2A35E162618790021A0E6 /* MarketFAil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketFAil.h; sourceTree = "<group>"; };
+		4DB2A35F162618790021A0E6 /* MarketFAil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketFAil.m; sourceTree = "<group>"; };
+		4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersisterTest.m; sourceTree = "<group>"; };
+		4DD2615A16249F3800E34D55 /* MarketArchivePersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketArchivePersister.h; sourceTree = "<group>"; };
+		4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersister.m; sourceTree = "<group>"; };
+		4DD7B53215C94C0E0022812D /* LittleMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LittleMarket.app; path = LittleMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD7B53615C94C0E0022812D /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4DD7B53815C94C0E0022812D /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DD7B53A15C94C0E0022812D /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DD7B53E15C94C0E0022812D /* LittleMarket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleMarket-Info.plist"; sourceTree = "<group>"; };
+		4DD7B54015C94C0E0022812D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DD7B54215C94C0E0022812D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DD7B54415C94C0E0022812D /* LittleMarket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittleMarket-Prefix.pch"; sourceTree = "<group>"; };
+		4DD7B54515C94C0E0022812D /* MarketAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketAppDelegate.h; sourceTree = "<group>"; };
+		4DD7B54615C94C0E0022812D /* MarketAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketAppDelegate.m; sourceTree = "<group>"; };
+		4DD7B54915C94C0E0022812D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4DD7B54B15C94C0E0022812D /* MarketMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketMasterViewController.h; sourceTree = "<group>"; };
+		4DD7B54C15C94C0E0022812D /* MarketMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MarketMasterViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4DD7B54E15C94C0E0022812D /* MarketDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MarketDetailTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4DD7B54F15C94C0E0022812D /* MarketDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MarketDetailTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4DDA08E015DFE85D00B547A9 /* NSMutableArray+Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Query.h"; path = "Extensions/NSMutableArray+Query.h"; sourceTree = "<group>"; };
+		4DDA08E115DFE85D00B547A9 /* NSMutableArray+Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Query.m"; path = "Extensions/NSMutableArray+Query.m"; sourceTree = "<group>"; };
+		4DEC65FB15EC0C550000F173 /* MarketDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketDetailView.h; path = Views/MarketDetailView.h; sourceTree = "<group>"; };
+		4DEC65FC15EC0C550000F173 /* MarketDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketDetailView.m; path = Views/MarketDetailView.m; sourceTree = "<group>"; };
+		4DF2E3AC161394B100066481 /* LittleMarketTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LittleMarketTest.octest; path = LittleMarketTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF2E3B2161394B200066481 /* LittleMarketTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleMarketTest-Info.plist"; sourceTree = "<group>"; };
+		4DF2E3B9161394B200066481 /* LittleMarketTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittleMarketTest-Prefix.pch"; sourceTree = "<group>"; };
+		4DF2E3C0161396DD00066481 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		77F020AEA98E8D98F5250004 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Core/Constants.m; sourceTree = "<group>"; };
+		77F0211BC572BA4F5A1EBAA2 /* MarketPersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketPersistenceManager.h; sourceTree = "<group>"; };
+		77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONToMarketModelTest.m; sourceTree = "<group>"; };
+		77F021BEA58E44F07DD96CE0 /* MarketDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketDataModel.m; path = DataModel/MarketDataModel.m; sourceTree = "<group>"; };
+		77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadWriteTextFromDocumentFolderTest.m; sourceTree = "<group>"; };
+		77F0243CF17AB231B0FB4048 /* MarketFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketFileManager.m; sourceTree = "<group>"; };
+		77F024F74B558AD7D967DA8E /* MarketDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketDataModel.h; path = DataModel/MarketDataModel.h; sourceTree = "<group>"; };
+		77F0269094A8D1E91F4131F4 /* MarketJsonPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketJsonPersister.h; sourceTree = "<group>"; };
+		77F02728B3AC18A384B3944F /* InjectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectionTest.m; sourceTree = "<group>"; };
+		77F027463A0C9117F1E695EF /* JsonPersisterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonPersisterTests.m; sourceTree = "<group>"; };
+		77F0289EDCB47857A752CEC8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Core/Constants.h; sourceTree = "<group>"; };
+		77F029A9D7748FEAE7BFA643 /* MarketDataModel+JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MarketDataModel+JSONKit.h"; sourceTree = "<group>"; };
+		77F02B2069BF3E542B6A1BFA /* MarketJsonPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketJsonPersister.m; sourceTree = "<group>"; };
+		77F02CB067D6402CF8A3B326 /* MarketFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketFileManager.h; sourceTree = "<group>"; };
+		77F02DA32DF85E2A9D093BF6 /* MarketPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketPersistenceManager.m; sourceTree = "<group>"; };
+		77F02F8EAB86F60911111561 /* MarketDataModel+JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MarketDataModel+JSONKit.m"; sourceTree = "<group>"; };
+		A0188A6630DB4CA5B3C5388C /* Pods-LittleMarketTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleMarketTest.xcconfig"; path = "Pods/Pods-LittleMarketTest.xcconfig"; sourceTree = SOURCE_ROOT; };
+		A760EE56710B4032B864EA26 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		E80A775C6A03442BBAA2EA34 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD7B52F15C94C0E0022812D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7B53715C94C0E0022812D /* UIKit.framework in Frameworks */,
+				4DD7B53915C94C0E0022812D /* Foundation.framework in Frameworks */,
+				4DD7B53B15C94C0E0022812D /* CoreGraphics.framework in Frameworks */,
+				0E9A2682CD3C4AE9BF498756 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF2E3A8161394B100066481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF2E3AD161394B100066481 /* SenTestingKit.framework in Frameworks */,
+				4DF2E3AE161394B100066481 /* UIKit.framework in Frameworks */,
+				4DF2E3AF161394B100066481 /* Foundation.framework in Frameworks */,
+				EF8D911A2A70480F8E8F6D52 /* libPods-LittleMarketTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0AC00615FFD0BA001C067F /* StoreFront */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B54B15C94C0E0022812D /* MarketMasterViewController.h */,
+				4DD7B54C15C94C0E0022812D /* MarketMasterViewController.m */,
+				4DD7B54E15C94C0E0022812D /* MarketDetailTableViewController.h */,
+				4DD7B54F15C94C0E0022812D /* MarketDetailTableViewController.m */,
+			);
+			name = StoreFront;
+			sourceTree = "<group>";
+		};
+		4D0AC00815FFD0D5001C067F /* BackEnd */ = {
+			isa = PBXGroup;
+			children = (
+				4D0AC00C15FFD1C4001C067F /* MarketBackEndTableViewController.h */,
+				4D0AC00D15FFD1C4001C067F /* MarketBackEndTableViewController.m */,
+				4D0AC02E1600C2A2001C067F /* MarketProductEditViewController.h */,
+				4D0AC02F1600C2A2001C067F /* MarketProductEditViewController.m */,
+			);
+			name = BackEnd;
+			sourceTree = "<group>";
+		};
+		4D0B84B4160CED21003072CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B54815C94C0E0022812D /* MainStoryboard.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D0FBCCE160AEA1E0049D022 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4D3071E6161CBA1400A7921C /* IOC */ = {
+			isa = PBXGroup;
+			children = (
+				4D3071E7161CBA1400A7921C /* MVIOC */,
+				4D3071F3161CBA1400A7921C /* MVIOCContainer.m */,
+				4D3071F4161CBA1400A7921C /* MVIOCFactoryInjectionType.m */,
+				4D3071F5161CBA1400A7921C /* MVIOCProperty.m */,
+				4D3071F6161CBA1400A7921C /* MVIOCPropertyInjectionType.m */,
+				4D3071F7161CBA1400A7921C /* MVIOCSingletonCache.m */,
+			);
+			name = IOC;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4D3071E7161CBA1400A7921C /* MVIOC */ = {
+			isa = PBXGroup;
+			children = (
+				4D3071E8161CBA1400A7921C /* MVIOC.h */,
+				4D3071E9161CBA1400A7921C /* MVIOCActor.h */,
+				4D3071EA161CBA1400A7921C /* MVIOCCache.h */,
+				4D3071EB161CBA1400A7921C /* MVIOCContainer.h */,
+				4D3071EC161CBA1400A7921C /* MVIOCControllerActor.h */,
+				4D3071ED161CBA1400A7921C /* MVIOCControllerActor.m */,
+				4D3071EE161CBA1400A7921C /* MVIOCFactoryInjectionType.h */,
+				4D3071EF161CBA1400A7921C /* MVIOCInjectionType.h */,
+				4D3071F0161CBA1400A7921C /* MVIOCProperty.h */,
+				4D3071F1161CBA1400A7921C /* MVIOCPropertyInjectionType.h */,
+				4D3071F2161CBA1400A7921C /* MVIOCSingletonCache.h */,
+			);
+			path = MVIOC;
+			sourceTree = "<group>";
+		};
+		4D4A511F1605B198007D58A6 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				4DA4989715EEA57B000A9426 /* MarketCartViewController.h */,
+				4DA4989815EEA57B000A9426 /* MarketCartViewController.m */,
+			);
+			name = Cart;
+			sourceTree = "<group>";
+		};
+		4D5697B215D84F2500878122 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4D0AC01E16008438001C067F /* MarketPersisterProtocol.h */,
+				4D0AC01F16008438001C067F /* MarketBackEndModel.h */,
+				4D0AC0321600CE94001C067F /* BuyProductDelegate.h */,
+				4D0AC02016008438001C067F /* MarketStoreFrontModel.h */,
+				4D0AC01016007DF7001C067F /* MarketCartTableModel.h */,
+				4D43107C161D4C4300741968 /* MarketPersistenceManagerProtocol.h */,
+				4D70B2DD161E0B8600102AB9 /* MarketDataModelManagerProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		4DD7B52715C94C0D0022812D = {
+			isa = PBXGroup;
+			children = (
+				4D3071E6161CBA1400A7921C /* IOC */,
+				4DD7B53C15C94C0E0022812D /* LittleMarket */,
+				4DF2E3B0161394B100066481 /* LittleMarketTest */,
+				4DD7B53515C94C0E0022812D /* Frameworks */,
+				4DD7B53315C94C0E0022812D /* Products */,
+				A760EE56710B4032B864EA26 /* Pods.xcconfig */,
+				A0188A6630DB4CA5B3C5388C /* Pods-LittleMarketTest.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD7B53315C94C0E0022812D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B53215C94C0E0022812D /* LittleMarket.app */,
+				4DF2E3AC161394B100066481 /* LittleMarketTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD7B53515C94C0E0022812D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B53615C94C0E0022812D /* UIKit.framework */,
+				4DD7B53815C94C0E0022812D /* Foundation.framework */,
+				4DD7B53A15C94C0E0022812D /* CoreGraphics.framework */,
+				4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */,
+				E80A775C6A03442BBAA2EA34 /* libPods.a */,
+				36D381DD520443F6AB7837E5 /* libPods-LittleMarketTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DD7B53C15C94C0E0022812D /* LittleMarket */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B84B4160CED21003072CC /* Resources */,
+				4DEC65F415EC01300000F173 /* Controllers */,
+				77F02AA05867764472572148 /* Core */,
+				4DD7B56015C954F50022812D /* DataModel */,
+				4DDA08DB15DFE6C700B547A9 /* Extensions */,
+				4DD7B54515C94C0E0022812D /* MarketAppDelegate.h */,
+				4DD7B54615C94C0E0022812D /* MarketAppDelegate.m */,
+				4D5697B215D84F2500878122 /* Protocols */,
+				4DD7B53D15C94C0E0022812D /* Supporting Files */,
+				4DFAD9C215D4393500897688 /* Views */,
+				77F02AFA4FA757DD9BFB98D0 /* Persistence */,
+				77F026B2F2ED6E12D190ED57 /* Service */,
+			);
+			path = LittleMarket;
+			sourceTree = "<group>";
+		};
+		4DD7B53D15C94C0E0022812D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7B53E15C94C0E0022812D /* LittleMarket-Info.plist */,
+				4DD7B53F15C94C0E0022812D /* InfoPlist.strings */,
+				4DD7B54215C94C0E0022812D /* main.m */,
+				4DD7B54415C94C0E0022812D /* LittleMarket-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DD7B56015C954F50022812D /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				77F024F74B558AD7D967DA8E /* MarketDataModel.h */,
+				77F021BEA58E44F07DD96CE0 /* MarketDataModel.m */,
+				4D0AC011160083CB001C067F /* MarketDataModelManager.h */,
+				4D0AC012160083CB001C067F /* MarketDataModelManager.m */,
+				4D0AC013160083CB001C067F /* Product.h */,
+				4D0AC014160083CB001C067F /* Product.m */,
+				4D0AC017160083CB001C067F /* ProductType.h */,
+				4D0AC018160083CB001C067F /* ProductType.m */,
+				4D0AC0241600968F001C067F /* ProductComparator.h */,
+				4D0AC02216009585001C067F /* ProductComparator.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		4DDA08DB15DFE6C700B547A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DDA08E015DFE85D00B547A9 /* NSMutableArray+Query.h */,
+				4DDA08E115DFE85D00B547A9 /* NSMutableArray+Query.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4DEC65F415EC01300000F173 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D4A511F1605B198007D58A6 /* Cart */,
+				4D0AC00815FFD0D5001C067F /* BackEnd */,
+				4D0AC00615FFD0BA001C067F /* StoreFront */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4DF2E3B0161394B100066481 /* LittleMarketTest */ = {
+			isa = PBXGroup;
+			children = (
+				77F02728B3AC18A384B3944F /* InjectionTest.m */,
+				77F027463A0C9117F1E695EF /* JsonPersisterTests.m */,
+				77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */,
+				4D0FBCCE160AEA1E0049D022 /* Resources */,
+				77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */,
+				4DF2E3B1161394B200066481 /* Supporting Files */,
+				4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */,
+				4D68652F161B8BB500CE66A2 /* MarketTestClass.h */,
+				4D686530161B8BB500CE66A2 /* MarketTestClass.m */,
+				4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */,
+				4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */,
+				4DB2A35E162618790021A0E6 /* MarketFAil.h */,
+				4DB2A35F162618790021A0E6 /* MarketFAil.m */,
+			);
+			path = LittleMarketTest;
+			sourceTree = "<group>";
+		};
+		4DF2E3B1161394B200066481 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF2E3B2161394B200066481 /* LittleMarketTest-Info.plist */,
+				4DF2E3C0161396DD00066481 /* InfoPlist.strings */,
+				4DF2E3B9161394B200066481 /* LittleMarketTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DFAD9C215D4393500897688 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D0AC02516009FDC001C067F /* CartProductCell.h */,
+				4D0AC02616009FDC001C067F /* CartProductCell.m */,
+				4D0AC02B1600A104001C067F /* BackEndProductCell.h */,
+				4D0AC02C1600A104001C067F /* BackEndProductCell.m */,
+				4D0AC02716009FDC001C067F /* ProductCell.h */,
+				4D0AC02816009FDC001C067F /* ProductCell.m */,
+				4DEC65FB15EC0C550000F173 /* MarketDetailView.h */,
+				4DEC65FC15EC0C550000F173 /* MarketDetailView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		77F026B2F2ED6E12D190ED57 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				77F02CB067D6402CF8A3B326 /* MarketFileManager.h */,
+				77F0243CF17AB231B0FB4048 /* MarketFileManager.m */,
+				4D3071FF161CC6CC00A7921C /* MarketApplicationService.h */,
+				4D307200161CC6CC00A7921C /* MarketApplicationService.m */,
+				4D307202161CCD9000A7921C /* MarketConfigurator.h */,
+				4D307203161CCD9000A7921C /* MarketConfigurator.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		77F02AA05867764472572148 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				77F0289EDCB47857A752CEC8 /* Constants.h */,
+				77F020AEA98E8D98F5250004 /* Constants.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		77F02AFA4FA757DD9BFB98D0 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				77F029A9D7748FEAE7BFA643 /* MarketDataModel+JSONKit.h */,
+				77F02F8EAB86F60911111561 /* MarketDataModel+JSONKit.m */,
+				77F02DA32DF85E2A9D093BF6 /* MarketPersistenceManager.m */,
+				77F0211BC572BA4F5A1EBAA2 /* MarketPersistenceManager.h */,
+				77F02B2069BF3E542B6A1BFA /* MarketJsonPersister.m */,
+				77F0269094A8D1E91F4131F4 /* MarketJsonPersister.h */,
+				4D0AC016160083CB001C067F /* MarketDefaultPersister.m */,
+				4D0AC015160083CB001C067F /* MarketDefaultPersister.h */,
+				4DD2615A16249F3800E34D55 /* MarketArchivePersister.h */,
+				4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD7B53115C94C0E0022812D /* LittleMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD7B55315C94C0E0022812D /* Build configuration list for PBXNativeTarget "LittleMarket" */;
+			buildPhases = (
+				4DD7B52E15C94C0E0022812D /* Sources */,
+				4DD7B52F15C94C0E0022812D /* Frameworks */,
+				4DD7B53015C94C0E0022812D /* Resources */,
+				26001A39ED8B4DD4BCCCCD3F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleMarket;
+			productName = LittleMarket;
+			productReference = 4DD7B53215C94C0E0022812D /* LittleMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF2E3AB161394B100066481 /* LittleMarketTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF2E3BA161394B200066481 /* Build configuration list for PBXNativeTarget "LittleMarketTest" */;
+			buildPhases = (
+				4DF2E3A7161394B100066481 /* Sources */,
+				4DF2E3A8161394B100066481 /* Frameworks */,
+				4DF2E3A9161394B100066481 /* Resources */,
+				4DF2E3AA161394B100066481 /* ShellScript */,
+				A431FC4529084DE6B5EE7A8D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleMarketTest;
+			productName = LittleMarketTest;
+			productReference = 4DF2E3AC161394B100066481 /* LittleMarketTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD7B52915C94C0D0022812D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Market;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4DD7B52C15C94C0D0022812D /* Build configuration list for PBXProject "LittleMarket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DD7B52715C94C0D0022812D;
+			productRefGroup = 4DD7B53315C94C0E0022812D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD7B53115C94C0E0022812D /* LittleMarket */,
+				4DF2E3AB161394B100066481 /* LittleMarketTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD7B53015C94C0E0022812D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7B54115C94C0E0022812D /* InfoPlist.strings in Resources */,
+				4DD7B54A15C94C0E0022812D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF2E3A9161394B100066481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D686527161B779200CE66A2 /* LittleMarketTestData.json in Resources */,
+				4DF2E3C1161396DD00066481 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26001A39ED8B4DD4BCCCCD3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		4DF2E3AA161394B100066481 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		A431FC4529084DE6B5EE7A8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-LittleMarketTest-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD7B52E15C94C0E0022812D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7B54315C94C0E0022812D /* main.m in Sources */,
+				4DD7B54715C94C0E0022812D /* MarketAppDelegate.m in Sources */,
+				4DD7B54D15C94C0E0022812D /* MarketMasterViewController.m in Sources */,
+				4DD7B55015C94C0E0022812D /* MarketDetailTableViewController.m in Sources */,
+				4DEC65FD15EC0C550000F173 /* MarketDetailView.m in Sources */,
+				4DA4989915EEA57B000A9426 /* MarketCartViewController.m in Sources */,
+				4D0AC00E15FFD1C4001C067F /* MarketBackEndTableViewController.m in Sources */,
+				4D0AC019160083CB001C067F /* MarketDataModelManager.m in Sources */,
+				4D0AC01A160083CB001C067F /* Product.m in Sources */,
+				4D0AC01B160083CB001C067F /* MarketDefaultPersister.m in Sources */,
+				4D0AC01C160083CB001C067F /* ProductType.m in Sources */,
+				4D0AC02316009585001C067F /* ProductComparator.m in Sources */,
+				4D0AC02916009FDC001C067F /* CartProductCell.m in Sources */,
+				4D0AC02A16009FDC001C067F /* ProductCell.m in Sources */,
+				4D0AC02D1600A104001C067F /* BackEndProductCell.m in Sources */,
+				4D0AC0301600C2A2001C067F /* MarketProductEditViewController.m in Sources */,
+				77F02EC162E3E06F902A2799 /* MarketPersistenceManager.m in Sources */,
+				77F025AD81045A29B0BDDCE3 /* Constants.m in Sources */,
+				77F02D3E19F9F14699210C54 /* MarketJsonPersister.m in Sources */,
+				77F02EAB39E039554F729B9A /* MarketDataModel.m in Sources */,
+				77F02B2FAC17C193F01E0480 /* MarketDataModel+JSONKit.m in Sources */,
+				77F025364C89BFD411680429 /* MarketFileManager.m in Sources */,
+				4D3071F8161CBA1400A7921C /* MVIOCControllerActor.m in Sources */,
+				4D3071F9161CBA1400A7921C /* MVIOCContainer.m in Sources */,
+				4D3071FA161CBA1400A7921C /* MVIOCFactoryInjectionType.m in Sources */,
+				4D3071FB161CBA1400A7921C /* MVIOCProperty.m in Sources */,
+				4D3071FC161CBA1400A7921C /* MVIOCPropertyInjectionType.m in Sources */,
+				4D3071FD161CBA1400A7921C /* MVIOCSingletonCache.m in Sources */,
+				4D307201161CC6CC00A7921C /* MarketApplicationService.m in Sources */,
+				4D307204161CCD9000A7921C /* MarketConfigurator.m in Sources */,
+				4DD2615C16249F3800E34D55 /* MarketArchivePersister.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF2E3A7161394B100066481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D686526161B72CE00CE66A2 /* MarketDefaultJsonFileCreator.m in Sources */,
+				4DF2E3BE1613958800066481 /* JsonPersisterTests.m in Sources */,
+				4DF2E3BF1613958800066481 /* JSONToMarketModelTest.m in Sources */,
+				77F022689F00C5D1A17634BB /* ReadWriteTextFromDocumentFolderTest.m in Sources */,
+				77F0206EE28895FB89F40FFA /* InjectionTest.m in Sources */,
+				4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */,
+				4D70B2DB161E03DF00102AB9 /* MarketInjectionTest.m in Sources */,
+				4DD2615916249DCB00E34D55 /* MarketArchivePersisterTest.m in Sources */,
+				4DB2A360162618790021A0E6 /* MarketFAil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DD7B53F15C94C0E0022812D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD7B54015C94C0E0022812D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4DD7B54815C94C0E0022812D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD7B54915C94C0E0022812D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD7B55115C94C0E0022812D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Injective/Injective/Headers";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				TEST_AFTER_BUILD = NO;
+			};
+			name = Debug;
+		};
+		4DD7B55215C94C0E0022812D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Injective/Injective/Headers";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				TEST_AFTER_BUILD = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DD7B55415C94C0E0022812D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A760EE56710B4032B864EA26 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleMarket/LittleMarket-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "LittleMarket/LittleMarket-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Volumes/OCMock 2.0.1/iOS\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/LittleMarket-evetrwriywxnrhfdxckwalwjjxeq/Build/Products/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
+				TEST_HOST = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DD7B55515C94C0E0022812D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A760EE56710B4032B864EA26 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleMarket/LittleMarket-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "LittleMarket/LittleMarket-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Volumes/OCMock 2.0.1/iOS\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/LittleMarket-evetrwriywxnrhfdxckwalwjjxeq/Build/Products/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
+				TEST_HOST = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4DF2E3BB161394B200066481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0188A6630DB4CA5B3C5388C /* Pods-LittleMarketTest.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LittleMarket.app/LittleMarket";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleMarketTest/LittleMarketTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${PODS_HEADERS_SEARCH_PATHS}";
+				INFOPLIST_FILE = "LittleMarketTest/LittleMarketTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4DF2E3BC161394B200066481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0188A6630DB4CA5B3C5388C /* Pods-LittleMarketTest.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LittleMarket.app/LittleMarket";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleMarketTest/LittleMarketTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${PODS_HEADERS_SEARCH_PATHS}";
+				INFOPLIST_FILE = "LittleMarketTest/LittleMarketTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD7B52C15C94C0D0022812D /* Build configuration list for PBXProject "LittleMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD7B55115C94C0E0022812D /* Debug */,
+				4DD7B55215C94C0E0022812D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD7B55315C94C0E0022812D /* Build configuration list for PBXNativeTarget "LittleMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD7B55415C94C0E0022812D /* Debug */,
+				4DD7B55515C94C0E0022812D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF2E3BA161394B200066481 /* Build configuration list for PBXNativeTarget "LittleMarketTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF2E3BB161394B200066481 /* Debug */,
+				4DF2E3BC161394B200066481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DD7B52915C94C0D0022812D /* Project object */;
+}

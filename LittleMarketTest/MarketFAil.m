@@ -12,7 +12,7 @@
 
 -(void)testFail
 {
-    STFail(@"test for teamcity");
+//    STFail(@"test for teamcity");
 }
 
 @end

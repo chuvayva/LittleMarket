@@ -29,7 +29,7 @@
     return [self initWithAvailableProducts:[NSArray array] andCartProducts:[NSArray array]];
 }
 
-#pragma mark NSCoding
+#pragma mark - NSCoding
 
 - (void)encodeWithCoder:(NSCoder *)aCoder
 {

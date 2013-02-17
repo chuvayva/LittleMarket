@@ -36,7 +36,7 @@
 
 
 
-#pragma mark Private methods
+#pragma mark - Private methods
 
 +(NSArray *)createProducts:(id)object
 {

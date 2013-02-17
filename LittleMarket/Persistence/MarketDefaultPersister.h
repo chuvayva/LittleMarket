@@ -11,6 +11,4 @@
 
 @interface MarketDefaultPersister : NSObject <MarketPersisterProtocol>
 
-+ (id <MarketPersisterProtocol>)single;
-
 @end

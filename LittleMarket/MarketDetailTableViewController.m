@@ -30,7 +30,7 @@
 @synthesize stepperMinMaxProduct = _MinMaxProductStepper;
 
 
-#pragma mark - Model
+#pragma mark - - Model
 
 -(void)setProduct:(Product *)product
 {
@@ -119,7 +119,7 @@
     self.textFieldBuyNumber.text = [NSString stringWithFormat:@"%d", (NSUInteger)sender.value];
 }
 
-#pragma mark UITextFieldDelegate
+#pragma mark - UITextFieldDelegate
 
 -(BOOL) textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
@@ -169,7 +169,7 @@
     return YES;
 }
 
-#pragma mark Private
+#pragma mark - Private
 
 - (void)configureView
 {

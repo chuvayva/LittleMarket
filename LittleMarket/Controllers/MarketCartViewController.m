@@ -105,7 +105,7 @@
     }
 }
 
-#pragma mark UIActionSheetDelegate
+#pragma mark - UIActionSheetDelegate
 
 -(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
@@ -126,7 +126,7 @@
    
 }
 
-#pragma mark Private
+#pragma mark - Private
 
 - (void)cartProductsChanged:(NSNotification *)notification
 {

@@ -12,7 +12,7 @@
 
 @protocol MarketStoreFrontModel <BuyProductDelegate>
 
-#pragma mark Available
+#pragma mark - Available
 
 -(NSUInteger)availableProductsCount;
 

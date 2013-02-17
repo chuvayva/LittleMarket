@@ -7,7 +7,7 @@
 
 @implementation MarketFileManager
 
-#pragma mark Static
+#pragma mark - Static
 
 + (NSString *)readFileFromDocumentFolder:(NSString *)filename   error: (NSError **)error
 {

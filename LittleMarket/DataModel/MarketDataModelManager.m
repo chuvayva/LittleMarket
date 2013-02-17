@@ -40,7 +40,7 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:CartProductsChanged object:self userInfo:nil];
 }
 
-#pragma mark MarketStoreFrontDataModel
+#pragma mark - MarketStoreFrontDataModel
 
 -(NSUInteger)availableProductsCount
 {
@@ -59,7 +59,7 @@
     
     [NSThread sleepForTimeInterval: 3]; // for multithreading testing
 }
-#pragma mark MarketBackEndDataModel
+#pragma mark - - - MarketBackEndDataModel
 
 -(void) removeAvailableProductAtIndex: (NSUInteger) index
 {
@@ -84,14 +84,29 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:AvailableProductsChanged object:self userInfo:nil];
 }
 
--(void) replaceOldAvailableProduct: (Product*) oldProduct withNewProduct: (Product*) newProduct
+- (void)replaceAvailableProduct:(NSArray *)products
 {
+    [NSThread sleepForTimeInterval:5]; // for multithreading testing
+    
+    Product *oldProduct = [products objectAtIndex:0];
+    Product *newProduct = products.lastObject;
+
     [_dataModel.availableProducts removeObject:oldProduct];
 
-    [self addAvailableProduct:newProduct];
+    
+    NSUInteger newIndex = [_dataModel.availableProducts indexOfObject:newProduct
+                                                        inSortedRange:(NSRange){0, [_dataModel.availableProducts count]}
+                                                              options:NSBinarySearchingInsertionIndex
+                                                      usingComparator: ^NSComparisonResult(Product *product1, Product *product2) {
+                                                          return [product1 compare:product2];
+                                                      }];
+    
+    [_dataModel.availableProducts insertObject:newProduct atIndex:newIndex];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:AvailableProductsChanged object:self userInfo:nil];
 }
 
-#pragma mark MarketCartTableModel
+#pragma mark - MarketCartTableModel
 
 -(NSUInteger) cartProductsCount
 {
@@ -136,7 +151,7 @@
     [self moveProduct:returningProduct from:_dataModel.cartProducts to:_dataModel.availableProducts];
 }
 
-#pragma mark Private Methods
+#pragma mark - Private Methods
 
 -(void)moveProduct:(Product *)product from:(NSMutableArray *)fromList to:(NSMutableArray *)toList
 {

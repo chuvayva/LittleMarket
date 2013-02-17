@@ -19,7 +19,7 @@
 
 @implementation MarketJsonPersister
 
-#pragma mark Inits
+#pragma mark - Inits
 
 - (id)initWithFilepath:(NSString *)filepath
 {
@@ -40,7 +40,7 @@
     return [self initWithFilepath:jsonfilePath];
 }
 
-#pragma mark MarketPersistentProtocol
+#pragma mark - MarketPersistentProtocol
 
 - (void)saveModel:(MarketDataModel *)dataModel
 {
@@ -55,7 +55,7 @@
     return [MarketDataModel fromJSONString:jsonString];
 }
 
-#pragma mark Private
+#pragma mark - Private
 
 -(NSString *)filepathInDocumentFolderWithFilename:(NSString *)filename
 {

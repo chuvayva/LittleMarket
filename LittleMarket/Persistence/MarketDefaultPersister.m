@@ -18,8 +18,6 @@
 
 @implementation MarketDefaultPersister
 
-#pragma mark Static
-
 //
 //
 //+(id<MarketPersisterProtocol>) single
@@ -101,7 +99,7 @@
     return result;
 }
 
-#pragma mark MarketPersistentProtocol
+#pragma mark - MarketPersistentProtocol
 
 - (void)saveModel:(MarketDataModel *)dataModel
 {

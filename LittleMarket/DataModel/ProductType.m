@@ -10,7 +10,7 @@
 
 @implementation ProductType
 
-#pragma mark Static
+#pragma mark - Static
 
 +(NSString*)stringWithPrice:(double)price
 {
@@ -34,7 +34,7 @@
     return [ProductType stringWithPrice:self.price];
 }
 
-#pragma mark Overrides
+#pragma mark - Overrides
 
 -(BOOL)isEqual:(id)object
 {
@@ -61,7 +61,7 @@
     return [NSString stringWithFormat:@"%@, %@, %@", self.name, self.category, self.priceString];
 }
 
-#pragma mark NSCoding
+#pragma mark - NSCoding
 
 - (void)encodeWithCoder:(NSCoder *)aCoder
 {
