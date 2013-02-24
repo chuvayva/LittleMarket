@@ -7,8 +7,8 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "Constants.h"
-#import "MarketFileManager.h"
+#import "LMConstants.h"
+#import "LMFileManager.h"
 
 @interface MarketDefaultJsonFileCreator : SenTestCase
 
@@ -25,7 +25,7 @@ static NSString *_jsonBundleFileExtenstion = @"json";
     NSString *jsonString = [NSString stringWithContentsOfFile:jsonFilepath encoding:NSUTF8StringEncoding error:nil];
     NSError *error;
     
-    [MarketFileManager writeFile:JsonFileName ToDocumentFolderWithContent:jsonString error:&error];
+    [LMFileManager writeFile:JsonFileName ToDocumentFolderWithContent:jsonString error:&error];
 }
 
 @end

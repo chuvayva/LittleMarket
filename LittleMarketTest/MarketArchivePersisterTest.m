@@ -7,11 +7,11 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "MarketDataModel.h"
-#import "MarketPersisterProtocol.h"
-#import "MarketDataModel+JSONKit.h"
-#import "MarketArchivePersister.h"
-#import "MarketFileManager.h"
+#import "LMDataModel.h"
+#import "LMPersisterProtocol.h"
+#import "LMDataModel+JSONKit.h"
+#import "LMArchivePersister.h"
+#import "LMFileManager.h"
 
 @interface MarketArchivePersisterTest : SenTestCase
 
@@ -25,17 +25,17 @@ static NSString *_jsonBundleSourceFileExtenstion = @"json";
 static NSString *_archiveTestFilename = @"TestFile.dat";
 static NSString *_archiveTestFilepath;
 
-static MarketDataModel *_model;
-static id<MarketPersisterProtocol> _persister;
+static LMDataModel *_model;
+static id<LMPersisterProtocol> _persister;
 
 +(void)setUp
 {
     NSString *jsonSourceFilepath = [[NSBundle bundleForClass:[self class]] pathForResource:_jsonBundleSourceFileName ofType:_jsonBundleSourceFileExtenstion];
     NSString *jsonSourceString = [NSString stringWithContentsOfFile:jsonSourceFilepath encoding:NSUTF8StringEncoding error:nil];
-    _model = [MarketDataModel fromJSONString:jsonSourceString];
+    _model = [LMDataModel fromJSONString:jsonSourceString];
     
-    _archiveTestFilepath = [[[MarketFileManager documentUrl] URLByAppendingPathComponent: _archiveTestFilename] path];
-    _persister = [[MarketArchivePersister alloc] initWithFilepath:_archiveTestFilepath];
+    _archiveTestFilepath = [[[LMFileManager documentUrl] URLByAppendingPathComponent: _archiveTestFilename] path];
+    _persister = [[LMArchivePersister alloc] initWithFilepath:_archiveTestFilepath];
 }
 
 -(void) testSaveLoadMarketModel
@@ -45,7 +45,7 @@ static id<MarketPersisterProtocol> _persister;
     [_persister saveModel:_model];
     NSLog(@"Model saved");
     
-    MarketDataModel *readedModel = [_persister loadModel];
+    LMDataModel *readedModel = [_persister loadModel];
     STAssertNotNil(readedModel, @"Model not loaded");
     STAssertTrue(_model.availableProducts.count == readedModel.availableProducts.count, @"Writen and red model are not equal");
     STAssertTrue(_model.cartProducts.count == readedModel.cartProducts.count, @"Writen and red model are not equal");

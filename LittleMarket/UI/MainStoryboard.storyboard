@@ -24,13 +24,13 @@
         <!--Market Master View Controller - Master-->
         <scene sceneID="18">
             <objects>
-                <tableViewController storyboardIdentifier="" title="Master" id="12" customClass="MarketMasterViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="" title="Master" id="12" customClass="LMMasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="58" sectionHeaderHeight="22" sectionFooterHeight="22" id="13">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ProductCell" textLabel="G7w-VY-ANw" detailTextLabel="CTf-Kz-lri" rowHeight="58" style="IBUITableViewCellStyleSubtitle" id="De7-zF-cNv" customClass="ProductCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ProductCell" textLabel="G7w-VY-ANw" detailTextLabel="CTf-Kz-lri" rowHeight="58" style="IBUITableViewCellStyleSubtitle" id="De7-zF-cNv" customClass="LMProductCell">
                                 <rect key="frame" x="0.0" y="22" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -75,7 +75,7 @@
         <!--Market Detail Table View Controller - Product Detail-->
         <scene sceneID="0La-Ky-oFC">
             <objects>
-                <tableViewController id="U1T-pw-TcZ" customClass="MarketDetailTableViewController" sceneMemberID="viewController">
+                <tableViewController id="U1T-pw-TcZ" customClass="LMDetailTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" dataMode="static" style="grouped" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="bZN-sC-WzP">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -257,13 +257,13 @@
         <!--Market Back End Table View Controller - Products-->
         <scene sceneID="1iJ-KK-VdU">
             <objects>
-                <tableViewController id="bLf-MI-MHD" customClass="MarketBackEndTableViewController" sceneMemberID="viewController">
+                <tableViewController id="bLf-MI-MHD" customClass="LMBackEndTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="58" sectionHeaderHeight="22" sectionFooterHeight="22" id="4EK-Ze-vRM">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BackEndProductCell" rowHeight="58" id="wF1-0v-rTx" customClass="BackEndProductCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BackEndProductCell" rowHeight="58" id="wF1-0v-rTx" customClass="LMBackEndProductCell">
                                 <rect key="frame" x="0.0" y="22" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -331,7 +331,7 @@
         <!--Market Product Edit View Controller - Product Editing-->
         <scene sceneID="biF-wt-maL">
             <objects>
-                <tableViewController id="4x3-0Z-UMk" customClass="MarketProductEditViewController" sceneMemberID="viewController">
+                <tableViewController id="4x3-0Z-UMk" customClass="LMProductEditViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" allowsSelection="NO" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="w52-kW-ac4">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -489,13 +489,13 @@
         <!--Market Cart View Controller - Cart-->
         <scene sceneID="jXV-Ak-Jad">
             <objects>
-                <tableViewController id="pWg-Sv-ThX" customClass="MarketCartViewController" sceneMemberID="viewController">
+                <tableViewController id="pWg-Sv-ThX" customClass="LMCartViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="58" sectionHeaderHeight="22" sectionFooterHeight="22" id="WVZ-i7-0lw">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CartProductCell" rowHeight="58" id="1qR-sF-fay" customClass="CartProductCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CartProductCell" rowHeight="58" id="1qR-sF-fay" customClass="LMCartProductCell">
                                 <rect key="frame" x="0.0" y="22" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">

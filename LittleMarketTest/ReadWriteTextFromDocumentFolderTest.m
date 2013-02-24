@@ -4,7 +4,7 @@
 
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "MarketFileManager.h"
+#import "LMFileManager.h"
 
 
 @interface ReadWriteTextFromDocumentFolderTest : SenTestCase
@@ -19,7 +19,7 @@ static NSString *_filename;
 +(void)setUp
 {
     _filename = @"Testfile.json";
-    _filepath = [[[MarketFileManager documentUrl] URLByAppendingPathComponent: _filename] path];
+    _filepath = [[[LMFileManager documentUrl] URLByAppendingPathComponent: _filename] path];
     
     NSLog(@"Filepath = (%@)", _filepath);
     
@@ -34,11 +34,11 @@ static NSString *_filename;
 {
     NSString *content = @"I'm a super content";
     NSError *error;
-    [MarketFileManager writeFile:_filename ToDocumentFolderWithContent:content error:&error];
+    [LMFileManager writeFile:_filename ToDocumentFolderWithContent:content error:&error];
     
     NSLog(@"%@", error);
     
-    NSString *readContent = [MarketFileManager readFileFromDocumentFolder:_filename error:&error];
+    NSString *readContent = [LMFileManager readFileFromDocumentFolder:_filename error:&error];
     
     NSLog(@"%@", error);
     NSLog(@"%@", readContent);

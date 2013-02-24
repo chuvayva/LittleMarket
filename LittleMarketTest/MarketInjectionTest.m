@@ -7,14 +7,14 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "MarketConfigurator.h"
-#import "MarketPersistenceManagerProtocol.h"
-#import "MarketDataModelManager.h"
+#import "LMContainerConfigurator.h"
+#import "LMPersistenceManagerProtocol.h"
+#import "LMDataModelManager.h"
 
-@protocol MarketStoreFrontModel;
-@protocol MarketBackEndModel;
-@protocol MarketCartTableModel;
-@protocol MarketDataModelManagerProtocol;
+@protocol LMStoreFrontModel;
+@protocol LMBackEndModel;
+@protocol LMCartTableModel;
+@protocol LMDataModelManagerProtocol;
 
 @interface MarketInjectionTest : SenTestCase
 {
@@ -31,28 +31,28 @@
 -(void)setUp
 {
     _container = [MVIOCContainer new];
-    [[MarketConfigurator new] configureContainer:_container];
+    [[LMContainerConfigurator new] configureContainer:_container];
 }
 
 -(void)testPersisterManager
 {
-    id<MarketPersistenceManagerProtocol> persistenceManager = [_container getComponent:@protocol(MarketPersistenceManagerProtocol)];
+    id<LMPersistenceManagerProtocol> persistenceManager = [_container getComponent:@protocol(LMPersistenceManagerProtocol)];
     STAssertNotNil(persistenceManager, @"PersistenceManager is empty");
     STAssertNotNil(persistenceManager.persister, @"Auto injection not work");    
 }
 
 -(void) testMarketDataModel
 {
-    id<MarketBackEndModel> backEndModel = [_container getComponent:@protocol(MarketBackEndModel)];
+    id<LMBackEndModel> backEndModel = [_container getComponent:@protocol(LMBackEndModel)];
     STAssertNotNil(backEndModel, @"MarketBackEndModel is empty");
     
-    id<MarketStoreFrontModel> storeFrontModel = [_container getComponent:@protocol(MarketStoreFrontModel)];
+    id<LMStoreFrontModel> storeFrontModel = [_container getComponent:@protocol(LMStoreFrontModel)];
     STAssertNotNil(storeFrontModel, @"MarketStoreFrontModel is empty");
     
-    id<MarketCartTableModel> cartTableModel = [_container getComponent:@protocol(MarketCartTableModel)];
+    id<LMCartTableModel> cartTableModel = [_container getComponent:@protocol(LMCartTableModel)];
     STAssertNotNil(cartTableModel, @"MarketCartTableModel is empty");
     
-    id<MarketDataModelManagerProtocol> marketDataModelManager = [_container getComponent:@protocol(MarketDataModelManagerProtocol)];
+    id<LMDataModelManagerProtocol> marketDataModelManager = [_container getComponent:@protocol(LMDataModelManagerProtocol)];
     STAssertNotNil(marketDataModelManager, @"MarketCartTableModel is empty");
 }
 

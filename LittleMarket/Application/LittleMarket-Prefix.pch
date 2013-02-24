@@ -16,9 +16,9 @@
 
 
 // LittleMarket Constants
-#import "Constants.h"
+#import "LMConstants.h"
 
 // IoC context
 #import "MVIOC.h"
 
-#import "MarketApplicationService.h"
+#import "LMApplicationService.h"

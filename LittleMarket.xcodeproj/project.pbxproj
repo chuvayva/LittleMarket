@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3530FD6A5474496AB230D498 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 492692E5BE06409D83859779 /* libPods.a */; };
-		4D0AC01B160083CB001C067F /* MarketDefaultPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC016160083CB001C067F /* MarketDefaultPersister.m */; };
+		4D0AC01B160083CB001C067F /* LMDefaultPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AC016160083CB001C067F /* LMDefaultPersister.m */; };
 		4D39B6F816DA868A00F682E7 /* MVIOCControllerActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B6ED16DA868A00F682E7 /* MVIOCControllerActor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
 		4D39B6F916DA868A00F682E7 /* MVIOCContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B6F316DA868A00F682E7 /* MVIOCContainer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
 		4D39B6FA16DA868A00F682E7 /* MVIOCFactoryInjectionType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B6F416DA868A00F682E7 /* MVIOCFactoryInjectionType.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
@@ -18,33 +18,33 @@
 		4D39B74316DA8AA000F682E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D39B70816DA8AA000F682E7 /* InfoPlist.strings */; };
 		4D39B74416DA8AA000F682E7 /* LittleMarket-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D39B70916DA8AA000F682E7 /* LittleMarket-Info.plist */; };
 		4D39B74516DA8AA000F682E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B70B16DA8AA000F682E7 /* main.m */; };
-		4D39B74616DA8AA000F682E7 /* MarketAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B70D16DA8AA000F682E7 /* MarketAppDelegate.m */; };
-		4D39B74716DA8AA000F682E7 /* MarketDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71016DA8AA000F682E7 /* MarketDataModel.m */; };
-		4D39B74816DA8AA000F682E7 /* MarketDataModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71216DA8AA000F682E7 /* MarketDataModelManager.m */; };
-		4D39B74916DA8AA000F682E7 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71416DA8AA000F682E7 /* Product.m */; };
-		4D39B74A16DA8AA000F682E7 /* ProductComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71616DA8AA000F682E7 /* ProductComparator.m */; };
-		4D39B74B16DA8AA000F682E7 /* ProductType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71816DA8AA000F682E7 /* ProductType.m */; };
-		4D39B74C16DA8AA000F682E7 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72316DA8AA000F682E7 /* Constants.m */; };
-		4D39B74D16DA8AA000F682E7 /* MarketApplicationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72516DA8AA000F682E7 /* MarketApplicationService.m */; };
-		4D39B74E16DA8AA000F682E7 /* MarketConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72716DA8AA000F682E7 /* MarketConfigurator.m */; };
-		4D39B74F16DA8AA000F682E7 /* MarketFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72916DA8AA000F682E7 /* MarketFileManager.m */; };
-		4D39B75016DA8AA000F682E7 /* MarketBackEndTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72E16DA8AA000F682E7 /* MarketBackEndTableViewController.m */; };
-		4D39B75116DA8AA000F682E7 /* MarketProductEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73016DA8AA000F682E7 /* MarketProductEditViewController.m */; };
-		4D39B75216DA8AA000F682E7 /* MarketCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73316DA8AA000F682E7 /* MarketCartViewController.m */; };
-		4D39B75316DA8AA000F682E7 /* MarketDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73616DA8AA000F682E7 /* MarketDetailTableViewController.m */; };
-		4D39B75416DA8AA000F682E7 /* MarketMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73816DA8AA000F682E7 /* MarketMasterViewController.m */; };
+		4D39B74616DA8AA000F682E7 /* LMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B70D16DA8AA000F682E7 /* LMAppDelegate.m */; };
+		4D39B74716DA8AA000F682E7 /* LMDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71016DA8AA000F682E7 /* LMDataModel.m */; };
+		4D39B74816DA8AA000F682E7 /* LMDataModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71216DA8AA000F682E7 /* LMDataModelManager.m */; };
+		4D39B74916DA8AA000F682E7 /* LMProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71416DA8AA000F682E7 /* LMProduct.m */; };
+		4D39B74A16DA8AA000F682E7 /* LMProductComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71616DA8AA000F682E7 /* LMProductComparator.m */; };
+		4D39B74B16DA8AA000F682E7 /* LMProductType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71816DA8AA000F682E7 /* LMProductType.m */; };
+		4D39B74C16DA8AA000F682E7 /* LMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72316DA8AA000F682E7 /* LMConstants.m */; };
+		4D39B74D16DA8AA000F682E7 /* LMApplicationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72516DA8AA000F682E7 /* LMApplicationService.m */; };
+		4D39B74E16DA8AA000F682E7 /* LMContainerConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72716DA8AA000F682E7 /* LMContainerConfigurator.m */; };
+		4D39B74F16DA8AA000F682E7 /* LMFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72916DA8AA000F682E7 /* LMFileManager.m */; };
+		4D39B75016DA8AA000F682E7 /* LMBackEndTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72E16DA8AA000F682E7 /* LMBackEndTableViewController.m */; };
+		4D39B75116DA8AA000F682E7 /* LMProductEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73016DA8AA000F682E7 /* LMProductEditViewController.m */; };
+		4D39B75216DA8AA000F682E7 /* LMCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73316DA8AA000F682E7 /* LMCartViewController.m */; };
+		4D39B75316DA8AA000F682E7 /* LMDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73616DA8AA000F682E7 /* LMDetailTableViewController.m */; };
+		4D39B75416DA8AA000F682E7 /* LMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73816DA8AA000F682E7 /* LMMasterViewController.m */; };
 		4D39B75516DA8AA000F682E7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D39B73916DA8AA000F682E7 /* MainStoryboard.storyboard */; };
-		4D39B75616DA8AA000F682E7 /* BackEndProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73C16DA8AA000F682E7 /* BackEndProductCell.m */; };
-		4D39B75716DA8AA000F682E7 /* CartProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73E16DA8AA000F682E7 /* CartProductCell.m */; };
-		4D39B75816DA8AA000F682E7 /* MarketDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B74016DA8AA000F682E7 /* MarketDetailView.m */; };
-		4D39B75916DA8AA000F682E7 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B74216DA8AA000F682E7 /* ProductCell.m */; };
+		4D39B75616DA8AA000F682E7 /* LMBackEndProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73C16DA8AA000F682E7 /* LMBackEndProductCell.m */; };
+		4D39B75716DA8AA000F682E7 /* LMCartProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73E16DA8AA000F682E7 /* LMCartProductCell.m */; };
+		4D39B75816DA8AA000F682E7 /* LMDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B74016DA8AA000F682E7 /* LMDetailView.m */; };
+		4D39B75916DA8AA000F682E7 /* LMProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B74216DA8AA000F682E7 /* LMProductCell.m */; };
 		4D686526161B72CE00CE66A2 /* MarketDefaultJsonFileCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */; };
 		4D686527161B779200CE66A2 /* LittleMarketTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */; };
 		4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686530161B8BB500CE66A2 /* MarketTestClass.m */; };
 		4D70B2DB161E03DF00102AB9 /* MarketInjectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */; };
 		4DB2A360162618790021A0E6 /* MarketFAil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2A35F162618790021A0E6 /* MarketFAil.m */; };
 		4DD2615916249DCB00E34D55 /* MarketArchivePersisterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */; };
-		4DD2615C16249F3800E34D55 /* MarketArchivePersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */; };
+		4DD2615C16249F3800E34D55 /* LMArchivePersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2615B16249F3800E34D55 /* LMArchivePersister.m */; };
 		4DD7B53715C94C0E0022812D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53615C94C0E0022812D /* UIKit.framework */; };
 		4DD7B53915C94C0E0022812D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53815C94C0E0022812D /* Foundation.framework */; };
 		4DD7B53B15C94C0E0022812D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD7B53A15C94C0E0022812D /* CoreGraphics.framework */; };
@@ -56,15 +56,15 @@
 		4DF2E3C1161396DD00066481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF2E3C0161396DD00066481 /* InfoPlist.strings */; };
 		77F0206EE28895FB89F40FFA /* InjectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02728B3AC18A384B3944F /* InjectionTest.m */; };
 		77F022689F00C5D1A17634BB /* ReadWriteTextFromDocumentFolderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */; };
-		77F02B2FAC17C193F01E0480 /* MarketDataModel+JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02F8EAB86F60911111561 /* MarketDataModel+JSONKit.m */; };
-		77F02D3E19F9F14699210C54 /* MarketJsonPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02B2069BF3E542B6A1BFA /* MarketJsonPersister.m */; };
-		77F02EC162E3E06F902A2799 /* MarketPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02DA32DF85E2A9D093BF6 /* MarketPersistenceManager.m */; };
+		77F02B2FAC17C193F01E0480 /* LMDataModel+JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02F8EAB86F60911111561 /* LMDataModel+JSONKit.m */; };
+		77F02D3E19F9F14699210C54 /* LMJsonPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02B2069BF3E542B6A1BFA /* LMJsonPersister.m */; };
+		77F02EC162E3E06F902A2799 /* LMPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02DA32DF85E2A9D093BF6 /* LMPersistenceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		492692E5BE06409D83859779 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D0AC015160083CB001C067F /* MarketDefaultPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDefaultPersister.h; sourceTree = "<group>"; };
-		4D0AC016160083CB001C067F /* MarketDefaultPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketDefaultPersister.m; sourceTree = "<group>"; };
+		4D0AC015160083CB001C067F /* LMDefaultPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDefaultPersister.h; sourceTree = "<group>"; };
+		4D0AC016160083CB001C067F /* LMDefaultPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDefaultPersister.m; sourceTree = "<group>"; };
 		4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LittleMarketTestData.json; path = LittleMarketTest/Resources/LittleMarketTestData.json; sourceTree = SOURCE_ROOT; };
 		4D39B6E816DA868A00F682E7 /* MVIOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOC.h; sourceTree = "<group>"; };
 		4D39B6E916DA868A00F682E7 /* MVIOCActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVIOCActor.h; sourceTree = "<group>"; };
@@ -86,52 +86,52 @@
 		4D39B70916DA8AA000F682E7 /* LittleMarket-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LittleMarket-Info.plist"; sourceTree = "<group>"; };
 		4D39B70A16DA8AA000F682E7 /* LittleMarket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LittleMarket-Prefix.pch"; sourceTree = "<group>"; };
 		4D39B70B16DA8AA000F682E7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D39B70C16DA8AA000F682E7 /* MarketAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketAppDelegate.h; sourceTree = "<group>"; };
-		4D39B70D16DA8AA000F682E7 /* MarketAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketAppDelegate.m; sourceTree = "<group>"; };
-		4D39B70F16DA8AA000F682E7 /* MarketDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDataModel.h; sourceTree = "<group>"; };
-		4D39B71016DA8AA000F682E7 /* MarketDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketDataModel.m; sourceTree = "<group>"; };
-		4D39B71116DA8AA000F682E7 /* MarketDataModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDataModelManager.h; sourceTree = "<group>"; };
-		4D39B71216DA8AA000F682E7 /* MarketDataModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketDataModelManager.m; sourceTree = "<group>"; };
-		4D39B71316DA8AA000F682E7 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
-		4D39B71416DA8AA000F682E7 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
-		4D39B71516DA8AA000F682E7 /* ProductComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductComparator.h; sourceTree = "<group>"; };
-		4D39B71616DA8AA000F682E7 /* ProductComparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductComparator.m; sourceTree = "<group>"; };
-		4D39B71716DA8AA000F682E7 /* ProductType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductType.h; sourceTree = "<group>"; };
-		4D39B71816DA8AA000F682E7 /* ProductType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductType.m; sourceTree = "<group>"; };
-		4D39B71A16DA8AA000F682E7 /* BuyProductDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyProductDelegate.h; sourceTree = "<group>"; };
-		4D39B71B16DA8AA000F682E7 /* MarketBackEndModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketBackEndModel.h; sourceTree = "<group>"; };
-		4D39B71C16DA8AA000F682E7 /* MarketCartTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketCartTableModel.h; sourceTree = "<group>"; };
-		4D39B71D16DA8AA000F682E7 /* MarketDataModelManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDataModelManagerProtocol.h; sourceTree = "<group>"; };
-		4D39B71E16DA8AA000F682E7 /* MarketPersistenceManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketPersistenceManagerProtocol.h; sourceTree = "<group>"; };
-		4D39B71F16DA8AA000F682E7 /* MarketPersisterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketPersisterProtocol.h; sourceTree = "<group>"; };
-		4D39B72016DA8AA000F682E7 /* MarketStoreFrontModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketStoreFrontModel.h; sourceTree = "<group>"; };
-		4D39B72216DA8AA000F682E7 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		4D39B72316DA8AA000F682E7 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
-		4D39B72416DA8AA000F682E7 /* MarketApplicationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketApplicationService.h; sourceTree = "<group>"; };
-		4D39B72516DA8AA000F682E7 /* MarketApplicationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketApplicationService.m; sourceTree = "<group>"; };
-		4D39B72616DA8AA000F682E7 /* MarketConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketConfigurator.h; sourceTree = "<group>"; };
-		4D39B72716DA8AA000F682E7 /* MarketConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketConfigurator.m; sourceTree = "<group>"; };
-		4D39B72816DA8AA000F682E7 /* MarketFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketFileManager.h; sourceTree = "<group>"; };
-		4D39B72916DA8AA000F682E7 /* MarketFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketFileManager.m; sourceTree = "<group>"; };
-		4D39B72D16DA8AA000F682E7 /* MarketBackEndTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketBackEndTableViewController.h; sourceTree = "<group>"; };
-		4D39B72E16DA8AA000F682E7 /* MarketBackEndTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketBackEndTableViewController.m; sourceTree = "<group>"; };
-		4D39B72F16DA8AA000F682E7 /* MarketProductEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketProductEditViewController.h; sourceTree = "<group>"; };
-		4D39B73016DA8AA000F682E7 /* MarketProductEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketProductEditViewController.m; sourceTree = "<group>"; };
-		4D39B73216DA8AA000F682E7 /* MarketCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketCartViewController.h; sourceTree = "<group>"; };
-		4D39B73316DA8AA000F682E7 /* MarketCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketCartViewController.m; sourceTree = "<group>"; };
-		4D39B73516DA8AA000F682E7 /* MarketDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDetailTableViewController.h; sourceTree = "<group>"; };
-		4D39B73616DA8AA000F682E7 /* MarketDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketDetailTableViewController.m; sourceTree = "<group>"; };
-		4D39B73716DA8AA000F682E7 /* MarketMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketMasterViewController.h; sourceTree = "<group>"; };
-		4D39B73816DA8AA000F682E7 /* MarketMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketMasterViewController.m; sourceTree = "<group>"; };
+		4D39B70C16DA8AA000F682E7 /* LMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAppDelegate.h; sourceTree = "<group>"; };
+		4D39B70D16DA8AA000F682E7 /* LMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAppDelegate.m; sourceTree = "<group>"; };
+		4D39B70F16DA8AA000F682E7 /* LMDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDataModel.h; sourceTree = "<group>"; };
+		4D39B71016DA8AA000F682E7 /* LMDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDataModel.m; sourceTree = "<group>"; };
+		4D39B71116DA8AA000F682E7 /* LMDataModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDataModelManager.h; sourceTree = "<group>"; };
+		4D39B71216DA8AA000F682E7 /* LMDataModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDataModelManager.m; sourceTree = "<group>"; };
+		4D39B71316DA8AA000F682E7 /* LMProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProduct.h; sourceTree = "<group>"; };
+		4D39B71416DA8AA000F682E7 /* LMProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProduct.m; sourceTree = "<group>"; };
+		4D39B71516DA8AA000F682E7 /* LMProductComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProductComparator.h; sourceTree = "<group>"; };
+		4D39B71616DA8AA000F682E7 /* LMProductComparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProductComparator.m; sourceTree = "<group>"; };
+		4D39B71716DA8AA000F682E7 /* LMProductType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProductType.h; sourceTree = "<group>"; };
+		4D39B71816DA8AA000F682E7 /* LMProductType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProductType.m; sourceTree = "<group>"; };
+		4D39B71A16DA8AA000F682E7 /* LMBuyProductDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBuyProductDelegate.h; sourceTree = "<group>"; };
+		4D39B71B16DA8AA000F682E7 /* LMBackEndModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBackEndModel.h; sourceTree = "<group>"; };
+		4D39B71C16DA8AA000F682E7 /* LMCartTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCartTableModel.h; sourceTree = "<group>"; };
+		4D39B71D16DA8AA000F682E7 /* LMDataModelManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDataModelManagerProtocol.h; sourceTree = "<group>"; };
+		4D39B71E16DA8AA000F682E7 /* LMPersistenceManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPersistenceManagerProtocol.h; sourceTree = "<group>"; };
+		4D39B71F16DA8AA000F682E7 /* LMPersisterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPersisterProtocol.h; sourceTree = "<group>"; };
+		4D39B72016DA8AA000F682E7 /* LMStoreFrontModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMStoreFrontModel.h; sourceTree = "<group>"; };
+		4D39B72216DA8AA000F682E7 /* LMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMConstants.h; sourceTree = "<group>"; };
+		4D39B72316DA8AA000F682E7 /* LMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMConstants.m; sourceTree = "<group>"; };
+		4D39B72416DA8AA000F682E7 /* LMApplicationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMApplicationService.h; sourceTree = "<group>"; };
+		4D39B72516DA8AA000F682E7 /* LMApplicationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMApplicationService.m; sourceTree = "<group>"; };
+		4D39B72616DA8AA000F682E7 /* LMContainerConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMContainerConfigurator.h; sourceTree = "<group>"; };
+		4D39B72716DA8AA000F682E7 /* LMContainerConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMContainerConfigurator.m; sourceTree = "<group>"; };
+		4D39B72816DA8AA000F682E7 /* LMFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMFileManager.h; sourceTree = "<group>"; };
+		4D39B72916DA8AA000F682E7 /* LMFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMFileManager.m; sourceTree = "<group>"; };
+		4D39B72D16DA8AA000F682E7 /* LMBackEndTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBackEndTableViewController.h; sourceTree = "<group>"; };
+		4D39B72E16DA8AA000F682E7 /* LMBackEndTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMBackEndTableViewController.m; sourceTree = "<group>"; };
+		4D39B72F16DA8AA000F682E7 /* LMProductEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProductEditViewController.h; sourceTree = "<group>"; };
+		4D39B73016DA8AA000F682E7 /* LMProductEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProductEditViewController.m; sourceTree = "<group>"; };
+		4D39B73216DA8AA000F682E7 /* LMCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCartViewController.h; sourceTree = "<group>"; };
+		4D39B73316DA8AA000F682E7 /* LMCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCartViewController.m; sourceTree = "<group>"; };
+		4D39B73516DA8AA000F682E7 /* LMDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDetailTableViewController.h; sourceTree = "<group>"; };
+		4D39B73616DA8AA000F682E7 /* LMDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDetailTableViewController.m; sourceTree = "<group>"; };
+		4D39B73716DA8AA000F682E7 /* LMMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMMasterViewController.h; sourceTree = "<group>"; };
+		4D39B73816DA8AA000F682E7 /* LMMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMMasterViewController.m; sourceTree = "<group>"; };
 		4D39B73916DA8AA000F682E7 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		4D39B73B16DA8AA000F682E7 /* BackEndProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackEndProductCell.h; sourceTree = "<group>"; };
-		4D39B73C16DA8AA000F682E7 /* BackEndProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackEndProductCell.m; sourceTree = "<group>"; };
-		4D39B73D16DA8AA000F682E7 /* CartProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartProductCell.h; sourceTree = "<group>"; };
-		4D39B73E16DA8AA000F682E7 /* CartProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartProductCell.m; sourceTree = "<group>"; };
-		4D39B73F16DA8AA000F682E7 /* MarketDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDetailView.h; sourceTree = "<group>"; };
-		4D39B74016DA8AA000F682E7 /* MarketDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketDetailView.m; sourceTree = "<group>"; };
-		4D39B74116DA8AA000F682E7 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
-		4D39B74216DA8AA000F682E7 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		4D39B73B16DA8AA000F682E7 /* LMBackEndProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBackEndProductCell.h; sourceTree = "<group>"; };
+		4D39B73C16DA8AA000F682E7 /* LMBackEndProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMBackEndProductCell.m; sourceTree = "<group>"; };
+		4D39B73D16DA8AA000F682E7 /* LMCartProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCartProductCell.h; sourceTree = "<group>"; };
+		4D39B73E16DA8AA000F682E7 /* LMCartProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCartProductCell.m; sourceTree = "<group>"; };
+		4D39B73F16DA8AA000F682E7 /* LMDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDetailView.h; sourceTree = "<group>"; };
+		4D39B74016DA8AA000F682E7 /* LMDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDetailView.m; sourceTree = "<group>"; };
+		4D39B74116DA8AA000F682E7 /* LMProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProductCell.h; sourceTree = "<group>"; };
+		4D39B74216DA8AA000F682E7 /* LMProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProductCell.m; sourceTree = "<group>"; };
 		4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketDefaultJsonFileCreator.m; sourceTree = "<group>"; };
 		4D68652F161B8BB500CE66A2 /* MarketTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketTestClass.h; sourceTree = "<group>"; };
 		4D686530161B8BB500CE66A2 /* MarketTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketTestClass.m; sourceTree = "<group>"; };
@@ -140,8 +140,8 @@
 		4DB2A35F162618790021A0E6 /* MarketFAil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketFAil.m; sourceTree = "<group>"; };
 		4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersisterTest.m; sourceTree = "<group>"; };
-		4DD2615A16249F3800E34D55 /* MarketArchivePersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketArchivePersister.h; sourceTree = "<group>"; };
-		4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersister.m; sourceTree = "<group>"; };
+		4DD2615A16249F3800E34D55 /* LMArchivePersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMArchivePersister.h; sourceTree = "<group>"; };
+		4DD2615B16249F3800E34D55 /* LMArchivePersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMArchivePersister.m; sourceTree = "<group>"; };
 		4DD7B53215C94C0E0022812D /* LittleMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD7B53615C94C0E0022812D /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4DD7B53815C94C0E0022812D /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -150,16 +150,16 @@
 		4DF2E3B2161394B200066481 /* LittleMarketTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleMarketTest-Info.plist"; sourceTree = "<group>"; };
 		4DF2E3B9161394B200066481 /* LittleMarketTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittleMarketTest-Prefix.pch"; sourceTree = "<group>"; };
 		4DF2E3C0161396DD00066481 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
-		77F0211BC572BA4F5A1EBAA2 /* MarketPersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketPersistenceManager.h; sourceTree = "<group>"; };
+		77F0211BC572BA4F5A1EBAA2 /* LMPersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPersistenceManager.h; sourceTree = "<group>"; };
 		77F0217ACB7803AB475A5368 /* JSONToMarketModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONToMarketModelTest.m; sourceTree = "<group>"; };
 		77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadWriteTextFromDocumentFolderTest.m; sourceTree = "<group>"; };
-		77F0269094A8D1E91F4131F4 /* MarketJsonPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketJsonPersister.h; sourceTree = "<group>"; };
+		77F0269094A8D1E91F4131F4 /* LMJsonPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJsonPersister.h; sourceTree = "<group>"; };
 		77F02728B3AC18A384B3944F /* InjectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectionTest.m; sourceTree = "<group>"; };
 		77F027463A0C9117F1E695EF /* JsonPersisterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonPersisterTests.m; sourceTree = "<group>"; };
-		77F029A9D7748FEAE7BFA643 /* MarketDataModel+JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MarketDataModel+JSONKit.h"; sourceTree = "<group>"; };
-		77F02B2069BF3E542B6A1BFA /* MarketJsonPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketJsonPersister.m; sourceTree = "<group>"; };
-		77F02DA32DF85E2A9D093BF6 /* MarketPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketPersistenceManager.m; sourceTree = "<group>"; };
-		77F02F8EAB86F60911111561 /* MarketDataModel+JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MarketDataModel+JSONKit.m"; sourceTree = "<group>"; };
+		77F029A9D7748FEAE7BFA643 /* LMDataModel+JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LMDataModel+JSONKit.h"; sourceTree = "<group>"; };
+		77F02B2069BF3E542B6A1BFA /* LMJsonPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJsonPersister.m; sourceTree = "<group>"; };
+		77F02DA32DF85E2A9D093BF6 /* LMPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPersistenceManager.m; sourceTree = "<group>"; };
+		77F02F8EAB86F60911111561 /* LMDataModel+JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LMDataModel+JSONKit.m"; sourceTree = "<group>"; };
 		838D5777F8EB46D4A1E7A2AC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -243,8 +243,8 @@
 				4D39B70916DA8AA000F682E7 /* LittleMarket-Info.plist */,
 				4D39B70A16DA8AA000F682E7 /* LittleMarket-Prefix.pch */,
 				4D39B70B16DA8AA000F682E7 /* main.m */,
-				4D39B70C16DA8AA000F682E7 /* MarketAppDelegate.h */,
-				4D39B70D16DA8AA000F682E7 /* MarketAppDelegate.m */,
+				4D39B70C16DA8AA000F682E7 /* LMAppDelegate.h */,
+				4D39B70D16DA8AA000F682E7 /* LMAppDelegate.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -252,16 +252,16 @@
 		4D39B70E16DA8AA000F682E7 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				4D39B70F16DA8AA000F682E7 /* MarketDataModel.h */,
-				4D39B71016DA8AA000F682E7 /* MarketDataModel.m */,
-				4D39B71116DA8AA000F682E7 /* MarketDataModelManager.h */,
-				4D39B71216DA8AA000F682E7 /* MarketDataModelManager.m */,
-				4D39B71316DA8AA000F682E7 /* Product.h */,
-				4D39B71416DA8AA000F682E7 /* Product.m */,
-				4D39B71516DA8AA000F682E7 /* ProductComparator.h */,
-				4D39B71616DA8AA000F682E7 /* ProductComparator.m */,
-				4D39B71716DA8AA000F682E7 /* ProductType.h */,
-				4D39B71816DA8AA000F682E7 /* ProductType.m */,
+				4D39B70F16DA8AA000F682E7 /* LMDataModel.h */,
+				4D39B71016DA8AA000F682E7 /* LMDataModel.m */,
+				4D39B71116DA8AA000F682E7 /* LMDataModelManager.h */,
+				4D39B71216DA8AA000F682E7 /* LMDataModelManager.m */,
+				4D39B71316DA8AA000F682E7 /* LMProduct.h */,
+				4D39B71416DA8AA000F682E7 /* LMProduct.m */,
+				4D39B71516DA8AA000F682E7 /* LMProductComparator.h */,
+				4D39B71616DA8AA000F682E7 /* LMProductComparator.m */,
+				4D39B71716DA8AA000F682E7 /* LMProductType.h */,
+				4D39B71816DA8AA000F682E7 /* LMProductType.m */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -269,13 +269,13 @@
 		4D39B71916DA8AA000F682E7 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				4D39B71A16DA8AA000F682E7 /* BuyProductDelegate.h */,
-				4D39B71B16DA8AA000F682E7 /* MarketBackEndModel.h */,
-				4D39B71C16DA8AA000F682E7 /* MarketCartTableModel.h */,
-				4D39B71D16DA8AA000F682E7 /* MarketDataModelManagerProtocol.h */,
-				4D39B71E16DA8AA000F682E7 /* MarketPersistenceManagerProtocol.h */,
-				4D39B71F16DA8AA000F682E7 /* MarketPersisterProtocol.h */,
-				4D39B72016DA8AA000F682E7 /* MarketStoreFrontModel.h */,
+				4D39B71A16DA8AA000F682E7 /* LMBuyProductDelegate.h */,
+				4D39B71B16DA8AA000F682E7 /* LMBackEndModel.h */,
+				4D39B71C16DA8AA000F682E7 /* LMCartTableModel.h */,
+				4D39B71D16DA8AA000F682E7 /* LMDataModelManagerProtocol.h */,
+				4D39B71E16DA8AA000F682E7 /* LMPersistenceManagerProtocol.h */,
+				4D39B71F16DA8AA000F682E7 /* LMPersisterProtocol.h */,
+				4D39B72016DA8AA000F682E7 /* LMStoreFrontModel.h */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -283,14 +283,14 @@
 		4D39B72116DA8AA000F682E7 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				4D39B72216DA8AA000F682E7 /* Constants.h */,
-				4D39B72316DA8AA000F682E7 /* Constants.m */,
-				4D39B72416DA8AA000F682E7 /* MarketApplicationService.h */,
-				4D39B72516DA8AA000F682E7 /* MarketApplicationService.m */,
-				4D39B72616DA8AA000F682E7 /* MarketConfigurator.h */,
-				4D39B72716DA8AA000F682E7 /* MarketConfigurator.m */,
-				4D39B72816DA8AA000F682E7 /* MarketFileManager.h */,
-				4D39B72916DA8AA000F682E7 /* MarketFileManager.m */,
+				4D39B72216DA8AA000F682E7 /* LMConstants.h */,
+				4D39B72316DA8AA000F682E7 /* LMConstants.m */,
+				4D39B72416DA8AA000F682E7 /* LMApplicationService.h */,
+				4D39B72516DA8AA000F682E7 /* LMApplicationService.m */,
+				4D39B72616DA8AA000F682E7 /* LMContainerConfigurator.h */,
+				4D39B72716DA8AA000F682E7 /* LMContainerConfigurator.m */,
+				4D39B72816DA8AA000F682E7 /* LMFileManager.h */,
+				4D39B72916DA8AA000F682E7 /* LMFileManager.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -309,7 +309,6 @@
 			isa = PBXGroup;
 			children = (
 				4D39B72C16DA8AA000F682E7 /* BackEnd */,
-				4D39B73116DA8AA000F682E7 /* Cart */,
 				4D39B73416DA8AA000F682E7 /* StoreFront */,
 			);
 			path = Controllers;
@@ -318,10 +317,10 @@
 		4D39B72C16DA8AA000F682E7 /* BackEnd */ = {
 			isa = PBXGroup;
 			children = (
-				4D39B72D16DA8AA000F682E7 /* MarketBackEndTableViewController.h */,
-				4D39B72E16DA8AA000F682E7 /* MarketBackEndTableViewController.m */,
-				4D39B72F16DA8AA000F682E7 /* MarketProductEditViewController.h */,
-				4D39B73016DA8AA000F682E7 /* MarketProductEditViewController.m */,
+				4D39B72D16DA8AA000F682E7 /* LMBackEndTableViewController.h */,
+				4D39B72E16DA8AA000F682E7 /* LMBackEndTableViewController.m */,
+				4D39B72F16DA8AA000F682E7 /* LMProductEditViewController.h */,
+				4D39B73016DA8AA000F682E7 /* LMProductEditViewController.m */,
 			);
 			path = BackEnd;
 			sourceTree = "<group>";
@@ -329,8 +328,8 @@
 		4D39B73116DA8AA000F682E7 /* Cart */ = {
 			isa = PBXGroup;
 			children = (
-				4D39B73216DA8AA000F682E7 /* MarketCartViewController.h */,
-				4D39B73316DA8AA000F682E7 /* MarketCartViewController.m */,
+				4D39B73216DA8AA000F682E7 /* LMCartViewController.h */,
+				4D39B73316DA8AA000F682E7 /* LMCartViewController.m */,
 			);
 			path = Cart;
 			sourceTree = "<group>";
@@ -338,10 +337,11 @@
 		4D39B73416DA8AA000F682E7 /* StoreFront */ = {
 			isa = PBXGroup;
 			children = (
-				4D39B73516DA8AA000F682E7 /* MarketDetailTableViewController.h */,
-				4D39B73616DA8AA000F682E7 /* MarketDetailTableViewController.m */,
-				4D39B73716DA8AA000F682E7 /* MarketMasterViewController.h */,
-				4D39B73816DA8AA000F682E7 /* MarketMasterViewController.m */,
+				4D39B73516DA8AA000F682E7 /* LMDetailTableViewController.h */,
+				4D39B73616DA8AA000F682E7 /* LMDetailTableViewController.m */,
+				4D39B73716DA8AA000F682E7 /* LMMasterViewController.h */,
+				4D39B73816DA8AA000F682E7 /* LMMasterViewController.m */,
+				4D39B73116DA8AA000F682E7 /* Cart */,
 			);
 			path = StoreFront;
 			sourceTree = "<group>";
@@ -349,14 +349,14 @@
 		4D39B73A16DA8AA000F682E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4D39B73B16DA8AA000F682E7 /* BackEndProductCell.h */,
-				4D39B73C16DA8AA000F682E7 /* BackEndProductCell.m */,
-				4D39B73D16DA8AA000F682E7 /* CartProductCell.h */,
-				4D39B73E16DA8AA000F682E7 /* CartProductCell.m */,
-				4D39B73F16DA8AA000F682E7 /* MarketDetailView.h */,
-				4D39B74016DA8AA000F682E7 /* MarketDetailView.m */,
-				4D39B74116DA8AA000F682E7 /* ProductCell.h */,
-				4D39B74216DA8AA000F682E7 /* ProductCell.m */,
+				4D39B73B16DA8AA000F682E7 /* LMBackEndProductCell.h */,
+				4D39B73C16DA8AA000F682E7 /* LMBackEndProductCell.m */,
+				4D39B73D16DA8AA000F682E7 /* LMCartProductCell.h */,
+				4D39B73E16DA8AA000F682E7 /* LMCartProductCell.m */,
+				4D39B73F16DA8AA000F682E7 /* LMDetailView.h */,
+				4D39B74016DA8AA000F682E7 /* LMDetailView.m */,
+				4D39B74116DA8AA000F682E7 /* LMProductCell.h */,
+				4D39B74216DA8AA000F682E7 /* LMProductCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -440,16 +440,16 @@
 		77F02AFA4FA757DD9BFB98D0 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
-				77F029A9D7748FEAE7BFA643 /* MarketDataModel+JSONKit.h */,
-				77F02F8EAB86F60911111561 /* MarketDataModel+JSONKit.m */,
-				77F02DA32DF85E2A9D093BF6 /* MarketPersistenceManager.m */,
-				77F0211BC572BA4F5A1EBAA2 /* MarketPersistenceManager.h */,
-				77F02B2069BF3E542B6A1BFA /* MarketJsonPersister.m */,
-				77F0269094A8D1E91F4131F4 /* MarketJsonPersister.h */,
-				4D0AC016160083CB001C067F /* MarketDefaultPersister.m */,
-				4D0AC015160083CB001C067F /* MarketDefaultPersister.h */,
-				4DD2615A16249F3800E34D55 /* MarketArchivePersister.h */,
-				4DD2615B16249F3800E34D55 /* MarketArchivePersister.m */,
+				77F029A9D7748FEAE7BFA643 /* LMDataModel+JSONKit.h */,
+				77F02F8EAB86F60911111561 /* LMDataModel+JSONKit.m */,
+				77F02DA32DF85E2A9D093BF6 /* LMPersistenceManager.m */,
+				77F0211BC572BA4F5A1EBAA2 /* LMPersistenceManager.h */,
+				77F02B2069BF3E542B6A1BFA /* LMJsonPersister.m */,
+				77F0269094A8D1E91F4131F4 /* LMJsonPersister.h */,
+				4D0AC016160083CB001C067F /* LMDefaultPersister.m */,
+				4D0AC015160083CB001C067F /* LMDefaultPersister.h */,
+				4DD2615A16249F3800E34D55 /* LMArchivePersister.h */,
+				4DD2615B16249F3800E34D55 /* LMArchivePersister.m */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -577,11 +577,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0AC01B160083CB001C067F /* MarketDefaultPersister.m in Sources */,
-				77F02EC162E3E06F902A2799 /* MarketPersistenceManager.m in Sources */,
-				77F02D3E19F9F14699210C54 /* MarketJsonPersister.m in Sources */,
-				77F02B2FAC17C193F01E0480 /* MarketDataModel+JSONKit.m in Sources */,
-				4DD2615C16249F3800E34D55 /* MarketArchivePersister.m in Sources */,
+				4D0AC01B160083CB001C067F /* LMDefaultPersister.m in Sources */,
+				77F02EC162E3E06F902A2799 /* LMPersistenceManager.m in Sources */,
+				77F02D3E19F9F14699210C54 /* LMJsonPersister.m in Sources */,
+				77F02B2FAC17C193F01E0480 /* LMDataModel+JSONKit.m in Sources */,
+				4DD2615C16249F3800E34D55 /* LMArchivePersister.m in Sources */,
 				4D39B6F816DA868A00F682E7 /* MVIOCControllerActor.m in Sources */,
 				4D39B6F916DA868A00F682E7 /* MVIOCContainer.m in Sources */,
 				4D39B6FA16DA868A00F682E7 /* MVIOCFactoryInjectionType.m in Sources */,
@@ -589,25 +589,25 @@
 				4D39B6FC16DA868A00F682E7 /* MVIOCPropertyInjectionType.m in Sources */,
 				4D39B6FD16DA868A00F682E7 /* MVIOCSingletonCache.m in Sources */,
 				4D39B74516DA8AA000F682E7 /* main.m in Sources */,
-				4D39B74616DA8AA000F682E7 /* MarketAppDelegate.m in Sources */,
-				4D39B74716DA8AA000F682E7 /* MarketDataModel.m in Sources */,
-				4D39B74816DA8AA000F682E7 /* MarketDataModelManager.m in Sources */,
-				4D39B74916DA8AA000F682E7 /* Product.m in Sources */,
-				4D39B74A16DA8AA000F682E7 /* ProductComparator.m in Sources */,
-				4D39B74B16DA8AA000F682E7 /* ProductType.m in Sources */,
-				4D39B74C16DA8AA000F682E7 /* Constants.m in Sources */,
-				4D39B74D16DA8AA000F682E7 /* MarketApplicationService.m in Sources */,
-				4D39B74E16DA8AA000F682E7 /* MarketConfigurator.m in Sources */,
-				4D39B74F16DA8AA000F682E7 /* MarketFileManager.m in Sources */,
-				4D39B75016DA8AA000F682E7 /* MarketBackEndTableViewController.m in Sources */,
-				4D39B75116DA8AA000F682E7 /* MarketProductEditViewController.m in Sources */,
-				4D39B75216DA8AA000F682E7 /* MarketCartViewController.m in Sources */,
-				4D39B75316DA8AA000F682E7 /* MarketDetailTableViewController.m in Sources */,
-				4D39B75416DA8AA000F682E7 /* MarketMasterViewController.m in Sources */,
-				4D39B75616DA8AA000F682E7 /* BackEndProductCell.m in Sources */,
-				4D39B75716DA8AA000F682E7 /* CartProductCell.m in Sources */,
-				4D39B75816DA8AA000F682E7 /* MarketDetailView.m in Sources */,
-				4D39B75916DA8AA000F682E7 /* ProductCell.m in Sources */,
+				4D39B74616DA8AA000F682E7 /* LMAppDelegate.m in Sources */,
+				4D39B74716DA8AA000F682E7 /* LMDataModel.m in Sources */,
+				4D39B74816DA8AA000F682E7 /* LMDataModelManager.m in Sources */,
+				4D39B74916DA8AA000F682E7 /* LMProduct.m in Sources */,
+				4D39B74A16DA8AA000F682E7 /* LMProductComparator.m in Sources */,
+				4D39B74B16DA8AA000F682E7 /* LMProductType.m in Sources */,
+				4D39B74C16DA8AA000F682E7 /* LMConstants.m in Sources */,
+				4D39B74D16DA8AA000F682E7 /* LMApplicationService.m in Sources */,
+				4D39B74E16DA8AA000F682E7 /* LMContainerConfigurator.m in Sources */,
+				4D39B74F16DA8AA000F682E7 /* LMFileManager.m in Sources */,
+				4D39B75016DA8AA000F682E7 /* LMBackEndTableViewController.m in Sources */,
+				4D39B75116DA8AA000F682E7 /* LMProductEditViewController.m in Sources */,
+				4D39B75216DA8AA000F682E7 /* LMCartViewController.m in Sources */,
+				4D39B75316DA8AA000F682E7 /* LMDetailTableViewController.m in Sources */,
+				4D39B75416DA8AA000F682E7 /* LMMasterViewController.m in Sources */,
+				4D39B75616DA8AA000F682E7 /* LMBackEndProductCell.m in Sources */,
+				4D39B75716DA8AA000F682E7 /* LMCartProductCell.m in Sources */,
+				4D39B75816DA8AA000F682E7 /* LMDetailView.m in Sources */,
+				4D39B75916DA8AA000F682E7 /* LMProductCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

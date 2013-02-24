@@ -7,8 +7,8 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 #import "JSONKit.h"
-#import "MarketDataModel.h"
-#import "MarketDataModel+JSONKit.h"
+#import "LMDataModel.h"
+#import "LMDataModel+JSONKit.h"
 
 @interface JSONToMarketModelTest : SenTestCase
 @end
@@ -29,7 +29,7 @@ static NSString *_jsonString;
 
 -(void) testJsonStringToMarketModel
 {
-    MarketDataModel *model = [MarketDataModel fromJSONString:_jsonString];
+    LMDataModel *model = [LMDataModel fromJSONString:_jsonString];
     
     STAssertNotNil(model, @"model is nil");
     NSLog(@"%@", model);
@@ -37,7 +37,7 @@ static NSString *_jsonString;
 
 -(void) testMarketModelToJsonString
 {
-    MarketDataModel *model = [MarketDataModel fromJSONString:_jsonString];
+    LMDataModel *model = [LMDataModel fromJSONString:_jsonString];
     
     NSString *jsonString = [model JSONString];
     
