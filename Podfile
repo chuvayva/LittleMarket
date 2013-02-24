@@ -4,6 +4,6 @@ pod 'BlocksKit'
 pod 'JSONKit'
 
 target :LittleMarketTest, :exclusive => true do
-	pod 'JSONKit'
+	#pod 'JSONKit'
 end
 
