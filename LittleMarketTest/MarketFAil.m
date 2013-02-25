@@ -6,7 +6,12 @@
 //
 //
 
-#import "MarketFAil.h"
+
+#import <SenTestingKit/SenTestingKit.h>
+
+@interface MarketFAil : SenTestCase
+
+@end
 
 @implementation MarketFAil
 

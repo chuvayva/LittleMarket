@@ -8,14 +8,8 @@
 #import "LMJsonPersister.h"
 #import "LMDataModel.h"
 #import "LMDataModel+JSONKit.h"
+#import "LMFileManager.h"
 
-
-@interface LMJsonPersister ()
-
-- (NSString *)filepathInDocumentFolderWithFilename:(NSString *)filename;
-
-
-@end
 
 @implementation LMJsonPersister
 
@@ -36,7 +30,8 @@
 
 -(id) init
 {
-    NSString *jsonfilePath = [self filepathInDocumentFolderWithFilename:JsonFileName] ;
+    NSString *jsonfilePath = [LMFileManager filepathInDocumentFolderWithFilename:JsonFileName] ;
+
     return [self initWithFilepath:jsonfilePath];
 }
 
@@ -54,15 +49,5 @@
 
     return [LMDataModel fromJSONString:jsonString];
 }
-
-#pragma mark - Private
-
--(NSString *)filepathInDocumentFolderWithFilename:(NSString *)filename
-{
-    NSArray *documentsUrls = [NSFileManager.defaultManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
-
-    return [[[documentsUrls objectAtIndex:0] URLByAppendingPathComponent:filename] path];
-}
-
 
 @end

@@ -18,20 +18,6 @@
 
 @implementation LMDefaultPersister
 
-//
-//
-//+(id<LMPersisterProtocol>) single
-//{
-//    static LMDefaultPersister *single;
-//    static dispatch_once_t predicate;
-//
-//    dispatch_once(&predicate, ^{
-//    single = [self new];
-//});
-//
-//    return  single;
-//}
-
 -(NSArray*)createProducts
 {
     NSMutableArray *result = [NSMutableArray array];

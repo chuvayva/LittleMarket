@@ -136,7 +136,6 @@
 		4D68652F161B8BB500CE66A2 /* MarketTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketTestClass.h; sourceTree = "<group>"; };
 		4D686530161B8BB500CE66A2 /* MarketTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketTestClass.m; sourceTree = "<group>"; };
 		4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketInjectionTest.m; sourceTree = "<group>"; };
-		4DB2A35E162618790021A0E6 /* MarketFAil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketFAil.h; sourceTree = "<group>"; };
 		4DB2A35F162618790021A0E6 /* MarketFAil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketFAil.m; sourceTree = "<group>"; };
 		4DBA646F15E2C50F00F0007B /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketArchivePersisterTest.m; sourceTree = "<group>"; };
@@ -421,7 +420,6 @@
 				4D686530161B8BB500CE66A2 /* MarketTestClass.m */,
 				4D70B2DA161E03DF00102AB9 /* MarketInjectionTest.m */,
 				4DD2615816249DCB00E34D55 /* MarketArchivePersisterTest.m */,
-				4DB2A35E162618790021A0E6 /* MarketFAil.h */,
 				4DB2A35F162618790021A0E6 /* MarketFAil.m */,
 			);
 			path = LittleMarketTest;
