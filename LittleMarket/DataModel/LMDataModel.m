@@ -12,17 +12,17 @@
 -(id) initWithAvailableProducts:(NSArray *)availableProducts andCartProducts:(NSArray *)cartProducts
 {
     if (!(self = [super init])) return nil;
-    
+
     _availableProducts = [NSMutableArray arrayWithArray:availableProducts];
     _cartProducts = [NSMutableArray arrayWithArray:cartProducts];
 
     return self;
 }
-
--(id) initWithAvailableProducts:(NSArray *)availableProducts
-{
-    return [self initWithAvailableProducts:availableProducts andCartProducts:[NSArray array]];
-}
+//
+//-(id) initWithAvailableProducts:(NSArray *)availableProducts
+//{
+//    return [self initWithAvailableProducts:availableProducts andCartProducts:[NSArray array]];
+//}
 
 -(id) init
 {

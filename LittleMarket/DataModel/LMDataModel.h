@@ -16,7 +16,4 @@
 
 - (id)initWithAvailableProducts:(NSArray *)availableProducts andCartProducts:(NSArray *)cartProducts;
 
-- (id)initWithAvailableProducts:(NSArray *)availableProducts;
-
-
 @end

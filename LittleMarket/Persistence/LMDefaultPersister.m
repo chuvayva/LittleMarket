@@ -95,7 +95,7 @@
 - (LMDataModel *)loadModel
 {
     NSArray *availableProducts = [self createProducts];
-    return [[LMDataModel alloc] initWithAvailableProducts: availableProducts];
+    return [[LMDataModel alloc] initWithAvailableProducts:availableProducts andCartProducts:[NSArray array]];
 }
 
 

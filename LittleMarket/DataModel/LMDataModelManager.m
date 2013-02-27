@@ -59,7 +59,7 @@
     
     [NSThread sleepForTimeInterval: 3]; // for multithreading testing
 }
-#pragma mark - - - MarketBackEndDataModel
+#pragma mark - MarketBackEndDataModel
 
 -(void) removeAvailableProductAtIndex: (NSUInteger) index
 {
