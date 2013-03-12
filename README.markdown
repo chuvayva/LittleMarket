@@ -6,7 +6,7 @@ Here is the [task](http://www.parcsis.com/img/2011/02/iOS.zip).
 
 ##Used technology
 
-There is [CocoaPods](http://cocoapods.org) for library dependencies manage.
+There is [CocoaPods](http://cocoapods.org) for library dependencies managing.
 
 ##Open
 
