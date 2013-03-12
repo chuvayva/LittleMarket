@@ -12,10 +12,9 @@
 #import "LMProductCell.h"
 
 @interface LMCartViewController ()
-
-- (void)cartProductsChanged:(NSNotification *)notification;
-
--(void) leaveSelfTab;
+{
+    id<LMCartTableModel> _model;    
+}
 
 @end
 

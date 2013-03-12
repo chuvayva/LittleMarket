@@ -12,7 +12,7 @@
 
 @implementation LMPersistenceManager
 
-@synthesize persister = injPersister; // auto injecting from IOC contaner
+@synthesize persister = injPersister; // auto injecting from IOC contaner (inj prefix)
 
 -(void)saveModel: (LMDataModel *)dataModel
 {

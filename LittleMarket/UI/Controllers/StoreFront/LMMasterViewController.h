@@ -10,8 +10,6 @@
 #import "LMStoreFrontModel.h"
 
 @interface LMMasterViewController : UITableViewController
-{
-    id<LMStoreFrontModel> _model;
-}
+
 
 @end

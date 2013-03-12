@@ -11,34 +11,20 @@
 #import "LMBuyProductDelegate.h"
 
 @interface LMDetailTableViewController : UITableViewController <UITextFieldDelegate>
-{
-    // for keyboard hiding 
-    UITapGestureRecognizer *_tapRecognazer;
-}
 
 @property (nonatomic) id<LMBuyProductDelegate> delegate;
-
 @property (strong, nonatomic) LMProduct *product;
-
 @property (nonatomic) NSUInteger buyNumber;
 
-
 @property (weak, nonatomic) IBOutlet UILabel *labelProductName;
-
 @property (weak, nonatomic) IBOutlet UILabel *labelProductCategory;
-
 @property (weak, nonatomic) IBOutlet UILabel *labelProductPrice;
-
 @property (weak, nonatomic) IBOutlet UILabel *labelProductNumber;
-
-
 @property (weak, nonatomic) IBOutlet UITextField *textFieldBuyNumber;
-
 @property (weak, nonatomic) IBOutlet UIStepper *stepperMinMaxProduct;
-
 @property (weak, nonatomic) IBOutlet UIButton *buttonBuy;
 
 - (IBAction)iWandBuyIt;
-
 - (IBAction)ProductbuyNumberChanged:(UIStepper *)sender;
+
 @end

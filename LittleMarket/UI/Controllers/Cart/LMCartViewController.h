@@ -10,11 +10,6 @@
 #import "LMCartTableModel.h"
 
 @interface LMCartViewController : UITableViewController<UIActionSheetDelegate>
-{
- 
-    id<LMCartTableModel> _model;
-    
-}
 
 - (IBAction)iWantBuyTheeseProducts:(id)sender;
 

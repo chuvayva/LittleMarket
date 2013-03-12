@@ -11,10 +11,6 @@
 #import "LMProductEditViewController.h"
 
 @interface LMBackEndTableViewController : UITableViewController <MarketProductEditViewControllerDelegate>
-{
-    id<LMBackEndModel> _model;
-    
-    LMProduct *_editedProduct;
-}
+
 
 @end

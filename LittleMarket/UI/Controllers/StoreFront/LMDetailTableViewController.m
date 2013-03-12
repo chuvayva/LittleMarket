@@ -10,25 +10,14 @@
 #import "LMProduct.h"
 
 @interface LMDetailTableViewController ()
-- (void)configureView;
+{
+    // for keyboard hiding
+    UITapGestureRecognizer *_tapRecognazer;
+}
 
--(void)dismissKeyboard;
 @end
 
 @implementation LMDetailTableViewController
-
-@synthesize product = _product;
-@synthesize buyNumber = _buyNumber;
-
-@synthesize buttonBuy = _buttonbuy;
-
-@synthesize labelProductName = _productName;
-@synthesize labelProductCategory = _productCategory;
-@synthesize labelProductPrice = _productPrice;
-@synthesize labelProductNumber = _productNumber;
-@synthesize textFieldBuyNumber = _textFieldBuyNumber;
-@synthesize stepperMinMaxProduct = _MinMaxProductStepper;
-
 
 #pragma mark - - Model
 

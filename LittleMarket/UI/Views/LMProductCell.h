@@ -16,6 +16,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *productCost;
 @property (weak, nonatomic) IBOutlet UILabel *productNumber;
 
-
 -(void) setValuesByProduct:(LMProduct *)product;
+
 @end

@@ -12,11 +12,9 @@
 @interface LMApplicationService : NSObject
 
 +(MVIOCContainer*)mainContainer;
-
 +(void)configurate:(LMContainerConfigurator *)configurator;
 
 +(void)saveApplicationData;
-
 +(void)loadApplicationData;
 
 @end

@@ -12,7 +12,6 @@
 @interface LMProduct : NSObject <NSCopying, NSCoding>
 
 @property LMProductType *productType;
-
 @property NSUInteger number;
 
 -(id)initWithName: (NSString*) name category: (NSString*) category price: (double) price number:(NSUInteger)number;

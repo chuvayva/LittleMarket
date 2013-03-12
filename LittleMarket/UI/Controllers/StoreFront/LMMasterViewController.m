@@ -15,8 +15,9 @@
 //
 
 @interface LMMasterViewController ()
-
-- (void)availableProductsChanged:(NSNotification *)notification;
+{
+    id<LMStoreFrontModel> _model;
+}
 
 @end
 

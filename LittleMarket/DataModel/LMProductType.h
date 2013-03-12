@@ -10,11 +10,11 @@
 
 @interface LMProductType : NSObject <NSCopying, NSCoding>
 
-+(NSString*)stringWithPrice:(double)price;
-
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *category;
 @property double price;
+
++(NSString*)stringWithPrice:(double)price;
 
 -(NSString*) priceString;
 

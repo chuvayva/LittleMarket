@@ -11,8 +11,8 @@
 
 @interface LMArchivePersister : NSObject <LMPersisterProtocol>
 
-- (id)initWithFilepath:(NSString *)filepath;
-
 @property (nonatomic) NSString *filepath;
+
+- (id)initWithFilepath:(NSString *)filepath;
 
 @end

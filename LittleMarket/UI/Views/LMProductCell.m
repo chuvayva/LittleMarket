@@ -9,17 +9,13 @@
 #import "LMProductCell.h"
 
 @implementation LMProductCell
-@synthesize productName;
-@synthesize productCategory;
-@synthesize productCost;
-@synthesize productNumber;
 
 -(void) setValuesByProduct:(LMProduct *)product
 {
-    productName.text = product.productType.name;
-    productCategory.text = product.productType.category;
-    productCost.text = product.productType.priceString;
-    productNumber.text = [NSString stringWithFormat:@"%d", (int)product.number];
+    self.productName.text = product.productType.name;
+    self.productCategory.text = product.productType.category;
+    self.productCost.text = product.productType.priceString;
+    self.productNumber.text = [NSString stringWithFormat:@"%d", (int)product.number];
 }
 
 @end

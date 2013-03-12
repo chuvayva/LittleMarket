@@ -11,12 +11,9 @@
 
 @interface LMJsonPersister : NSObject <LMPersisterProtocol>
 
-
 @property (nonatomic) NSString *jsonFilepath;
 
 - (id)initWithFilepath:(NSString *)filepath;
-
 - (id)init;
-
 
 @end

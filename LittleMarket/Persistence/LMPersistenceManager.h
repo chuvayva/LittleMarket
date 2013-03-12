@@ -11,13 +11,8 @@
 @protocol LMPersisterProtocol;
 
 
-@class LMDataModel;
-
-
 @interface LMPersistenceManager : NSObject <LMPersistenceManagerProtocol>
 
 @property (nonatomic, strong) id<LMPersisterProtocol> persister;
-
-//+(LMPersistenceManager*) single;
 
 @end

@@ -22,7 +22,6 @@
 		4D39B74716DA8AA000F682E7 /* LMDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71016DA8AA000F682E7 /* LMDataModel.m */; };
 		4D39B74816DA8AA000F682E7 /* LMDataModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71216DA8AA000F682E7 /* LMDataModelManager.m */; };
 		4D39B74916DA8AA000F682E7 /* LMProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71416DA8AA000F682E7 /* LMProduct.m */; };
-		4D39B74A16DA8AA000F682E7 /* LMProductComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71616DA8AA000F682E7 /* LMProductComparator.m */; };
 		4D39B74B16DA8AA000F682E7 /* LMProductType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B71816DA8AA000F682E7 /* LMProductType.m */; };
 		4D39B74C16DA8AA000F682E7 /* LMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72316DA8AA000F682E7 /* LMConstants.m */; };
 		4D39B74D16DA8AA000F682E7 /* LMApplicationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72516DA8AA000F682E7 /* LMApplicationService.m */; };
@@ -91,8 +90,6 @@
 		4D39B71216DA8AA000F682E7 /* LMDataModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDataModelManager.m; sourceTree = "<group>"; };
 		4D39B71316DA8AA000F682E7 /* LMProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProduct.h; sourceTree = "<group>"; };
 		4D39B71416DA8AA000F682E7 /* LMProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProduct.m; sourceTree = "<group>"; };
-		4D39B71516DA8AA000F682E7 /* LMProductComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProductComparator.h; sourceTree = "<group>"; };
-		4D39B71616DA8AA000F682E7 /* LMProductComparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProductComparator.m; sourceTree = "<group>"; };
 		4D39B71716DA8AA000F682E7 /* LMProductType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProductType.h; sourceTree = "<group>"; };
 		4D39B71816DA8AA000F682E7 /* LMProductType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProductType.m; sourceTree = "<group>"; };
 		4D39B71A16DA8AA000F682E7 /* LMBuyProductDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBuyProductDelegate.h; sourceTree = "<group>"; };
@@ -248,8 +245,6 @@
 				4D39B71216DA8AA000F682E7 /* LMDataModelManager.m */,
 				4D39B71316DA8AA000F682E7 /* LMProduct.h */,
 				4D39B71416DA8AA000F682E7 /* LMProduct.m */,
-				4D39B71516DA8AA000F682E7 /* LMProductComparator.h */,
-				4D39B71616DA8AA000F682E7 /* LMProductComparator.m */,
 				4D39B71716DA8AA000F682E7 /* LMProductType.h */,
 				4D39B71816DA8AA000F682E7 /* LMProductType.m */,
 			);
@@ -577,7 +572,6 @@
 				4D39B74716DA8AA000F682E7 /* LMDataModel.m in Sources */,
 				4D39B74816DA8AA000F682E7 /* LMDataModelManager.m in Sources */,
 				4D39B74916DA8AA000F682E7 /* LMProduct.m in Sources */,
-				4D39B74A16DA8AA000F682E7 /* LMProductComparator.m in Sources */,
 				4D39B74B16DA8AA000F682E7 /* LMProductType.m in Sources */,
 				4D39B74C16DA8AA000F682E7 /* LMConstants.m in Sources */,
 				4D39B74D16DA8AA000F682E7 /* LMApplicationService.m in Sources */,

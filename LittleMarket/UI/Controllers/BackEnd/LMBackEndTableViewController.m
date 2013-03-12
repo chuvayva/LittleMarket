@@ -11,6 +11,11 @@
 #import "LMProductCell.h"
 
 @interface LMBackEndTableViewController ()
+{
+    id<LMBackEndModel> _model;
+    
+    LMProduct *_editedProduct;
+}
 
 @end
 
