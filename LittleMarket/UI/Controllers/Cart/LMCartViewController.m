@@ -9,6 +9,7 @@
 #import "LMCartViewController.h"
 #import "LMDataModelManager.h"
 #import "LMCartProductCell.h"
+#import "LMProductCell.h"
 
 @interface LMCartViewController ()
 
@@ -55,7 +56,7 @@
 {
     static NSString *cellIdentifier = @"CartProductCell";
     
-    LMCartProductCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    LMProductCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
     LMProduct *product = [_model cartProductAtIndex:indexPath.row];
     

@@ -11,14 +11,11 @@
 
 @protocol LMCartTableModel <NSObject>
 
--(NSUInteger) cartProductsCount;
-
--(LMProduct *) cartProductAtIndex: (NSUInteger) index;
+-(NSUInteger)cartProductsCount;
+-(LMProduct *)cartProductAtIndex: (NSUInteger) index;
 
 -(void)returnCartProductAtIndex: (NSUInteger) index;
-
 -(void)buyAllProducts;
-
 -(void)buyProductAtIndex: (NSUInteger) index;
 
 @end

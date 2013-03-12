@@ -16,6 +16,6 @@
 
 -(NSUInteger)availableProductsCount;
 
--(LMProduct *) availableProductAtIndex: (NSUInteger) index;
+-(LMProduct *)availableProductAtIndex: (NSUInteger) index;
 
 @end

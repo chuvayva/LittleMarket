@@ -15,8 +15,7 @@
 
 @property NSUInteger number;
 
--(id) initWithName: (NSString*) name category: (NSString*) category price: (double) price number:(NSUInteger)number;
-
+-(id)initWithName: (NSString*) name category: (NSString*) category price: (double) price number:(NSUInteger)number;
 -(id)initWithProductType:(LMProductType *)type andQuantity: (NSUInteger)number;
 
 -(NSComparisonResult)compare:(LMProduct *)otherObject;

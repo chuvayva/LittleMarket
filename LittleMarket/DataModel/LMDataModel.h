@@ -11,7 +11,6 @@
 @interface LMDataModel : NSObject <NSCoding>
 
 @property (nonatomic) NSMutableArray *availableProducts;
-
 @property (nonatomic) NSMutableArray *cartProducts;
 
 - (id)initWithAvailableProducts:(NSArray *)availableProducts andCartProducts:(NSArray *)cartProducts;

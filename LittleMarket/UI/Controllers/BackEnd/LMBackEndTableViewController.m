@@ -8,7 +8,7 @@
 
 #import "LMBackEndTableViewController.h"
 #import "LMDataModelManager.h"
-#import "LMBackEndProductCell.h"
+#import "LMProductCell.h"
 
 @interface LMBackEndTableViewController ()
 
@@ -60,7 +60,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *cellIdentifier = @"BackEndProductCell";
-    LMBackEndProductCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    LMProductCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
     LMProduct *product = [_model availableProductAtIndex:indexPath.row];
     

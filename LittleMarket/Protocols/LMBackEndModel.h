@@ -12,13 +12,10 @@
 @protocol LMBackEndModel <NSObject>
 
 -(NSUInteger)availableProductsCount;
+-(LMProduct *)availableProductAtIndex: (NSUInteger) index;
 
--(LMProduct *) availableProductAtIndex: (NSUInteger) index;
-
--(void) removeAvailableProductAtIndex: (NSUInteger) index;
-
--(void) addAvailableProduct: (LMProduct *) product;
-
+-(void)removeAvailableProductAtIndex: (NSUInteger) index;
+-(void)addAvailableProduct: (LMProduct *) product;
 -(void)replaceAvailableProduct:(NSArray *)products;
 
 @end

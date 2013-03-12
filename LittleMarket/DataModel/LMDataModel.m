@@ -18,11 +18,6 @@
 
     return self;
 }
-//
-//-(id) initWithAvailableProducts:(NSArray *)availableProducts
-//{
-//    return [self initWithAvailableProducts:availableProducts andCartProducts:[NSArray array]];
-//}
 
 -(id) init
 {

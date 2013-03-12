@@ -10,6 +10,6 @@
 
 @interface LMContainerConfigurator : NSObject
 
--(void) configureContainer: (MVIOCContainer*)container;
+-(void)configureContainer: (MVIOCContainer*)container;
 
 @end

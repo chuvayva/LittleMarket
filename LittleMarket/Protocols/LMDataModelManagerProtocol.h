@@ -12,8 +12,6 @@
 
 @protocol LMDataModelManagerProtocol <NSObject>
 
--(LMDataModel *) dataModel;
-
--(void)setDataModel:(LMDataModel *) dataModel;
+@property (nonatomic) LMDataModel *dataModel;
 
 @end

@@ -30,14 +30,11 @@
 		4D39B74F16DA8AA000F682E7 /* LMFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72916DA8AA000F682E7 /* LMFileManager.m */; };
 		4D39B75016DA8AA000F682E7 /* LMBackEndTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B72E16DA8AA000F682E7 /* LMBackEndTableViewController.m */; };
 		4D39B75116DA8AA000F682E7 /* LMProductEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73016DA8AA000F682E7 /* LMProductEditViewController.m */; };
-		4D39B75216DA8AA000F682E7 /* LMCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73316DA8AA000F682E7 /* LMCartViewController.m */; };
 		4D39B75316DA8AA000F682E7 /* LMDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73616DA8AA000F682E7 /* LMDetailTableViewController.m */; };
 		4D39B75416DA8AA000F682E7 /* LMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73816DA8AA000F682E7 /* LMMasterViewController.m */; };
 		4D39B75516DA8AA000F682E7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D39B73916DA8AA000F682E7 /* MainStoryboard.storyboard */; };
-		4D39B75616DA8AA000F682E7 /* LMBackEndProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73C16DA8AA000F682E7 /* LMBackEndProductCell.m */; };
-		4D39B75716DA8AA000F682E7 /* LMCartProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73E16DA8AA000F682E7 /* LMCartProductCell.m */; };
-		4D39B75816DA8AA000F682E7 /* LMDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B74016DA8AA000F682E7 /* LMDetailView.m */; };
-		4D39B75916DA8AA000F682E7 /* LMProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B74216DA8AA000F682E7 /* LMProductCell.m */; };
+		4D39B75616DA8AA000F682E7 /* LMProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D39B73C16DA8AA000F682E7 /* LMProductCell.m */; };
+		4D4A065916EFBD1100742777 /* LMCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A065816EFBD1100742777 /* LMCartViewController.m */; };
 		4D686526161B72CE00CE66A2 /* MarketDefaultJsonFileCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */; };
 		4D686527161B779200CE66A2 /* LittleMarketTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D0FBCD0160AEABE0049D022 /* LittleMarketTestData.json */; };
 		4D686531161B8BB500CE66A2 /* MarketTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D686530161B8BB500CE66A2 /* MarketTestClass.m */; };
@@ -117,21 +114,15 @@
 		4D39B72E16DA8AA000F682E7 /* LMBackEndTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMBackEndTableViewController.m; sourceTree = "<group>"; };
 		4D39B72F16DA8AA000F682E7 /* LMProductEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProductEditViewController.h; sourceTree = "<group>"; };
 		4D39B73016DA8AA000F682E7 /* LMProductEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProductEditViewController.m; sourceTree = "<group>"; };
-		4D39B73216DA8AA000F682E7 /* LMCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCartViewController.h; sourceTree = "<group>"; };
-		4D39B73316DA8AA000F682E7 /* LMCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCartViewController.m; sourceTree = "<group>"; };
 		4D39B73516DA8AA000F682E7 /* LMDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDetailTableViewController.h; sourceTree = "<group>"; };
 		4D39B73616DA8AA000F682E7 /* LMDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDetailTableViewController.m; sourceTree = "<group>"; };
 		4D39B73716DA8AA000F682E7 /* LMMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMMasterViewController.h; sourceTree = "<group>"; };
 		4D39B73816DA8AA000F682E7 /* LMMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMMasterViewController.m; sourceTree = "<group>"; };
 		4D39B73916DA8AA000F682E7 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		4D39B73B16DA8AA000F682E7 /* LMBackEndProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBackEndProductCell.h; sourceTree = "<group>"; };
-		4D39B73C16DA8AA000F682E7 /* LMBackEndProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMBackEndProductCell.m; sourceTree = "<group>"; };
-		4D39B73D16DA8AA000F682E7 /* LMCartProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCartProductCell.h; sourceTree = "<group>"; };
-		4D39B73E16DA8AA000F682E7 /* LMCartProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCartProductCell.m; sourceTree = "<group>"; };
-		4D39B73F16DA8AA000F682E7 /* LMDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDetailView.h; sourceTree = "<group>"; };
-		4D39B74016DA8AA000F682E7 /* LMDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDetailView.m; sourceTree = "<group>"; };
-		4D39B74116DA8AA000F682E7 /* LMProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProductCell.h; sourceTree = "<group>"; };
-		4D39B74216DA8AA000F682E7 /* LMProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProductCell.m; sourceTree = "<group>"; };
+		4D39B73B16DA8AA000F682E7 /* LMProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProductCell.h; sourceTree = "<group>"; };
+		4D39B73C16DA8AA000F682E7 /* LMProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProductCell.m; sourceTree = "<group>"; };
+		4D4A065716EFBD1100742777 /* LMCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMCartViewController.h; path = LittleMarket/UI/Controllers/Cart/LMCartViewController.h; sourceTree = SOURCE_ROOT; };
+		4D4A065816EFBD1100742777 /* LMCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMCartViewController.m; path = LittleMarket/UI/Controllers/Cart/LMCartViewController.m; sourceTree = SOURCE_ROOT; };
 		4D686525161B724400CE66A2 /* MarketDefaultJsonFileCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketDefaultJsonFileCreator.m; sourceTree = "<group>"; };
 		4D68652F161B8BB500CE66A2 /* MarketTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketTestClass.h; sourceTree = "<group>"; };
 		4D686530161B8BB500CE66A2 /* MarketTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketTestClass.m; sourceTree = "<group>"; };
@@ -307,6 +298,7 @@
 		4D39B72B16DA8AA000F682E7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4D39B73116DA8AA000F682E7 /* Cart */,
 				4D39B72C16DA8AA000F682E7 /* BackEnd */,
 				4D39B73416DA8AA000F682E7 /* StoreFront */,
 			);
@@ -327,10 +319,11 @@
 		4D39B73116DA8AA000F682E7 /* Cart */ = {
 			isa = PBXGroup;
 			children = (
-				4D39B73216DA8AA000F682E7 /* LMCartViewController.h */,
-				4D39B73316DA8AA000F682E7 /* LMCartViewController.m */,
+				4D4A065716EFBD1100742777 /* LMCartViewController.h */,
+				4D4A065816EFBD1100742777 /* LMCartViewController.m */,
 			);
-			path = Cart;
+			name = Cart;
+			path = StoreFront/Cart;
 			sourceTree = "<group>";
 		};
 		4D39B73416DA8AA000F682E7 /* StoreFront */ = {
@@ -340,7 +333,6 @@
 				4D39B73616DA8AA000F682E7 /* LMDetailTableViewController.m */,
 				4D39B73716DA8AA000F682E7 /* LMMasterViewController.h */,
 				4D39B73816DA8AA000F682E7 /* LMMasterViewController.m */,
-				4D39B73116DA8AA000F682E7 /* Cart */,
 			);
 			path = StoreFront;
 			sourceTree = "<group>";
@@ -348,14 +340,8 @@
 		4D39B73A16DA8AA000F682E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4D39B73B16DA8AA000F682E7 /* LMBackEndProductCell.h */,
-				4D39B73C16DA8AA000F682E7 /* LMBackEndProductCell.m */,
-				4D39B73D16DA8AA000F682E7 /* LMCartProductCell.h */,
-				4D39B73E16DA8AA000F682E7 /* LMCartProductCell.m */,
-				4D39B73F16DA8AA000F682E7 /* LMDetailView.h */,
-				4D39B74016DA8AA000F682E7 /* LMDetailView.m */,
-				4D39B74116DA8AA000F682E7 /* LMProductCell.h */,
-				4D39B74216DA8AA000F682E7 /* LMProductCell.m */,
+				4D39B73B16DA8AA000F682E7 /* LMProductCell.h */,
+				4D39B73C16DA8AA000F682E7 /* LMProductCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -599,13 +585,10 @@
 				4D39B74F16DA8AA000F682E7 /* LMFileManager.m in Sources */,
 				4D39B75016DA8AA000F682E7 /* LMBackEndTableViewController.m in Sources */,
 				4D39B75116DA8AA000F682E7 /* LMProductEditViewController.m in Sources */,
-				4D39B75216DA8AA000F682E7 /* LMCartViewController.m in Sources */,
 				4D39B75316DA8AA000F682E7 /* LMDetailTableViewController.m in Sources */,
 				4D39B75416DA8AA000F682E7 /* LMMasterViewController.m in Sources */,
-				4D39B75616DA8AA000F682E7 /* LMBackEndProductCell.m in Sources */,
-				4D39B75716DA8AA000F682E7 /* LMCartProductCell.m in Sources */,
-				4D39B75816DA8AA000F682E7 /* LMDetailView.m in Sources */,
-				4D39B75916DA8AA000F682E7 /* LMProductCell.m in Sources */,
+				4D39B75616DA8AA000F682E7 /* LMProductCell.m in Sources */,
+				4D4A065916EFBD1100742777 /* LMCartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

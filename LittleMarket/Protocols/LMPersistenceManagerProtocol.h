@@ -17,6 +17,6 @@
 
 -(void)saveModel: (LMDataModel *)dataModel;
 
--(LMDataModel *) loadModel;
+-(LMDataModel *)loadModel;
 
 @end

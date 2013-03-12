@@ -16,15 +16,12 @@
 
 -(ProductEditMode)mode;
 
-- (void)configureView;
+-(void)configureView;
 
 @end
 
 
 @implementation LMProductEditViewController
-
-@synthesize doneButton = _doneButton;
-@synthesize editedProduct = _editedProduct;
 
 -(void)setEditedProduct:(LMProduct *)editedProduct
 {

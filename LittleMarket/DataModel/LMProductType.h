@@ -13,13 +13,11 @@
 +(NSString*)stringWithPrice:(double)price;
 
 @property (nonatomic, copy) NSString *name;
-
 @property (nonatomic, copy) NSString *category;
-
 @property double price;
 
 -(NSString*) priceString;
 
--(id) initWithName: (NSString*) name category: (NSString*) category price: (double) price ;
+-(id)initWithName: (NSString*) name category: (NSString*) category price: (double) price ;
 
 @end

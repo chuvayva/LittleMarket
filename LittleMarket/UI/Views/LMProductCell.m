@@ -11,14 +11,14 @@
 @implementation LMProductCell
 @synthesize productName;
 @synthesize productCategory;
-@synthesize productNumber;
 @synthesize productCost;
+@synthesize productNumber;
 
 -(void) setValuesByProduct:(LMProduct *)product
 {
     productName.text = product.productType.name;
     productCategory.text = product.productType.category;
-    productCost.text =product.productType.priceString;
+    productCost.text = product.productType.priceString;
     productNumber.text = [NSString stringWithFormat:@"%d", (int)product.number];
 }
 

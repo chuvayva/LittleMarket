@@ -10,4 +10,5 @@
 
 @interface LMProductComparator : NSObject
 
+
 @end
