@@ -15,9 +15,6 @@ Install CocoaPods
 
 ```sh
 $ [sudo] gem install cocoapods
-```
-
-```sh
 $ pod setup
 ```
 
@@ -27,4 +24,4 @@ Go to the LittleMarket folder and install pod:
 $ pod install
 ```
 
-Run the LittleMarket.xcworkspace file.
+Run the *LittleMarket.xcworkspace* file.
