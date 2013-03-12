@@ -6,10 +6,10 @@
 #import <Foundation/Foundation.h>
 #import "LMDataModel.h"
 
-@interface LMDataModel (JSONKit)
+@interface LMDataModel (JsonKit)
 
-+(LMDataModel *)fromJSONString:(NSString *)jsonString;
++(LMDataModel *)fromJsonString:(NSString *)jsonString;
 
--(NSString *)JSONString;
+-(NSString *)jsonString;
 
 @end

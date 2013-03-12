@@ -10,7 +10,7 @@
 
 + (NSString *)readFileFromDocumentFolder:(NSString *)filename error:(NSError **)error;
 
-+ (BOOL)writeFile:(NSString *)filename ToDocumentFolderWithContent:(NSString *)content error:(NSError **)error;
++ (BOOL)writeFile:(NSString *)filename toDocumentFolderWithContent:(NSString *)content error:(NSError **)error;
 
 +(NSURL*)documentUrl;
 

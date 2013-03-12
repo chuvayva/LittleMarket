@@ -7,7 +7,7 @@
 
 #import "LMJsonPersister.h"
 #import "LMDataModel.h"
-#import "LMDataModel+JSONKit.h"
+#import "LMDataModel+JsonKit.h"
 #import "LMFileManager.h"
 
 
@@ -39,7 +39,7 @@
 
 - (void)saveModel:(LMDataModel *)dataModel
 {
-    NSString *jsonString = [dataModel JSONString];
+    NSString *jsonString = [dataModel jsonString];
     [jsonString writeToFile:self.jsonFilepath atomically:YES encoding:NSUTF8StringEncoding error:nil];
 }
 
@@ -47,7 +47,7 @@
 {
     NSString *jsonString = [NSString stringWithContentsOfFile:self.jsonFilepath encoding:NSUTF8StringEncoding error:nil];
 
-    return [LMDataModel fromJSONString:jsonString];
+    return [LMDataModel fromJsonString:jsonString];
 }
 
 @end

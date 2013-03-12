@@ -56,7 +56,7 @@
 		4DF2E3C1161396DD00066481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF2E3C0161396DD00066481 /* InfoPlist.strings */; };
 		77F0206EE28895FB89F40FFA /* InjectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02728B3AC18A384B3944F /* InjectionTest.m */; };
 		77F022689F00C5D1A17634BB /* ReadWriteTextFromDocumentFolderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F021F6F871F82CE2B9766B /* ReadWriteTextFromDocumentFolderTest.m */; };
-		77F02B2FAC17C193F01E0480 /* LMDataModel+JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02F8EAB86F60911111561 /* LMDataModel+JSONKit.m */; };
+		77F02B2FAC17C193F01E0480 /* LMDataModel+JsonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02F8EAB86F60911111561 /* LMDataModel+JsonKit.m */; };
 		77F02D3E19F9F14699210C54 /* LMJsonPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02B2069BF3E542B6A1BFA /* LMJsonPersister.m */; };
 		77F02EC162E3E06F902A2799 /* LMPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F02DA32DF85E2A9D093BF6 /* LMPersistenceManager.m */; };
 /* End PBXBuildFile section */
@@ -155,10 +155,10 @@
 		77F0269094A8D1E91F4131F4 /* LMJsonPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJsonPersister.h; sourceTree = "<group>"; };
 		77F02728B3AC18A384B3944F /* InjectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectionTest.m; sourceTree = "<group>"; };
 		77F027463A0C9117F1E695EF /* JsonPersisterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonPersisterTests.m; sourceTree = "<group>"; };
-		77F029A9D7748FEAE7BFA643 /* LMDataModel+JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LMDataModel+JSONKit.h"; sourceTree = "<group>"; };
+		77F029A9D7748FEAE7BFA643 /* LMDataModel+JsonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LMDataModel+JsonKit.h"; sourceTree = "<group>"; };
 		77F02B2069BF3E542B6A1BFA /* LMJsonPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJsonPersister.m; sourceTree = "<group>"; };
 		77F02DA32DF85E2A9D093BF6 /* LMPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPersistenceManager.m; sourceTree = "<group>"; };
-		77F02F8EAB86F60911111561 /* LMDataModel+JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LMDataModel+JSONKit.m"; sourceTree = "<group>"; };
+		77F02F8EAB86F60911111561 /* LMDataModel+JsonKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LMDataModel+JsonKit.m"; sourceTree = "<group>"; };
 		838D5777F8EB46D4A1E7A2AC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -438,8 +438,8 @@
 		77F02AFA4FA757DD9BFB98D0 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
-				77F029A9D7748FEAE7BFA643 /* LMDataModel+JSONKit.h */,
-				77F02F8EAB86F60911111561 /* LMDataModel+JSONKit.m */,
+				77F029A9D7748FEAE7BFA643 /* LMDataModel+JsonKit.h */,
+				77F02F8EAB86F60911111561 /* LMDataModel+JsonKit.m */,
 				77F02DA32DF85E2A9D093BF6 /* LMPersistenceManager.m */,
 				77F0211BC572BA4F5A1EBAA2 /* LMPersistenceManager.h */,
 				77F02B2069BF3E542B6A1BFA /* LMJsonPersister.m */,
@@ -578,7 +578,7 @@
 				4D0AC01B160083CB001C067F /* LMDefaultPersister.m in Sources */,
 				77F02EC162E3E06F902A2799 /* LMPersistenceManager.m in Sources */,
 				77F02D3E19F9F14699210C54 /* LMJsonPersister.m in Sources */,
-				77F02B2FAC17C193F01E0480 /* LMDataModel+JSONKit.m in Sources */,
+				77F02B2FAC17C193F01E0480 /* LMDataModel+JsonKit.m in Sources */,
 				4DD2615C16249F3800E34D55 /* LMArchivePersister.m in Sources */,
 				4D39B6F816DA868A00F682E7 /* MVIOCControllerActor.m in Sources */,
 				4D39B6F916DA868A00F682E7 /* MVIOCContainer.m in Sources */,

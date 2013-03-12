@@ -34,7 +34,7 @@ static NSString *_filename;
 {
     NSString *content = @"I'm a super content";
     NSError *error;
-    [LMFileManager writeFile:_filename ToDocumentFolderWithContent:content error:&error];
+    [LMFileManager writeFile:_filename toDocumentFolderWithContent:content error:&error];
     
     NSLog(@"%@", error);
     

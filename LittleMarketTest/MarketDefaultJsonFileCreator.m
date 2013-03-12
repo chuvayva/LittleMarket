@@ -24,8 +24,8 @@ static NSString *_jsonBundleFileExtenstion = @"json";
     NSString *jsonFilepath = [[NSBundle bundleForClass:[self class]] pathForResource:_jsonBundleFileName ofType:_jsonBundleFileExtenstion];
     NSString *jsonString = [NSString stringWithContentsOfFile:jsonFilepath encoding:NSUTF8StringEncoding error:nil];
     NSError *error;
-    
-    [LMFileManager writeFile:JsonFileName ToDocumentFolderWithContent:jsonString error:&error];
+
+    [LMFileManager writeFile:JsonFileName toDocumentFolderWithContent:jsonString error:&error];
 }
 
 @end

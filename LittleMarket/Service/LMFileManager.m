@@ -17,7 +17,7 @@
     return [NSString stringWithContentsOfURL:fileUrl encoding:NSUTF8StringEncoding error:error];
 }
 
-+ (BOOL)writeFile:(NSString *)filename ToDocumentFolderWithContent:(NSString *)content error: (NSError **)error
++ (BOOL)writeFile:(NSString *)filename toDocumentFolderWithContent:(NSString *)content error: (NSError **)error
 {
     NSURL* fileUrl = [self.documentUrl URLByAppendingPathComponent:filename];
     

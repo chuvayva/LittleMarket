@@ -9,7 +9,7 @@
 #import <SenTestingKit/SenTestingKit.h>
 #import "LMDataModel.h"
 #import "LMPersisterProtocol.h"
-#import "LMDataModel+JSONKit.h"
+#import "LMDataModel+JsonKit.h"
 #import "LMArchivePersister.h"
 #import "LMFileManager.h"
 
@@ -32,7 +32,7 @@ static id<LMPersisterProtocol> _persister;
 {
     NSString *jsonSourceFilepath = [[NSBundle bundleForClass:[self class]] pathForResource:_jsonBundleSourceFileName ofType:_jsonBundleSourceFileExtenstion];
     NSString *jsonSourceString = [NSString stringWithContentsOfFile:jsonSourceFilepath encoding:NSUTF8StringEncoding error:nil];
-    _model = [LMDataModel fromJSONString:jsonSourceString];
+    _model = [LMDataModel fromJsonString:jsonSourceString];
     
     _archiveTestFilepath = [[[LMFileManager documentUrl] URLByAppendingPathComponent: _archiveTestFilename] path];
     _persister = [[LMArchivePersister alloc] initWithFilepath:_archiveTestFilepath];

@@ -3,14 +3,14 @@
 //
 
 
-#import "LMDataModel+JSONKit.h"
+#import "LMDataModel+JsonKit.h"
 #import "LMProduct.h"
 #import "JSONKit.h"
 
 
-@implementation LMDataModel (JSONKit)
+@implementation LMDataModel (JsonKit)
 
-+ (LMDataModel *)fromJSONString:(NSString *)jsonString
++ (LMDataModel *)fromJsonString:(NSString *)jsonString
 {
     NSArray *availableProducts, *cartProducts;
     
@@ -24,7 +24,7 @@
     return [[LMDataModel alloc] initWithAvailableProducts: availableProducts andCartProducts:cartProducts];
 }
 
-- (NSString *)JSONString
+- (NSString *)jsonString
 {
     NSArray *availableProductsJsonObjects = [self jsonObjectFromProducts:self.availableProducts];
     NSArray *cartProductsJsonObjects = [self jsonObjectFromProducts:self.cartProducts];

@@ -16,13 +16,13 @@
 
 @interface LMMasterViewController ()
 
-- (void)AvailableProductsChanged:(NSNotification *)notification;
+- (void)availableProductsChanged:(NSNotification *)notification;
 
 @end
 
 @implementation LMMasterViewController
 
-- (void)AvailableProductsChanged:(NSNotification *)notification
+- (void)availableProductsChanged:(NSNotification *)notification
 {
     [self.tableView reloadData];
 }
@@ -32,7 +32,7 @@
     [super awakeFromNib];
     
     _model = [LMApplicationService.mainContainer getComponent:@protocol(LMStoreFrontModel)];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(AvailableProductsChanged:) name:AvailableProductsChanged object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(availableProductsChanged:) name:AvailableProductsChanged object:nil];
 }
 
 - (void)viewDidLoad
